@@ -7,6 +7,8 @@ title: Patch Notes Sections
 
 This page provides access to individual sections of the Project Diablo 2 patch notes.
 
+For a higher level view around the spirit of the changes I'm proposing, see the [Game Design](/patchnotes/gamedesign) section.
+
 ## Available Sections
 
 * [Classes Changes](/patchnotes/sections/classes) - Changes to character classes and their skills
