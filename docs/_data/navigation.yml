@@ -1,0 +1,15 @@
+- name: Home
+  link: /
+- name: Full Patch Notes
+  link: /full-notes
+- name: Sections
+  link: /sections
+  sublinks:
+    - name: Classes Changes
+      link: /sections/classes
+    - name: Items Changes
+      link: /sections/items
+    - name: Systems Changes
+      link: /sections/systems
+- name: About
+  link: /about
