@@ -9,8 +9,8 @@ This page provides access to individual sections of the Project Diablo 2 patch n
 
 ## Available Sections
 
-* [Classes Changes](classes) - Changes to character classes and their skills
-* [Items Changes](items) - Changes to items, including uniques, sets, and runewords
-* [Systems Changes](systems) - Changes to game systems and general improvements
+* [Classes Changes](/patchnotes/sections/classes) - Changes to character classes and their skills
+* [Items Changes](/patchnotes/sections/items) - Changes to items, including uniques, sets, and runewords
+* [Systems Changes](/patchnotes/sections/systems) - Changes to game systems and general improvements
 
-For a complete view of all changes, see the [Full Patch Notes](/full-notes).
+For a complete view of all changes, see the [Full Patch Notes](/patchnotes/full-notes).

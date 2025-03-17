@@ -1,15 +1,15 @@
 - name: Home
-  link: /
+  link: /patchnotes/
 - name: Full Patch Notes
-  link: /full-notes
+  link: /patchnotes/full-notes
 - name: Sections
-  link: /sections
+  link: /patchnotes/sections
   sublinks:
     - name: Classes Changes
-      link: /sections/classes
+      link: /patchnotes/sections/classes
     - name: Items Changes
-      link: /sections/items
+      link: /patchnotes/sections/items
     - name: Systems Changes
-      link: /sections/systems
+      link: /patchnotes/sections/systems
 - name: About
-  link: /about
+  link: /patchnotes/about

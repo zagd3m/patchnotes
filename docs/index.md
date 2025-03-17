@@ -13,11 +13,11 @@ Project Diablo 2 is a community-driven mod that enhances the classic Diablo 2 ex
 
 ## How to Use This Site
 
-- View the [Full Patch Notes](/full-notes) for a complete list of all changes
+- View the [Full Patch Notes](/patchnotes/full-notes) for a complete list of all changes
 - Browse individual sections for specific updates:
-  - [Classes Changes](/sections/classes) - Updates to character classes and skills
-  - [Items Changes](/sections/items) - Changes to items, sets, and runewords
-  - [Systems Changes](/sections/systems) - Updates to game mechanics and features
+  - [Classes Changes](/patchnotes/sections/classes) - Updates to character classes and skills
+  - [Items Changes](/patchnotes/sections/items) - Changes to items, sets, and runewords
+  - [Systems Changes](/patchnotes/sections/systems) - Updates to game mechanics and features
 
 ## Latest Season
 
@@ -25,4 +25,4 @@ Information about the current season will be posted here when available. Check b
 
 ---
 
-*This website is maintained by the Project Diablo 2 community. For more information about the mod, visit the official Project Diablo 2 website.*
+*This website is maintained by Zagd3m, a simple member of the Project Diablo 2 community, not affiliated to the "team". For more information about the mod, visit the official Project Diablo 2 website. Note that the changed written here aren't real at all, this is a kind of big feedback message like the ones in Discord's #feedback thread, but in a website way.*

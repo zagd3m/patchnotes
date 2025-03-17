@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 github_username:  zagd3m
 
 # User defined
-domain: zagd3m.github.io/
+domain: zagd3m.github.io
 url: https://zagd3m.github.io
 baseurl: /patchnotes
 
