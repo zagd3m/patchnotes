@@ -22,7 +22,3 @@ Project Diablo 2 is a community-driven mod that enhances the classic Diablo 2 ex
 ## Latest Season
 
 Information about the current season will be posted here when available. Check back regularly for updates on new content and balance changes.
-
----
-
-*This website is maintained by Zagd3m, a simple member of the Project Diablo 2 community, not affiliated to the "team". For more information about the mod, visit the official Project Diablo 2 website. Note that the changed written here aren't real at all, this is a kind of big feedback message like the ones in Discord's #feedback thread, but in a website way.*
