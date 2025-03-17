@@ -1,8 +1,4 @@
 // Navigation
-.current {
-  color: green;
-}
-
 .site-nav {
   background-color: #222;
   padding: 1rem;
@@ -13,14 +9,25 @@
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 1rem;
+    justify-content: center;
+    gap: 2rem;
   }
 
-  a {
-    color: white;
-    text-decoration: none;
-    &:hover {
-      color: #ddd;
+  .nav-item {
+    a {
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 3px;
+      transition: background-color 0.3s;
+
+      &:hover {
+        background-color: #444;
+      }
+    }
+
+    &.active a {
+      background-color: #444;
     }
   }
 }

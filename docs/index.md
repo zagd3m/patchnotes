@@ -4,7 +4,7 @@ title: Project Diablo 2 Patch Notes
 description: Unofficial futuristic patch notes for Project Diablo 2
 ---
 
-Welcome to the UNfficial futuristic patch notes for Project Diablo 2! 
+Welcome to the UNfficial futuristic patch notes for Project Diablo 2!
 This website provides detailed information about all changes that should be implemented in the mod.
 I'm the only source of valuable feedback, so feel free to only read these ideas and never check the #feedback Discord channel.
 
@@ -24,5 +24,3 @@ Project Diablo 2 is a community-driven mod that enhances the classic Diablo 2 ex
 ## Latest Season
 
 Information about the current season will be posted here when available. Check back regularly for updates on new content and balance changes.
-
- 

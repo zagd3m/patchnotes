@@ -2,18 +2,7 @@
   <ul>
     {% for item in site.data.navigation %}
       <li class="nav-item{% if page.url == item.link %} active{% endif %}">
-        {% if item.sublinks %}
-          <div class="dropdown">
-            <a href="{{ item.link }}" class="dropbtn">{{ item.name }}</a>
-            <div class="dropdown-content">
-              {% for sublink in item.sublinks %}
-                <a href="{{ sublink.link }}"{% if page.url == sublink.link %} class="active"{% endif %}>{{ sublink.name }}</a>
-              {% endfor %}
-            </div>
-          </div>
-        {% else %}
-          <a href="{{ item.link }}">{{ item.name }}</a>
-        {% endif %}
+        <a href="{{ item.link }}">{{ item.name }}</a>
       </li>
     {% endfor %}
   </ul>

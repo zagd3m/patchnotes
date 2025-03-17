@@ -4,12 +4,5 @@
   link: /patchnotes/full-notes
 - name: Sections
   link: /patchnotes/sections
-  sublinks:
-    - name: Classes Changes
-      link: /patchnotes/sections/classes
-    - name: Items Changes
-      link: /patchnotes/sections/items
-    - name: Systems Changes
-      link: /patchnotes/sections/systems
 - name: About
   link: /patchnotes/about
