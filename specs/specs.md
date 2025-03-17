@@ -15,3 +15,5 @@ The website should have:
 - A navigation bar to navigate between the pages
 
 The content of the full patch notes and the content of the pages for each part of the patch notes should be the same - modifying a part would modify the full patch notes, since it is simply a concatenation of the parts.
+
+Anything used here should be compatible with Github Pages.
