@@ -2,6 +2,7 @@
 layout: default
 title: About
 ---
+
 # About page
 
 I am Zagd3m. I've been playing D2 since WW1, and before that I was serving in a pre-life bacteria research facility on mars. I said too much.

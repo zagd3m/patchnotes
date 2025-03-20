@@ -5,8 +5,8 @@ description: Unofficial futuristic patch notes for Project Diablo 2
 ---
 
 Welcome to the UNfficial futuristic patch notes for Project Diablo 2!
-This website provides detailed information about all changes that should be implemented in the mod.
-I'm the only source of valuable feedback, so feel free to only read these ideas and never check the <b>#feedback</b> Discord channel.
+
+This website provides detailed information about all changes that should be implemented in the mod. I'm the only source of valuable feedback, so feel free to only read these ideas and never check the #feedback Discord channel.
 
 ## How to Use This Site
   
