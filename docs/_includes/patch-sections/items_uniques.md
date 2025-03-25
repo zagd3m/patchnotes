@@ -37,3 +37,25 @@ Demon limb should not be a prebuff item, but an actual elite weapon.
 | Fire Resist +[15-20]%                           | Fire Resist +[15-20]%                          |
 | Level 23 Enchant (20 Charges, repl 3 sec)       | **Removed**                                    |
 | +50% Damage to Undead                           | +50% Damage to Undead                          |
+
+---
+
+### Wands
+
+#### Boneshade
+
+Unique items shouldn't be golden rare items. They need something the rares don't have. This design keeps the purpose and theme of the item without being identical to a good rare for the slot.
+
+| Before (current PD2)                            | After                                          |
+|-------------------------------------------------|------------------------------------------------|
+| +2 to Necromancer Skills                        | **Removed**                                    |
+| +25% Faster Cast Rate                           | +25% Faster Cast Rate                          |
+| +2 to Bone Spirit (Necromancer Only)            | +2 to Bone Spirit (Necromancer Only)           |
+| +[2-3] to Bone Spear (Necromancer Only)         | **+2 to Bone Spear (Necromancer Only)**        |
+| +[2-3] to Bone Wall (Necromancer Only)          | **Removed**                                    |
+| +[4-5] to Bone Armor (Necromancer Only)         | **Removed**                                    |
+| +[4-5] to Teeth (Necromancer Only)              | **+4 to Teeth (Necromancer Only)**             |
+| +50% Damage to Undead                           | +50% Damage to Undead                          |
+| -                                               | **25% chance to cast level 40 Teeth on casting** |
+| -                                               | **25% chance to cast level 40 Bone Spirit on casting** |
+
