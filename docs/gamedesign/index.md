@@ -29,3 +29,8 @@ I'll also add my own:
 Build diversity is something everyone talks about, but noone actually tries to accomplish seriously.
 
 Build diversity isn't going from 50 possible builds to 51. It is going from 50 to 50².
+
+- Most skills should be worthy to be played as a main skill.
+- Most builds should have several viable paths, some with defensive skills, others going glass cannon, etc...
+- Most builds should have the choice between using only one skill or having several (weaker) skills.
+- ...

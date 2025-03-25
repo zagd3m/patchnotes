@@ -2,12 +2,16 @@
 
 This file will contain the patch notes for class changes in Project Diablo 2.
 
-## Example Structure
+{% include patch-sections/classes_amazon.md %}
 
-- **Amazon**: Changes to Amazon skills and abilities
-- **Assassin**: Changes to Assassin skills and abilities
-- **Barbarian**: Changes to Barbarian skills and abilities
-- **Druid**: Changes to Druid skills and abilities
-- **Necromancer**: Changes to Necromancer skills and abilities
-- **Paladin**: Changes to Paladin skills and abilities
-- **Sorceress**: Changes to Sorceress skills and abilities
+{% include patch-sections/classes_assassin.md %}
+
+{% include patch-sections/classes_barbarian.md %}
+
+{% include patch-sections/classes_druid.md %}
+
+{% include patch-sections/classes_necromancer.md %}
+
+{% include patch-sections/classes_paladin.md %}
+
+{% include patch-sections/classes_sorceress.md %}
