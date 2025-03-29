@@ -25,3 +25,7 @@ This file will contain the patch notes for system changes in Project Diablo 2.
 ---
 
 {% include patch-sections/systems_mercs.md %}
+
+---
+
+{% include patch-sections/systems_tradesite.md %}

@@ -2,6 +2,8 @@
 
 This section covers changes to set items.
 
+Overall, the suggestions here will aim at balancing sets, making more of them playable later into the game, and increasing build diversity (for example by making partial sets bonuses good enough for both full sets and partial sets to be worth considering). Set items should never be great alone, though (high Guillaume's helm ^^).
+
 ---
 
 ### M'avina's Battle Hymn
