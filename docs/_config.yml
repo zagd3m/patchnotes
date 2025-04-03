@@ -49,6 +49,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-seo-tag
   - jekyll-google_search_console_verification_file
+  - jekyll-sitemap
 
 google_search_console:
   verification_file_code: 87963778c937225b

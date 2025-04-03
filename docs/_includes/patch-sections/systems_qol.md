@@ -4,6 +4,8 @@
 
 Xp penalty from levels 15-25 have been lowered, so that players and groups who manage to get to act 3-4-5 early gain more experience there.
 
+Xp has been increased from level 73 to level 93, to help players reach the end game faster. This is to compensate the daddy problem the community seems to be facing.
+
 ### Rushing
 
 All characters (from the same mode and season) share their waypoint list, effectively making creating a second (and third, and...) character faster.
