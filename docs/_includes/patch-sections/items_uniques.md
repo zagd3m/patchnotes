@@ -78,6 +78,10 @@ This change maintains its mid-game power while making it a bit more appealing la
 | Socketed (2)                                    | Socketed (2)                                   |
 | -                                               | **+[0-49] All Resistances (+0.5 per Character Level)** |
 
+#### Alma Negra
+
+No longer reduces Joust cooldown.
+
 ---
 
 ### Scepters
@@ -100,6 +104,14 @@ Heaven's Light should live up to its name with lightning and holy-themed effects
 | -                                               | **2% Chance to Cast Level 30 Holy Nova on Block** |
 | -                                               | **Adds 1-300 Lightning Damage**                   |
 | -                                               | **+[3-9] Lightning Absorb** |
+
+---
+
+### Swords
+
+#### Leoric
+
+No longer reduces Joust cooldown.
 
 ---
 

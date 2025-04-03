@@ -1,8 +1,9 @@
 ## Synergies
 
-### Why should be rework synergies ?
+### Why synergies suck ... and how to fix it
 
-Synergies are the best way to erradicate build diversity. If PD2 sincerely wants to promote build diversity, it should lower synergies dramatically.
+Synergies are the best way to erradicate build diversity.
+If PD2 sincerely wants to promote build diversity, it should lower synergies % dramatically.
 
 Let me give you an example.
 
@@ -47,17 +48,21 @@ Oh really ? Then we need to increase the base damage.
 
 By how much ?
 
-- Old damage was base * (100% + nb_synergies x 20 x synergy_percent)
-- New damage is new_base * (100% + nb_synergies x 20 x new_synergy_percent)
+```math
+old_damage = base * (100% + nb_synergies x 20 x synergy_percent)
+new_damage = new_base * (100% + nb_synergies x 20 x new_synergy_percent)
+```
 
 To have old = new, you need to have :
 
+```math
 new_base = base * (100% + nb_synergies x 20 x synergy_percent) / (100% + nb_synergies x 20 x new_synergy_percent)
+```
 
 Problem solved, thank you very much.
 
-Now, the truth is, such a simple approach doesn't take into accound lld / mld and progression in the mid game, so it might be improved. But it's a very reasonable starting point.
+*Now, the truth is, such a simple approach doesn't take into accound lld / mld and progression in the mid game, so it might be improved. But it's a very reasonable starting point.*
 
-### Conclusion
+### Conclusion regarding synergies
 
 This patch will suggest many drastic reductions to synergies % while adding that the base damage will be buffed. Assume the above is used.
