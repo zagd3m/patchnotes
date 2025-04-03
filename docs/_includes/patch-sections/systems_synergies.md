@@ -57,3 +57,7 @@ new_base = base * (100% + nb_synergies x 20 x synergy_percent) / (100% + nb_syne
 Problem solved, thank you very much.
 
 Now, the truth is, such a simple approach doesn't take into accound lld / mld and progression in the mid game, so it might be improved. But it's a very reasonable starting point.
+
+### Conclusion
+
+This patch will suggest many drastic reductions to synergies % while adding that the base damage will be buffed. Assume the above is used.
