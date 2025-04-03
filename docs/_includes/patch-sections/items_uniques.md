@@ -10,8 +10,8 @@ Unique items will go there.
 
 Warshrike can take a buff now that the A3 mercs can't abuse it anymore.
 
-| Before (based on PD2 wiki)                      | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+| Current PD2                      | Zagd3m's patch                                          |
+|:--|:--|
 | +30% Increased Attack Speed                     | +30% Increased Attack Speed                    |
 | +75% Chance to Pierce                           | +75% Chance to Pierce                          |
 | +[375-425]% Enhanced Damage                     | +[375-425]% Enhanced Damage                    |
@@ -27,8 +27,8 @@ Warshrike can take a buff now that the A3 mercs can't abuse it anymore.
 
 Demon limb should not be a prebuff item, but an actual elite weapon.
 
-| Before (based on PD2 wiki)                      | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+| Current PD2                      | Zagd3m's patch                                          |
+|:--|:--|
 | +[180-230]% Enhanced Damage                     | +[230-280]% Enhanced Damage                    |
 | -                                               | **130% Bonus to Attack Rating**                |
 | +123% Damage to Demons                          | +123% Damage to Demons                         |
@@ -46,8 +46,8 @@ Demon limb should not be a prebuff item, but an actual elite weapon.
 
 Unique items shouldn't be golden rare items. They need something the rares don't have. This design keeps the purpose and theme of the item without being identical to a good rare for the slot.
 
-| Before (current PD2)                            | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+| Before (current PD2)                            | Zagd3m's patch                                          |
+|:--|:--|
 | +2 to Necromancer Skills                        | **Removed**                                    |
 | +25% Faster Cast Rate                           | +25% Faster Cast Rate                          |
 | +2 to Bone Spirit (Necromancer Only)            | +2 to Bone Spirit (Necromancer Only)           |
@@ -68,8 +68,8 @@ Unique items shouldn't be golden rare items. They need something the rares don't
 Moser's Blessed Circle is a powerful defensive option that could benefit from scaling with character progression.
 This change maintains its mid-game power while making it a bit more appealing later into the game, and keeping the identity of a "resists" item.
 
-| Before (based on PD2 wiki)                      | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+| Current PD2                      | Zagd3m's patch                                          |
+|:--|:--|
 | +30% Faster Block Rate                          | +30% Faster Block Rate                         |
 | 25% Increased Chance of Blocking                | 25% Increased Chance of Blocking               |
 | +[180-220]% Enhanced Defense                    | +[180-220]% Enhanced Defense                   |
@@ -86,20 +86,37 @@ This change maintains its mid-game power while making it a bit more appealing la
 
 Heaven's Light should live up to its name with lightning and holy-themed effects.
 
-| Before (based on PD2 wiki)                      | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+| Current PD2                      | Zagd3m's patch                                          |
+|:--|:--|
 | +[2-3] to Paladin Skills                        | +[2-3] to Paladin Skills                       |
 | +20% Increased Attack Speed                     | +20% Increased Attack Speed                    |
 | +[275-325]% Enhanced Damage                     | +[275-325]% Enhanced Damage                    |
 | -33% Target Defense                             | **Removed**                                    |
 | 33% Chance of Crushing Blow                     | **Removed**                                    |
-| +[15-20] Life after each Demon Kill             | +[15-20] Life after each Demon Kill            |
+| +[15-20] Life Zagd3m's patch each Demon Kill             | +[15-20] Life Zagd3m's patch each Demon Kill            |
 | +3 to Light Radius                              | **+5 to Light Radius**                        |
 | +50% Damage to Undead                           | +50% Damage to Undead                          |
 | Socketed [2-3]                                  | Socketed [2-3]                                 |
 | -                                               | **2% Chance to Cast Level 30 Holy Nova on Block** |
 | -                                               | **Adds 1-300 Lightning Damage**                   |
 | -                                               | **+[3-9] Lightning Absorb** |
+
+---
+
+### Helmets
+
+#### Ravenlore
+
+| Current PD2 | Zagd3m's patch |
+|:--|:--|
+| +3 to Elemental Skills (Druid Only) | +3 to Elemental Skills (Druid Only) |
+| - | **You May No Longer Summon Grizzlies** |
+| +7 to Raven (Druid Only) | **+3 to Raven (Druid Only)** |
+| - | **Your Ravens deal an additional 250 Physical Damage** |
+| -[10-20]% to Enemy Fire Resistance | -[10-20]% to Enemy Fire Resistance |
+| +[120-150]% Enhanced Defense | **Removed** |
+| +[20-30] to Energy | +[20-30] to Energy |
+| All Resistances +[15-25] | All Resistances +[15-25] |
 
 ---
 
@@ -110,8 +127,8 @@ Heaven's Light should live up to its name with lightning and holy-themed effects
 This belt focuses on mana utility but lacks defensive capabilities against casters.
 The "gloom" word reminds me of the Gloom runeword so I decided to add a (weaker) Dim Vision when struck effect too.
 
-| Before (based on PD2 wiki)                      | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+| Current PD2                      | Zagd3m's patch                                          |
+|:--|:--|
 | +[10-20]% Faster Cast Rate                      | +[10-20]% Faster Cast Rate                     |
 | 5% Mana Stolen per Hit                          | 5% Mana Stolen per Hit                         |
 | +[120-150]% Enhanced Defense                    | +[120-150]% Enhanced Defense                   |
@@ -131,8 +148,8 @@ The "gloom" word reminds me of the Gloom runeword so I decided to add a (weaker)
 The relic's fire damage should scale with character progression to remain relevant.
 I wish this was an option for Vengeance paladins so the item doesn't simply exist as a "shit that amy again" moment.
 
-| Before (based on PD2 wiki)                      | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+| Current PD2                      | Zagd3m's patch                                          |
+|:--|:--|
 | +[20-30]% Faster Hit Recovery                   | +[20-30]% Faster Hit Recovery                  |
 | Adds [3-6] to [7-12] Fire Damage                | **Adds [1-149] to Fire Damage (+1.5 per Character Level)** |
 | +[4-8]% to Maximum Fire Resist                  | +[4-8]% to Maximum Fire Resist                 |
@@ -143,8 +160,8 @@ I wish this was an option for Vengeance paladins so the item doesn't simply exis
 
 This amulet's cold damage is too minimal at higher levels and should scale with character progression.
 
-| Before (based on PD2 wiki)                      | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+| Current PD2                      | Zagd3m's patch                                          |
+|:--|:--|
 | +1 to All Skills                                | +1 to All Skills                               |
 | Adds [4-6] to [12-20] Cold Damage               | **Adds [1-100] to Cold Damage (+1 per Character Level)** |
 | [3-7]% Life Stolen per Hit                      | [3-7]% Life Stolen per Hit                     |
@@ -155,8 +172,8 @@ This amulet's cold damage is too minimal at higher levels and should scale with 
 
 Iron Maiden is rarely useful for most builds. Replacing it with Attack Rating or Magic Find would make this amulet more versatile, while adding a bit or r&d for late ladder optimization.
 
-| Before (based on PD2 wiki)                      | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+| Current PD2                      | Zagd3m's patch                                          |
+|:--|:--|
 | 10% Chance to Cast Level 12 Iron Maiden when Struck | **Removed**                                |
 | +[30-50]% Enhanced Damage                       | +[30-50]% Enhanced Damage                      |
 | +12 to All Attributes                           | +12 to All Attributes                          |
@@ -169,8 +186,8 @@ Iron Maiden is rarely useful for most builds. Replacing it with Attack Rating or
 
 Moving Meteor procs to on-striking or on-casting would make this amulet more reliable for casters.
 
-| Before (based on PD2 wiki)                      | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+| Current PD2                      | Zagd3m's patch                                          |
+|:--|:--|
 | 4% Chance to Cast Level 23 Meteor when Struck   | **Removed**                                    |
 | +[1-2] to Fire Skills                           | +[1-2] to Fire Skills                          |
 | Adds [80-124] to [200-248] Fire Damage          | Adds [80-124] to [200-248] Fire Damage         |
