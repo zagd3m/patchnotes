@@ -47,6 +47,11 @@ plugins:
   - jekyll-feed
   - jekyll-titles-from-headings
   - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-google_search_console_verification_file
+
+google_search_console:
+  verification_file_code: tVVubyU7ZsnZzqiGMR1LI8gw1Muo7pVXZs-wACE2fnU
 
 sass:
   sass_dir: _sass
