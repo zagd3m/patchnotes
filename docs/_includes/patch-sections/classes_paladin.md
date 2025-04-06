@@ -2,6 +2,19 @@
 
 ### Skills
 
+#### Prayer
+
+Now grants **magic damage reduced by** and **physical damage reduced by** to the user (not to the party).
+
+Rough values would be like :
+
+- Level 1 : 1
+- Level 20 : 10
+- Level 40 : 20
+- Level 60 : 30
+
+This would make Prayer more appealing as a defensive aura, and would encourage Paladin to try builds leveraging flat pdr/mdr.
+
 #### Concentration
 
 Concentration has two main issues : (1) no clear identity and (2) mandatory for hammerdins. Let's fix both.

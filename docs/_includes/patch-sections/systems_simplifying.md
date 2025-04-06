@@ -80,3 +80,16 @@ Mods that's weren't really useful have been removed.
 
 This mod doesn't work as well as poison and Open Wounds, while doing the same thing. Most of the time, an item doing a small amount of poison damage and open wounds would be better, or equivalent, to one with Prevent Monster Heal. Therefore, keeping this effect is creating clutter. Let's remove it for the sake of simplicity.
 
+#### Replenish life --> Replenish life (per second)
+
+No build leverages this mod, so it's either something we should remove or improve. I say improve !
+
+Now displayed as replenished life per second (instead of 5 seconds, which made no sense at all). Yet, the healing is continuous, it doesn't "wait" for the end of the second.
+
+That's it. Now, what we need is to buff the numbers until this starts being really useful.
+
+#### Mana regeneration --> Replenish mana (per second)
+
+Replaced by replenish mana, which is equivalent to replenish life. This is easier to understand, and it won't be broken anyway.
+
+All items that were giving mana regeneration should now be giving replenish mana.
