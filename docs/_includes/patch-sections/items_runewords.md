@@ -51,7 +51,9 @@ Note that this is exploitable using Innocence, but I advocated for nerfing it so
 | +[10-15] Magic Absorb                           | +[10-15] Magic Absorb                          |
 | Level 16 Heart of Wolverine, replenishing       | Level 16 Heart of Wolverine, replenishing      |
 
-## Innocence
+---
+
+### Innocence
 
 We nerfed innocence hard since it is far too strong right now. We kept its defensive identity and a weaker blade shield.
 I do love proc-builds, but I'll cover how to make them work without this weird item in another section.
@@ -74,3 +76,41 @@ I do love proc-builds, but I'll cover how to make them work without this weird i
 | Requirements -25%                               | Requirements -25%                              |
 
 **Blade Cloud** : is a variant of Blade Shield (like Blade Dance for Wirlwind), providing 50-100 damage, 400% AR, but attacking slower (once per second).
+
+---
+
+### Call To Arms
+
+CTA should not be a prebuff item. Prebuffing is against our principles (see Game Design section).
+
+**5-Socket Weapons**
+
+**Amn • Ral • Mal • Ist • Ohm**
+
+**Required Level:** 57
+
+| Current PD2 | Zagd3m's patch |
+|:--- |:--- |
+| +1 to All Skills | **+2 to All Skills** |
+| +40% Increased Attack Speed | +40% Increased Attack Speed |
+| - | **+40% Faster Cast Rate** |
+| +[245-285]% Enhanced Damage | +[245-285]% Enhanced Damage |
+| Adds 5-30 Fire Damage | Adds 5-30 Fire Damage |
+| 7% Life Stolen per Hit | 7% Life Stolen per Hit |
+| Prevent Monster Heal | Prevent Monster Heal |
+| +[2-6] to [Battle Command](https://wiki.projectdiablo2.com/wiki/Battle_Command "Battle Command") | **Removed** |
+| +[2-6] to [Battle Orders](https://wiki.projectdiablo2.com/wiki/Battle_Orders "Battle Orders") | **Removed** |
+| +[1-3] to [Battle Cry](https://wiki.projectdiablo2.com/wiki/Battle_Cry "Battle Cry") | **Removed** |
+| Replenish Life +12 | **Removed** |
+| 30% Better Chance of Getting Magic Items | **60% Better Chance of Getting Magic Items** |
+| - | **10% chance to cast level 1 Battle Wrath on kill** |
+
+**NOTE:** [Battle Orders](https://wiki.projectdiablo2.com/wiki/Battle_Orders "Battle Orders") has been reworked and now grants a flat amount of life/mana. For example, +6 Battle Orders grants +125 Life instead of +50% Life
+
+Battle Wrath is a new skill that grants the following effects (not staking) for 20 seconds:
+
+- +125 life
+- +20% Faster Run/Walk
+- -20% to Enemy Defense
+
+Overall, builds that were using CTA as their damage weapon will appreciate the change. And others, well, sorry but prebuff sucks :p

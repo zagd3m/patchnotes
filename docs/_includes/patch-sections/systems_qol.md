@@ -21,3 +21,21 @@ Removed mechanics where you have to talk to an NPC to access a specific portal o
 Increase the cost of gambled items significantly (around x10).
 Reduce the likelihood of getting a magic item, so that crafted items have more chances of being valuable.
 Overall this shouldn't make crafting better or worse, simply faster since we'd skip the crap.
+
+### Prebuffing
+
+Prebuffing is something we fight against, because it breaks the *quality of life* and *power creep* principles.
+
+By prebuffing we mean:
+
+- Snapshotting, which is summoning creatures using high +skills (or +elem) gear, and then swapping to defensive or mf gear.
+- Precasting buffs at higher levels.
+- Precasting buffs from items that you unequip after the prebuff (hi Demon Limb).
+
+We suggest the following approach against prebuffing:
+
+- All summon skills have a small chance to be cast on enemy death, causing a constant renewal of the army.
+- All defensive skills (Energy shield, Enchant, ...) have the same mechanic, where they are re-casted regularly.
+- Items that were giving free buffs (CTA, Demon Limb, ...) have (or will) be reworked.
+
+The goal here is to remove prebuffing entirely. Gear swapping shouldn't be an optimal strategy (or else players will do it even though it is boring). We're saving them from this boring dilemma.
