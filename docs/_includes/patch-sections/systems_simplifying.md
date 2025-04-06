@@ -76,6 +76,8 @@ For IAS, FHR, FCR, FBR, ...
 
 Mods that's weren't really useful have been removed.
 
+If you find someone telling you this would indirectly buff rares/crafts, please note that (1) they need this and (2) rares are balanced by optimal combinations of mods, not by the possibility of trash mods. This has always been the case and will always still be.
+
 #### Prevent Monster Heal
 
 This mod doesn't work as well as poison and Open Wounds, while doing the same thing. Most of the time, an item doing a small amount of poison damage and open wounds would be better, or equivalent, to one with Prevent Monster Heal. Therefore, keeping this effect is creating clutter. Let's remove it for the sake of simplicity.
