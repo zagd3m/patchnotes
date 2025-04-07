@@ -2,6 +2,10 @@
 
 Pillar #4 of Zagd3m's patch notes is noob friendlyness. And you know what isn't ? Things that are complex for no reason at all.
 
+### Should you slam or puzzle first ?
+
+The answer is now always the same : slam. Indeed, you can puzzlebox or puzzlepiece an item that has been slammed with sockets. In this case, the slam will be removed and another corruption will be rolled (no risk of bricking), and then the puzzle will be applied. This solves the noob trap issue and doesn't change anything for knowledgeable players.
+
 ### Mods that don't work
 
 Examples :

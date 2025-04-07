@@ -1,5 +1,7 @@
 ## Runewords
 
+> *"Imo, runewords are there for reliable, unique combinations of buffs. They should be similar to uniques in that they aren't just rare items : they must bring something specific. The difference is that you can choose the base (which should be meaningful), but you can't slam. It makes runewords more reliable, more personalized, but with less 'perfect' potential."* - Me
+
 ---
 
 ### Voice of Reason

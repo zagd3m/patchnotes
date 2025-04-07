@@ -21,3 +21,37 @@ Synergies changed :
 - Dragon Flight: +5% Damage per Level
 
 The base damage has been increased to compendate (see [Synergies changes](/patchnotes/sections/systems)) for the synergies % being nerfed, resulting in equivalent damage.
+
+#### Dragon Claw
+
+Changed the attack speed formula to make Dragon Claw easier to understand:
+
+- Now uses the standard attack speed formula (just like Tiger Strike for example)
+- The second strike always occurs 4 frames after the first hit
+
+This means that a 6fpa build would do both hits in 10 frames. Simple. Clear. Nothing substantial lost in the process.
+
+#### Wake of Inferno
+
+AoE strongly increased, both in width and in length, to make the skill viable for mapping.
+
+Synergies changed:
+
+- ~~Fire Blast: +10% Fire Damage per Level~~
+- Wake of Fire: ~~+10%~~ **+3% Fire Damage per Level**
+- **Death Sentry: +3% Damage per Level**
+
+The base damage has been increased to compendate (see [Synergies changes](/patchnotes/sections/systems)) for the synergies % being nerfed, resulting in equivalent damage.
+
+#### Death Sentry
+
+Death Sentry shouldn't be a one point wonder, or even a 20 point skill, since it would be too strong. High percent synergies seem reasonable in this case.
+
+Synergies changed:
+
+- ~~Wake of Fire: +8% Fire Damage per Level~~
+- ~~Fire Blast: +8% Fire Damage per Level~~
+- Charged Bolt Sentry: +8% Damage per Level
+- Wake of Inferno: +8% Damage per Level
+
+The goal here is to make DS a dedicated build, where players use it as a main skill, so we put weird synergies to avoid making it a fire or light spell. Also, we didn't pick the same synergies as WoI, so that WoI players have to choose if they want to add 20 extra points into CBS for more DS damage. I think this is meaningful choice, with both pure WoI and pure DS and hybrid builds being viable.
