@@ -1,9 +1,5 @@
 # Classes Changes
 
-This file will contain the patch notes for class changes in Project Diablo 2.
-
----
-
 {% include patch-sections/classes_amazon.md %}
 
 ---

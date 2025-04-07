@@ -12,4 +12,3 @@ Frenzy is mostly used as a passive that you have to "charge up" from time to tim
 - Frenzy base numbers have been changed to incorporate this passive (meaning the skill grants less AR/MS, but it is compensated).
 
 Frenzy is still worth investing points on for non-frenzy builds needing AS/MS, and is now more rewarding as an active skill.
-

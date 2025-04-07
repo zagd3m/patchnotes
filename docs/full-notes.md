@@ -7,6 +7,8 @@ title: Full Patch Notes
 
 This page contains all patch notes sections combined into a single document.
 
+Please remember we are talking about FAKE patch notes. This is a huge feedback thread basically.
+
 ---
 
 {% include patch-sections/classes.md %}

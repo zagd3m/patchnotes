@@ -1,7 +1,5 @@
 ## Runewords
 
-Runewords will go there
-
 ---
 
 ### Voice of Reason
@@ -12,7 +10,7 @@ Runewords will go there
 This runeword needs more interesting mechanics to compete with other options. The casting / blocking part will only be useful for block casting sorcs, who don't benefit from ar/ed, helping balancing the item. Rlvl was rised due to Frozen Orb level being rised.
 
 | Before (current PD2)                            | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+|:------------------------------------------------|:-----------------------------------------------|
 | Required Level: 43                              | **Required Level: 51**                             |
 | 15% Chance to Cast Level 16 Frozen Orb On Striking | **15% Chance to Cast Level 25 Frozen Orb On Casting** |
 | 18% Chance to Cast Level 20 Ice Blast On Striking | **15% Chance to Cast Level 25 Frozen Orb On Block** |
@@ -39,7 +37,7 @@ Increasing the level of Bone Spirit on this runeword makes it more relevant for 
 Note that this is exploitable using Innocence, but I advocated for nerfing it so I'm not balancing around this nonsensical item.
 
 | Before (current PD2)                            | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+|:------------------------------------------------|:-----------------------------------------------|
 | 30% Chance to Cast Level 20 Bone Spirit on Striking | **30% Chance to Cast Level 35 Bone Spirit on Striking** |
 | Indestructible                                  | Indestructible                                 |
 | +50% Increased Attack Speed                     | +50% Increased Attack Speed                    |
@@ -63,7 +61,7 @@ I do love proc-builds, but I'll cover how to make them work without this weird i
 *Required Level: 69*
 
 | Before (current PD2)                            | After                                          |
-|-------------------------------------------------|------------------------------------------------|
+|:------------------------------------------------|:-----------------------------------------------|
 | Indestructible                                  | Indestructible                                 |
 | Level [8-12] Blade Shield When Equipped         | Level [1] **Blade Cloud** When Equipped        |
 | +2 to All Skills                                | +2 to All Skills                               |
