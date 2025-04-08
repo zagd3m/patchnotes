@@ -63,6 +63,18 @@ Problem solved, thank you very much.
 
 *Now, the truth is, such a simple approach doesn't take into accound lld / mld and progression in the mid game, so it might be improved. But it's a very reasonable starting point.*
 
+### Congratulations, proc builds are now broken
+
+Do you know what happens when you move damage from synergies to the base damage ? Well, proc builds, at least those that leverage non-synergized spells (from other classes), just got a HUGE buff. That's a fact. As a result, let's acknoledge it.
+
+First, let me make a few things clear:
+
+- Fixing this might be as simple as lowering the proc level
+- Proc builds are weak (apart from a few exceptions)
+- Proc builds have been buffed by the addition of Innocence, but that's something we already fixed (see our changed to Innocence)
+
+Overall, I think this isn't a fair objection to the synergy change we are doing. Yes we need to nerf synergies, and then we can balance proc levels accordingly. Simple.
+
 ### Conclusion regarding synergies
 
 This patch will suggest many drastic reductions to synergies % while adding that the base damage will be buffed. Assume the above is used.
