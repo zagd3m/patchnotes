@@ -120,3 +120,11 @@ img[alt="Scroll"] {
     opacity: 1;
   }
 }
+
+blockquote {
+  border-left: 3px solid #ddd;
+  margin: 1em 0;
+  padding: 0.1em 0 0.1em 1em;
+  color: #666;
+  background-color: #f8f8f8;
+}

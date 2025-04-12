@@ -33,7 +33,7 @@ The following items have had their affix pool improved to be more viable as magi
 
 ### Magic items
 
-Magic items should have a chance to be good. Since they have a small number of affixes, those should have high values, like amulets where the balance between magic and rare/craft is awesome. This means buffing some magic affixes. I'll make a list eventually, on a rainy day.
+> Magic items should have a chance to be good. Since they have a small number of affixes, those should have high values, like amulets where the balance between magic and rare/craft is awesome. This means buffing some magic affixes. I'll make a list eventually, on a rainy day.
 
 ### Arrows and Quivers
 

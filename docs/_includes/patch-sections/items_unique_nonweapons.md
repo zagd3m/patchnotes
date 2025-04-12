@@ -4,8 +4,7 @@
 
 #### Moser's Blessed Circle
 
-Moser's Blessed Circle is a powerful defensive option that could benefit from scaling with character progression.
-This change maintains its mid-game power while making it a bit more appealing later into the game, and keeping the identity of a "resists" item.
+> Moser's Blessed Circle is a powerful defensive option that could benefit from scaling with character progression. This change maintains its mid-game power while making it a bit more appealing later into the game, and keeping the identity of a "resists" item.
 
 | Current PD2                      | Zagd3m's patch                                          |
 |:--|:--|
@@ -19,11 +18,15 @@ This change maintains its mid-game power while making it a bit more appealing la
 
 #### Alma Negra
 
+> CDR on Alma Negra and Leoric is limiting build diversity right now.
+
 No longer reduces Joust cooldown.
 
 ### Helmets
 
 #### Ravenlore
+
+We want a Raven Druid build. See the changes to the [Raven skill](full-notes#raven) too.
 
 | Current PD2 | Zagd3m's patch |
 |:--|:--|
@@ -40,8 +43,7 @@ No longer reduces Joust cooldown.
 
 #### Gloom's Trap
 
-This belt focuses on mana utility but lacks defensive capabilities against casters.
-The "gloom" word reminds me of the Gloom runeword so I decided to add a (weaker) Dim Vision when struck effect too.
+> This belt focuses on mana utility but lacks defensive capabilities against casters. The "gloom" word reminds me of the Gloom runeword so I decided to add a (weaker) Dim Vision when struck effect too.
 
 | Current PD2                      | Zagd3m's patch                                          |
 |:--|:--|
@@ -59,8 +61,7 @@ The "gloom" word reminds me of the Gloom runeword so I decided to add a (weaker)
 
 #### Nokozan Relic
 
-The relic's fire damage should scale with character progression to remain relevant.
-I wish this was an option for Vengeance paladins so the item doesn't simply exist as a "shit that amy again" moment.
+> The relic's fire damage should scale with character progression to remain relevant. I wish this was an option for Vengeance paladins so the item doesn't simply exist as a "shit that amy again" moment.
 
 | Current PD2                      | Zagd3m's patch                                          |
 |:--|:--|
@@ -72,7 +73,7 @@ I wish this was an option for Vengeance paladins so the item doesn't simply exis
 
 #### Eye of Etlich
 
-This amulet's cold damage is too minimal at higher levels and should scale with character progression.
+> This amulet's cold damage is too minimal at higher levels and should scale with character progression.
 
 | Current PD2                      | Zagd3m's patch                                          |
 |:--|:--|
@@ -84,7 +85,7 @@ This amulet's cold damage is too minimal at higher levels and should scale with 
 
 #### Saracen's Chance
 
-Iron Maiden is rarely useful for most builds. Replacing it with Attack Rating or Magic Find would make this amulet more versatile, while adding a bit or r&d for late ladder optimization.
+> Iron Maiden is rarely useful for most builds. Replacing it with Attack Rating or Magic Find would make this amulet more versatile, while adding a bit or r&d for late ladder optimization.
 
 | Current PD2                      | Zagd3m's patch                                          |
 |:--|:--|
@@ -98,7 +99,7 @@ Iron Maiden is rarely useful for most builds. Replacing it with Attack Rating or
 
 #### The Rising Sun
 
-Moving Meteor procs to on-striking or on-casting would make this amulet more reliable for casters.
+> Moving Meteor procs to on-striking or on-casting would make this amulet more reliable for casters.
 
 | Current PD2                      | Zagd3m's patch                                          |
 |:--|:--|

@@ -9,7 +9,7 @@
 *4-Socket Swords/Tipped Maces/Bows/Crossbows*  
 *Lem • Ko • El • Eld*  
 
-This runeword needs more interesting mechanics to compete with other options. The casting / blocking part will only be useful for block casting sorcs, who don't benefit from ar/ed, helping balancing the item. Rlvl was rised due to Frozen Orb level being rised.
+> This runeword needs more interesting mechanics to compete with other options. The casting / blocking part will only be useful for block casting sorcs, who don't benefit from ar/ed, helping balancing the item. Rlvl was rised due to Frozen Orb level being rised.
 
 | Before (current PD2)                            | After                                          |
 |:------------------------------------------------|:-----------------------------------------------|
@@ -35,8 +35,7 @@ This runeword needs more interesting mechanics to compete with other options. Th
 *Shael • Pul • Mal • Lum*  
 *Required Level: 49*
 
-Increasing the level of Bone Spirit on this runeword makes it more relevant for late-game and provides better damage output for players who invest in it.
-Note that this is exploitable using Innocence, but I advocated for nerfing it so I'm not balancing around this nonsensical item.
+> Increasing the level of Bone Spirit on this runeword makes it more relevant for late-game and provides better damage output for players who invest in it. Note that this is exploitable using Innocence, but I advocated for nerfing it so I'm not balancing around this nonsensical item.
 
 | Before (current PD2)                            | After                                          |
 |:------------------------------------------------|:-----------------------------------------------|
@@ -55,8 +54,7 @@ Note that this is exploitable using Innocence, but I advocated for nerfing it so
 
 ### Innocence
 
-We nerfed innocence hard since it is far too strong right now. We kept its defensive identity and a weaker blade shield.
-I do love proc-builds, but I'll cover how to make them work without this weird item in another section.
+> We nerfed innocence hard since it is far too strong right now. We kept its defensive identity and a weaker blade shield. I do love proc-builds, but I'll cover how to make them work without this weird item in another section.
 
 *4-Socket Chests*  
 *Gul • Lem • Zod • Hel*  
@@ -81,7 +79,7 @@ I do love proc-builds, but I'll cover how to make them work without this weird i
 
 ### Call To Arms
 
-CTA should not be a prebuff item. Prebuffing is against our principles (see Game Design section).
+> CTA should not be a prebuff item. Prebuffing is against our principles (see Game Design section).
 
 **5-Socket Weapons**
 

@@ -8,7 +8,7 @@ Uncommond sets are in the ~~sweet~~ bitter spot between "I'm too low level to us
 
 ### Sander's Folly (Uncommon)
 
-The set needs a small buff with FCR and MAEK.
+> The set needs a small buff with FCR and MAEK.
 
 - Cap: **+10% Faster Cast Rate (3 items)**
 - Boots: **5 Mana after each Kill (3 items)**
@@ -16,7 +16,7 @@ The set needs a small buff with FCR and MAEK.
 
 ### Hwanin's Majesty (Uncommon)
 
-Moving bonuses from complete set to partial set bonuses.
+> Moving bonuses from complete set to partial set bonuses.
 
 - Hwanin's Splendor: **All Resistances +[1-33] (+0.3 per Character Level) (3 items)**
 - Hwanin's Refuge: **+[1-99]% (+1 per Character Level) Damage to Demons (3 items)**
@@ -25,7 +25,7 @@ Moving bonuses from complete set to partial set bonuses.
 
 ### The Disciple (Uncommon)
 
-Moving bonuses from complete set to partial set bonuses and buffing the amulet.
+> Moving bonuses from complete set to partial set bonuses and buffing the amulet.
 
 - Laying of Hands: **+50% enhanced damage (3 items)** (we put the buff here since this is rlvl 63, thus preventing mld issues)
 - Credendum: **+50% enhanced damage (2 items)** (same)
@@ -59,7 +59,7 @@ Tal Rasha is in a good spot, and with the synergy percent nerfs we're working on
 
 ### M'avina's Battle Hymn
 
-M'avina's set was adjusted to make the 4-piece bonus more accessible, encouraging set mixing and build diversity.
+> M'avina's set was adjusted to make the 4-piece bonus more accessible, encouraging set mixing and build diversity.
 
 #### M'avina's True Sight (Diadem)
 

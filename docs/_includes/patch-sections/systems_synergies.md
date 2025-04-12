@@ -2,8 +2,8 @@
 
 ### Why synergies suck ... and how to fix it
 
-Synergies are the best way to erradicate build diversity.
-If PD2 sincerely wants to promote build diversity, it should lower synergies % dramatically.
+> Synergies are the best way to erradicate build diversity.
+> If PD2 sincerely wants to promote build diversity, it should lower synergies % dramatically.
 
 Let me give you an example.
 

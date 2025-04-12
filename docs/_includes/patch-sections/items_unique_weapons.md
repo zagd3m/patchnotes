@@ -4,7 +4,7 @@
 
 #### Warshrike
 
-Warshrike can take a buff now that the A3 mercs can't abuse it anymore.
+> Warshrike can take a buff now that the A3 mercs can't abuse it anymore.
 
 | Current PD2                      | Zagd3m's patch                                          |
 |:--|:--|
@@ -19,7 +19,7 @@ Warshrike can take a buff now that the A3 mercs can't abuse it anymore.
 
 #### Demon Limb
 
-Demon limb should not be a prebuff item, but an actual elite weapon.
+> Demon limb should not be a prebuff item, but an actual elite weapon.
 
 | Current PD2                      | Zagd3m's patch                                          |
 |:--|:--|
@@ -36,7 +36,7 @@ Demon limb should not be a prebuff item, but an actual elite weapon.
 
 #### Boneshade
 
-Unique items shouldn't be golden rare items. They need something the rares don't have. This design keeps the purpose and theme of the item without being identical to a good rare for the slot.
+> Unique items shouldn't be golden rare items. They need something the rares don't have. This design keeps the purpose and theme of the item without being identical to a good rare for the slot.
 
 | Before (current PD2)                            | Zagd3m's patch                                          |
 |:--|:--|
@@ -55,7 +55,7 @@ Unique items shouldn't be golden rare items. They need something the rares don't
 
 #### Heaven's Light
 
-Heaven's Light should live up to its name with lightning and holy-themed effects.
+> Heaven's Light should live up to its name with lightning and holy-themed effects.
 
 | Current PD2                      | Zagd3m's patch                                          |
 |:--|:--|
@@ -75,5 +75,7 @@ Heaven's Light should live up to its name with lightning and holy-themed effects
 ### Swords
 
 #### Leoric
+
+> CDR on Alma and Leoric is bad for build diversity, since it is both too strong and too limited in breadth.
 
 No longer reduces Joust cooldown.
