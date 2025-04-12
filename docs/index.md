@@ -28,5 +28,4 @@ I am Zagd3m. I've been playing D2 since WW1, and before that I was serving in a 
 1. Think critically about the proposed changes
 2. Acknowledge that I'm not a PvP player, and as a result changes will sometimes be absolutely necessary even though my ideas rock on paper
 
-Remember that good game design often involves finding the right balance between competing goals and understanding that not every player will agree with every decision.
-See you on Discord's #feedback channel.
+Remember that good game design often involves finding the right balance between competing goals and understanding that not every player will agree with every decision. That's why some suggestions have been [censored](/patchnotes/censored). With that said, see you on Discord's #feedback channel.

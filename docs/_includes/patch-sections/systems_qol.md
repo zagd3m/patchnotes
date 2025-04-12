@@ -38,4 +38,4 @@ We suggest the following approach against prebuffing:
 - All defensive skills (Energy shield, Enchant, ...) have the same mechanic, where they are re-casted regularly.
 - Items that were giving free buffs (CTA, Demon Limb, ...) have (or will) be reworked.
 
-The goal here is to remove prebuffing entirely. Gear swapping shouldn't be an optimal strategy (or else players will do it even though it is boring). We're saving them from this boring dilemma.
+The goal here is to remove prebuffing entirely. Gear swapping shouldn't be an optimal strategy (or else players will do it even though it is boring). We're saving them from this [boring dilemma](gamedesign#boring-dilemmas).

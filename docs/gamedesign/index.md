@@ -10,21 +10,18 @@ This section explains the game design reasoning behind the proposed changes for 
 
 ## Guiding principles
 
-### Official principles (I agree with them all)
+Official PD2 design goals (which I agree with)
 
-I believe the claims that PD2 made when it started were great, but they weren't exactly ... accomplished. So, I'm here to push for more of it !
+1. Build diversity
+2. Quality of life
+3. Balance
 
-- Build diversity
-- Quality of life
-- Balance
+My own 3 (which I also agree with)
 
-Remember : PD2 is a "mod for and by passionate Diablo 2 fans. We aim to maintain the Lord of Destruction experience and provide consistent ladder resets while improving on the game as if development never ceased."
-
-### I'll also add my own 3
-
-- Noob friendlyness : I believe we can get non-d2 players to play PD2 ... if we're noob-friendly enough
-- Fan service : when the whole community asks for something, something (sometimes slightly different) should be done
-- Power creep : don't make the game easier with every patch, only to invent harder late game content to compensate
+{:start="4"}
+4. Noob friendlyness : I believe we can get non-d2 players to play PD2 ... if we're noob-friendly enough
+5. Fan service : when the whole community asks for something, something (sometimes slightly different) should be done
+6. Power creep : don't make the game easier with every patch, only to invent harder late game content to compensate
 
 ## Build diversity : let's actually do it
 
@@ -37,7 +34,7 @@ Build diversity is something everyone talks about, but few actually try to accom
 
 We'll know we have build diversity when not all kicksins play Phoenix, when not all (elem builds) mercs play Infinity, etc... If there's only one reasonable option, I'll be thinking about ways to give you another option, and that's what patches should focus on imo.
 
-## Boring dilemmas
+## Boring dilemmas {#boring-dilemmas}
 
 We'll sometimes mention the "boring dilemma" concept. By that, I mean having the choice between an optimal strategy that feels boring or bad, or a suboptimal strategy that feels great. When such choices are offered to players, game designers are probably doing something wrong.
 
