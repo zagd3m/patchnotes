@@ -1,10 +1,10 @@
 ## Sets
 
-Overall, the suggestions here will aim at balancing sets, making more of them playable later into the game, and increasing build diversity (for example by making partial sets bonuses good enough for both full sets and partial sets to be worth considering). Set items should never be great alone, though (high Guillaume's helm ^^).
+> Overall, the suggestions here will aim at balancing sets, making more of them playable later into the game, and increasing build diversity (for example by making partial sets bonuses good enough for both full sets and partial sets to be worth considering). Set items should never be great alone, though (high Guillaume's helm ^^).
 
 ### Uncommon sets
 
-Uncommond sets are in the ~~sweet~~ bitter spot between "I'm too low level to use them / have found all pieces" and "I now have better options". Therefore, buffing them is necessary if we want them to be played (and if we don't, then let's remove them, we don't need clutter). Imo, they should be used as not-BiS-but-still-good options, viable for mapping and mfing, but not the best option in the late game.
+> Uncommond sets are in the ~~sweet~~ bitter spot between "I'm too low level to use them / have found all pieces" and "I now have better options". Therefore, buffing them is necessary if we want them to be played (and if we don't, then let's remove them, we don't need clutter). Imo, they should be used as not-BiS-but-still-good options, viable for mapping and mfing, but not the best option in the late game.
 
 ### Sander's Folly (Uncommon)
 
@@ -55,7 +55,7 @@ This gives full set a total buff of +2 to All Skills. This would make the set mo
 
 ### Tal Rasha's Guardianship
 
-Tal Rasha is in a good spot, and with the synergy percent nerfs we're working on, it could even be BiS for some builds. I initially thought we could have the set grant Blink, but for now this would probably be OP. The reasoning was to free some points to help hybrid sorcs, but I'm afraid Nova and Frost Nova sorcs would jump (pun intended) on this opportunity.
+> Tal Rasha is in a good spot, and with the synergy percent nerfs we're working on, it could even be BiS for some builds. I initially thought we could have the set grant Blink, but for now this would probably be OP. The reasoning was to free some points to help hybrid sorcs, but I'm afraid Nova and Frost Nova sorcs would jump (pun intended) on this opportunity.
 
 ### M'avina's Battle Hymn
 

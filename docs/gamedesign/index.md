@@ -6,9 +6,7 @@ description: Design reasoning and philosophy behind Project Diablo 2 changes
 
 # Game Design Philosophy
 
-This section explains the game design reasoning behind the proposed changes for Project Diablo 2.
-
-## Guiding principles
+## Guiding principles {#guiding-principles}
 
 Official PD2 design goals (which I agree with)
 
@@ -23,9 +21,11 @@ My own 3 (which I also agree with)
 5. Fan service : when the whole community asks for something, something (sometimes slightly different) should be done
 6. Power creep : don't make the game easier with every patch, only to invent harder late game content to compensate
 
-## Build diversity : let's actually do it
+## Game design philosophy
 
-Build diversity is something everyone talks about, but few actually try to accomplish. Build diversity isn't going from 50 possible builds to 51. It is going from 50 to 50².
+### Build diversity : let's actually do it {#build-diversity}
+
+Build diversity isn't going from 50 possible builds to 51. It is going from 50 to 50².
 
 - Most skills should be worthy to be played as a main skill.
 - Most builds should have several viable paths, some with defensive skills, others going glass cannon, etc...
@@ -34,7 +34,7 @@ Build diversity is something everyone talks about, but few actually try to accom
 
 We'll know we have build diversity when not all kicksins play Phoenix, when not all (elem builds) mercs play Infinity, etc... If there's only one reasonable option, I'll be thinking about ways to give you another option, and that's what patches should focus on imo.
 
-## Boring dilemmas {#boring-dilemmas}
+### Avoid boring dilemmas {#boring-dilemmas}
 
 We'll sometimes mention the "boring dilemma" concept. By that, I mean having the choice between an optimal strategy that feels boring or bad, or a suboptimal strategy that feels great. When such choices are offered to players, game designers are probably doing something wrong.
 

@@ -35,7 +35,7 @@
 *Shael • Pul • Mal • Lum*  
 *Required Level: 49*
 
-> Increasing the level of Bone Spirit on this runeword makes it more relevant for late-game and provides better damage output for players who invest in it. Note that this is exploitable using Innocence, but I advocated for nerfing it so I'm not balancing around this nonsensical item.
+> Increasing the level of Bone Spirit on this runeword makes it more relevant for late-game and provides better damage output for players who invest in it. Note that this is exploitable using [Innocence](#innocence), but I advocated for nerfing it so I'm not balancing around this nonsensical item.
 
 | Before (current PD2)                            | After                                          |
 |:------------------------------------------------|:-----------------------------------------------|
@@ -52,7 +52,7 @@
 
 ---
 
-### Innocence
+### Innocence {#innocence}
 
 > We nerfed innocence hard since it is far too strong right now. We kept its defensive identity and a weaker blade shield. I do love proc-builds, but I'll cover how to make them work without this weird item in another section.
 
