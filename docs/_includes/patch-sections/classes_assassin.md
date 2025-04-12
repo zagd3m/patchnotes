@@ -4,16 +4,16 @@
 
 #### Tiger Strike
 
-Tiger Strike should not be an auxiliary skill for Blade Dance.
+> Tiger Strike should not be an auxiliary skill for Blade Dance.
 
 - Tiger Strike bonuses are lost upon using Blade Dance.
 - Tiger Strike radius has been buffed from 0/20/40 to 20/40/60.
 
-Overall this makes Tiger Strike more appealing for mapping, without indirectly buffing WWsins.
+> Overall this makes Tiger Strike more appealing for mapping, without indirectly buffing WWsins.
 
 #### Dragon Talon
 
-Dragon Talon is the poor man's Dragon Tail. With this change, we make is a 1-synergy skill so it can be played without DTail.
+> Dragon Talon is the poor man's Dragon Tail. With this change, we make is a 1-synergy skill so it can be played without DTail.
 
 Synergies changed :
 
@@ -24,6 +24,8 @@ The base damage has been increased to compendate (see [Synergies changes](/patch
 
 #### Dragon Claw
 
+> Dragon Claw is a good skill, but its breakpoints are confusing. Let's make it more noob friendly.
+
 Changed the attack speed formula to make Dragon Claw easier to understand:
 
 - Now uses the standard attack speed formula (just like Tiger Strike for example)
@@ -32,6 +34,8 @@ Changed the attack speed formula to make Dragon Claw easier to understand:
 This means that a 6fpa build would do both hits in 10 frames. Simple. Clear. Nothing substantial lost in the process.
 
 #### Wake of Inferno
+
+> Make it viable for mapping.
 
 AoE strongly increased, both in width and in length, to make the skill viable for mapping.
 
@@ -45,7 +49,7 @@ The base damage has been increased to compendate (see [Synergies changes](/patch
 
 #### Death Sentry
 
-Death Sentry shouldn't be a one point wonder, or even a 20 point skill, since it would be too strong. High percent synergies seem reasonable in this case.
+> Death Sentry shouldn't be a one point wonder, or even a 20 point skill, since it would be too strong. High percent synergies seem reasonable in this case.
 
 Synergies changed:
 
