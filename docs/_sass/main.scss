@@ -103,13 +103,13 @@ footer {
 //   margin-bottom: 1rem;
 // }
 
-Links
+// Links
 a {
-  color: #0366d6;
-  text-decoration: none;
+  // color: #0366d6 !important;
+  text-decoration: none !important;
   
   &:hover {
-    text-decoration: underline;
+    text-decoration: underline !important;
   }
 }
 
