@@ -4,7 +4,7 @@
 
 #### Raven
 
-Raven should be a "main skill", which means one should be able to play a Raven Druid, centered on this skill. For this to happen, we need it to have specific synergies that make it diverge from the "all summons" druid that we're used to (with wolves and grizzlies). I specifically intended to make the Raven Druid squishier than the summon druid, by removing most of its mean shield, but I kept the Spirit Wolf to keep the summoner feel and to give it some level of tankyness.
+> Raven should be a "main skill", which means one should be able to play a Raven Druid, centered on this skill. For this to happen, we need it to have specific synergies that make it diverge from the "all summons" druid that we're used to (with wolves and grizzlies). I specifically intended to make the Raven Druid squishier than the summon druid, by removing most of its mean shield, but I kept the Spirit Wolf to keep the summoner feel and to give it some level of tankyness.
 
 Synergies changed :
 
