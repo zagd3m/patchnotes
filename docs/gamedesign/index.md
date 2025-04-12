@@ -4,7 +4,9 @@ title: Game Design Philosophy
 description: Design reasoning and philosophy behind Project Diablo 2 changes
 ---
 
-# Game Design Philosophy
+<!-- # Game Design -->
+
+<!-- --- -->
 
 ## Guiding principles {#guiding-principles}
 
@@ -20,6 +22,8 @@ My own 3 (which I also agree with)
 4. Noob friendlyness : I believe we can get non-d2 players to play PD2 ... if we're noob-friendly enough
 5. Fan service : when the whole community asks for something, something (sometimes slightly different) should be done
 6. Power creep : don't make the game easier with every patch, only to invent harder late game content to compensate
+
+---
 
 ## Game design philosophy
 

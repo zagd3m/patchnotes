@@ -113,6 +113,19 @@ a {
   }
 }
 
+ul#markdown-toc {
+  list-style-type: none;
+}
+
+ul#markdown-toc ul {
+  list-style-type: none;
+}
+
+ul#markdown-toc a {
+  text-decoration: none !important;
+  color: #290da5 !important;
+}
+
 // // Images
 // img[alt="Scroll"] {
 //   display: block;
