@@ -4,12 +4,10 @@
 
 #### Tiger Strike
 
-> Tiger Strike should not be an auxiliary skill for Blade Dance.
+> Tiger Strike should not be an auxiliary skill for Blade Dance. Overall this makes Tiger Strike more appealing for mapping, without indirectly buffing WWsins.
 
 - Tiger Strike bonuses are lost upon using Blade Dance.
 - Tiger Strike radius has been buffed from 0/20/40 to 20/40/60.
-
-> Overall this makes Tiger Strike more appealing for mapping, without indirectly buffing WWsins.
 
 #### Dragon Talon
 
