@@ -18,7 +18,7 @@ The base damage has been increased to compendate (see [Synergies changes](/patch
 
 #### Hurricane
 
-These changes aim to make Hurricane more impactful when fully synergized, while maintaining its power as a secondary source of damage.
+> These changes aim to make Hurricane more impactful when fully synergized, while maintaining its power as a secondary source of damage.
 
 Synergies changed :
 
