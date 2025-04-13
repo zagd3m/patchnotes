@@ -82,7 +82,7 @@ No longer reduces Joust cooldown.
 
 ### Class specific weapons - Assassin
 
-#### Firelizard's Talons
+#### Firelizard's Talons {#firelizard-s-talons}
 
 [![](https://static.wikitide.net/projectdiablo2wiki/9/91/Claws.png)](https://wiki.projectdiablo2.com/wiki/File:Claws.png)
 
