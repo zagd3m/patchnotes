@@ -88,23 +88,15 @@ No longer reduces Joust cooldown.
 
 > The rework suggested in the [official spoiler](https://wiki.projectdiablo2.com/wiki/Patch_Notes) makes Firelizard completely focussed on Fist of Fire. We aim to diversify its usecases so it can benefit several builds, including kicksins, other MAsins, and trapsins. Therefore, +fire seems more fitting than -fire (since trapsins don't benefit from it). The hard part here is to make sure this doesn't instantly outshine rare/crafted claws for trapsins or stalker for melee ones - this is a starting point that would probably need some tweaking.
 
-| Old PD2 (Season 10) |
-| :--- |
-| +[2-3] to Fire Skills |
-| +2 to Martial Arts (Assassin Only) |
-| +15% Increased Attack Speed |
-| +[200-270] Enhanced Damage |
-| Adds 236-480 Fire Damage |
-| -[5-10] to Enemy Fire Resistance |
-| Fire Resist +(\[30-50\])% |
-
-| Current PD2 (Season 11 spoilers) | Zagd3m's patch |
-|:--|:--|
-| +[3-4] to Fire Skills | **+[2-3] to Martial Arts (Assassin Only)** |
-| - | **Level 6 Resist Fire Aura when Equipped** |
-| 25% Chance to cast level 40 Blaze on block | 25% Chance to cast level 40 Blaze on block |
-| +15% Increased Attack Speed | +15% Increased Attack Speed |
-| +[230-270]% Enhanced Damage | +[230-270]% Enhanced Damage |
-| Adds 236-480 Fire Damage | Adds 236-480 Fire Damage |
-| -15% to Enemy Fire Resistance (\[10-15\]) | **Removed** |
-| Fire Resist +(\[30-50\])% | **Cold Resist -20%** |
+| Old PD2 (Season 10) | Current PD2 (Season 11 spoilers) | Zagd3m's patch |
+| :--- |:--|:--|
+| +[2-3] to Fire Skills | +[3-4] to Fire Skills | **Removed** |
+| +2 to Martial Arts (Assassin Only) | - | **+[2-3] to Martial Arts (Assassin Only)** |
+| - | - | **Level 6 Resist Fire Aura when Equipped** |
+| - | 25% Chance to cast level 40 Blaze on block | 25% Chance to cast level 40 Blaze on block |
+| +15% Increased Attack Speed | +15% Increased Attack Speed | +15% Increased Attack Speed |
+| +[200-270] Enhanced Damage | +[230-270]% Enhanced Damage | +[230-270]% Enhanced Damage |
+| Adds 236-480 Fire Damage | Adds 236-480 Fire Damage | Adds 236-480 Fire Damage |
+| -[5-10] to Enemy Fire Resistance | -15% to Enemy Fire Resistance (\[10-15\]) | **Removed** |
+| Fire Resist +(\[30-50\])% | Fire Resist +(\[30-50\])% | **Removed** |
+| - | - | **Cold Resist -20%** |
