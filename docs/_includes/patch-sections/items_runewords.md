@@ -52,28 +52,29 @@
 
 ---
 
-### Innocence {#innocence}
+### Passion
 
-> We nerfed innocence hard since it is far too strong right now. We kept its defensive identity and a weaker blade shield. I do love proc-builds, but I'll cover how to make them work without this weird item in another section.
+> Passion is used as a pre-Ferocity item. Having so little AR and such a low level zeal is really gamebreaking for some builds. I think we can buff it without fear of it becoming better than end-game weapons used in combination with Ferocity. This change aims at making Passion good enough until Ferocity becomes affordable (right now people level & farm with other builds).
 
-*4-Socket Chests*  
-*Gul • Lem • Zod • Hel*  
-*Required Level: 69*
+**4-Socket Weapons**
 
-| Before (current PD2)                            | After                                          |
-|:------------------------------------------------|:-----------------------------------------------|
-| Indestructible                                  | Indestructible                                 |
-| Level [8-12] Blade Shield When Equipped         | Level [1] **Blade Cloud** When Equipped        |
-| +2 to All Skills                                | +2 to All Skills                               |
-| 20% Chance of Crushing Blow                     | 20% Chance of Crushing Blow                    |
-| +[200-275]% Enhanced Defense                    | +[200-275]% Enhanced Defense                   |
-| +4% to Maximum Poison Resist                    | +4% to Maximum Poison Resist                   |
-| Poison Length Reduced by 50%                    | Poison Length Reduced by 50%                   |
-| Attacker Takes Damage of [600-800]              | Attacker Takes Damage of [600-800]             |
-| 50% Extra Gold from Monsters                    | 50% Extra Gold from Monsters                   |
-| Requirements -25%                               | Requirements -25%                              |
+**Dol • Ort • Eld • Lem**
 
-**Blade Cloud** : is a variant of Blade Shield (like Blade Dance for Wirlwind), providing 50-100 damage, 400% AR, but attacking slower (once per second).
+**Required Level:** 43 --> **51**
+
+| Current PD2 | Zagd3m's patch |
+|:--|:--|
+| +25% Increased Attack Speed | +25% Increased Attack Speed |
+| +\[180-230\]% Enhanced Damage | +\[160-210\]% Enhanced Damage |
+| \[50-80\]% Bonus to Attack Rating | **\[150-180\]% Bonus to Attack Rating** |
+| +75% Damage to Undead | +75% Damage to Undead |
+| +50 to Attack Rating against Undead | +50 to Attack Rating against Undead |
+| Adds 1-50 Lightning Damage | Adds 1-50 Lightning Damage |
+| +1 to [Concentrate](https://wiki.projectdiablo2.com/wiki/Concentrate "Concentrate") | +1 to [Concentrate](https://wiki.projectdiablo2.com/wiki/Concentrate "Concentrate") |
+| +1 to [Zeal](https://wiki.projectdiablo2.com/wiki/Zeal "Zeal") | **+8 to [Zeal](https://wiki.projectdiablo2.com/wiki/Zeal "Zeal")** |
+| Hit Blinds Target +10 | Hit Blinds Target +10 |
+| 75% Extra Gold from Monsters | 75% Extra Gold from Monsters |
+| Level 8 [Heart of Wolverine](https://wiki.projectdiablo2.com/wiki/Heart_of_Wolverine "Heart of Wolverine") (36 Charges) | Level 8 [Heart of Wolverine](https://wiki.projectdiablo2.com/wiki/Heart_of_Wolverine "Heart of Wolverine") (36 Charges) |
 
 ---
 
@@ -112,3 +113,28 @@ Battle Wrath is a new skill that grants the following effects (not staking) for 
 - -20% to Enemy Defense
 
 Overall, builds that were using CTA as their damage weapon will appreciate the change. And others, well, sorry but prebuff sucks :p
+
+---
+
+### Innocence {#innocence}
+
+> We nerfed innocence hard since it is far too strong right now. We kept its defensive identity and a weaker blade shield. I do love proc-builds, but I'll cover how to make them work without this weird item in another section.
+
+*4-Socket Chests*  
+*Gul • Lem • Zod • Hel*  
+*Required Level: 69*
+
+| Before (current PD2)                            | After                                          |
+|:------------------------------------------------|:-----------------------------------------------|
+| Indestructible                                  | Indestructible                                 |
+| Level [8-12] Blade Shield When Equipped         | Level [1] **Blade Cloud** When Equipped        |
+| +2 to All Skills                                | +2 to All Skills                               |
+| 20% Chance of Crushing Blow                     | 20% Chance of Crushing Blow                    |
+| +[200-275]% Enhanced Defense                    | +[200-275]% Enhanced Defense                   |
+| +4% to Maximum Poison Resist                    | +4% to Maximum Poison Resist                   |
+| Poison Length Reduced by 50%                    | Poison Length Reduced by 50%                   |
+| Attacker Takes Damage of [600-800]              | Attacker Takes Damage of [600-800]             |
+| 50% Extra Gold from Monsters                    | 50% Extra Gold from Monsters                   |
+| Requirements -25%                               | Requirements -25%                              |
+
+**Blade Cloud** : is a variant of Blade Shield (like Blade Dance for Wirlwind), providing 50-100 damage, 400% AR, but attacking slower (once per second).
