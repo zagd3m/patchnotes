@@ -42,7 +42,7 @@ Remember that hybrid builds need a hybrid gear too ; Rainbow facets aren't multi
 
 Now, there are situations where this would be OP, mostly when it comes to summons. This was simply a starting point to think from.
 
-### With 3% synergies, we'll do less damage than with 20% synergies
+### YESBUT n°1 : With 3% synergies, we'll do less damage than with 20% synergies
 
 Oh really ? Then we need to increase the base damage.
 
@@ -63,7 +63,7 @@ Problem solved, thank you very much.
 
 *Now, the truth is, such a simple approach doesn't take into accound lld / mld and progression in the mid game, so it might be improved. But it's a very reasonable starting point.*
 
-### Congratulations, proc builds are now broken
+### YESBUT n°2 : Congratulations, proc builds are now broken
 
 Do you know what happens when you move damage from synergies to the base damage ? Well, proc builds, at least those that leverage non-synergized spells (from other classes), just got a HUGE buff. That's a fact. As a result, let's acknoledge it.
 
