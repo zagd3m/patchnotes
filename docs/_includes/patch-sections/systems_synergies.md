@@ -1,5 +1,7 @@
 ## Synergies
 
+> TLDR : synergy percents above 3% are almost always a bad idea. 1% is enough more often than you think. Increasing base damage instead of synergies is almost always better. Math below. 
+
 ### Why synergies suck ... and how to fix it
 
 > Synergies are the best way to erradicate build diversity.
