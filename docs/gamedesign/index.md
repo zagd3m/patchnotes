@@ -8,7 +8,7 @@ description: Design reasoning and philosophy behind Project Diablo 2 changes
 
 <!-- --- -->
 
-## Guiding principles {#guiding-principles}
+# Guiding principles {#guiding-principles}
 
 Official PD2 design goals (which I agree with)
 
@@ -16,12 +16,12 @@ Official PD2 design goals (which I agree with)
 2. Quality of life
 3. Balance
 
-My own 3 (which I also agree with)
+My own (which I also agree with)
 
 {:start="4"}
-4. Noob friendlyness : I believe we can get non-d2 players to play PD2 ... if we're noob-friendly enough
-5. Fan service : when the whole community asks for something, something (sometimes slightly different) should be done
-6. Power creep : don't make the game easier with every patch, only to invent harder late game content to compensate
+4. Noob friendlyness : I believe we can get non-d2 players to play PD2 ... if we're noob-friendly enough.
+5. Fan service, including parents : when the largest part of the community asks for something, something (sometimes slightly different) should be done. Not everyone plays PD2 24/7.
+6. Power creep : don't make the game easier with every patch, only to invent harder late game content to compensate. This isn't only about balance, but also about consistency and staying true to the original game.
 
 ---
 
