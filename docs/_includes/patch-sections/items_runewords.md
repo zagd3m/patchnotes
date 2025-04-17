@@ -138,3 +138,12 @@ Overall, builds that were using CTA as their damage weapon will appreciate the c
 | Requirements -25%                               | Requirements -25%                              |
 
 **Blade Cloud** : is a variant of Blade Shield (like Blade Dance for Wirlwind), providing 50-100 damage, 400% AR, but attacking slower (once per second).
+
+### Fortitude
+
+> Fortitude is rarely used for weapons. Let's fix this.
+
+- Level 30 Chilling Armor when equipped
+- ~~+200% Enhanced Defense~~
+- Physical Damage Taken Reduced by 25
+- Deadly strike ~~20%~~ 50%
