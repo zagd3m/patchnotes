@@ -4,6 +4,8 @@ title: Project Diablo 2 Patch Notes
 description: Unofficial futuristic patch notes for Project Diablo 2
 ---
 
+# Zagd3m's PD2 Patch Notes
+
 Welcome to a **FAKE** futuristic patch notes for Project Diablo 2!
 
 - More Build Diversity
