@@ -143,7 +143,21 @@ Overall, builds that were using CTA as their damage weapon will appreciate the c
 
 > Fortitude is rarely used for weapons. Let's fix this.
 
-- Level 30 Chilling Armor when equipped
-- ~~+200% Enhanced Defense~~
-- Physical Damage Taken Reduced by 25
-- Deadly strike ~~20%~~ 50%
+*4-Socket Weapons*  
+*El • Sol • Dol • Lo*  
+*Required Level: 59*
+
+| Current PD2 | Zagd3m's patch |
+|:--- |:--- |
+| +25% Faster Cast Rate | +25% Faster Cast Rate |
+| +[325-375]% Enhanced Damage | +[325-375]% Enhanced Damage |
+| +9 to Minimum Damage | +9 to Minimum Damage |
+| +50 to Attack Rating | +50 to Attack Rating |
+| 20% Deadly Strike | **50% Deadly Strike** |
+| +200% Enhanced Defense | **Removed** |
+| +[1-148] to Life (+[1-1.5] per Character Level) | +[1-148] to Life (+[1-1.5] per Character Level) |
+| All Resistances +[25-30] | All Resistances +[25-30] |
+| 12% Damage Taken Gained as Mana when Hit | 12% Damage Taken Gained as Mana when Hit |
+| +1 to Light Radius | **Removed** |
+| - | **Level 30 Chilling Armor when equipped** |
+| - | **Physical Damage Taken Reduced by 25** |
