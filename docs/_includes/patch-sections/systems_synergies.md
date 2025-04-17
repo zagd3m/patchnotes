@@ -1,5 +1,7 @@
 ## Synergies
 
+> TLDR : synergy percents above 3% are almost always a bad idea. 1% is enough more often than you think. Increasing base damage instead of synergies is almost always better. Math below. 
+
 ### Why synergies suck ... and how to fix it
 
 > Synergies are the best way to erradicate build diversity.
@@ -13,7 +15,7 @@ Let me give you an example.
 - If you max only 1 of them, you deal 37,6% of the max damage.
 - If you max none, you deal 6,49% of the max damage !!!
 
-This means that Teeth is only playeable with almost all synergies maxed.
+> This means that Teeth is only playeable with all synergies maxed. Freeing points for a secondary spell isn't an option. Diversity is prevented.
 
 Now what If I wanted to play a Teeth / Poison Nova nec ? Well, I can't. There's no way both spells can be impactful enough to justify the hybrid build. A good question though is : what would be the **right** damage penalty in this case ? I mean, I agree that a hybrid build should be weaker than a dedicated build, but how much weaker ? Since I can't cast both spells at once, but the poison damage lasts for some time, I suppose somewhere 80% damage on both would make sense.
 
@@ -42,7 +44,7 @@ Remember that hybrid builds need a hybrid gear too ; Rainbow facets aren't multi
 
 Now, there are situations where this would be OP, mostly when it comes to summons. This was simply a starting point to think from.
 
-### With 3% synergies, we'll do less damage than with 20% synergies
+### YESBUT n°1 : With 3% synergies, we'll do less damage than with 20% synergies
 
 Oh really ? Then we need to increase the base damage.
 
@@ -63,7 +65,7 @@ Problem solved, thank you very much.
 
 *Now, the truth is, such a simple approach doesn't take into accound lld / mld and progression in the mid game, so it might be improved. But it's a very reasonable starting point.*
 
-### Congratulations, proc builds are now broken
+### YESBUT n°2 : Congratulations, proc builds are now broken
 
 Do you know what happens when you move damage from synergies to the base damage ? Well, proc builds, at least those that leverage non-synergized spells (from other classes), just got a HUGE buff. That's a fact. As a result, let's acknoledge it.
 
