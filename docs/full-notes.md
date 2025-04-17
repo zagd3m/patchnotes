@@ -16,6 +16,8 @@ Please remember we are talking about FAKE patch notes. This is a huge feedback t
 
 --- -->
 
+# Complete Patch Notes
+
 > ### Quick links
 > 
 > - [Classes](#classes-changes)
