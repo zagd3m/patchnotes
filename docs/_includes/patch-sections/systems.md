@@ -1,8 +1,4 @@
-# Systems Changes
-
----
-
-{% include patch-sections/systems_synergies.md %}
+# Systems Changes {#systems-changes}
 
 ---
 
@@ -11,6 +7,10 @@
 ---
 
 {% include patch-sections/systems_maps.md %}
+
+---
+
+{% include patch-sections/systems_synergies.md %}
 
 ---
 

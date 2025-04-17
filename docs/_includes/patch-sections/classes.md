@@ -1,4 +1,4 @@
-# Classes Changes
+# Classes Changes {#classes-changes}
 
 {% include patch-sections/classes_amazon.md %}
 

@@ -16,6 +16,12 @@ Please remember we are talking about FAKE patch notes. This is a huge feedback t
 
 --- -->
 
+> ### Quick links
+> 
+> - [Classes](#classes-changes)
+> - [Items](#items-changes)
+> - [Systems](#systems-changes)
+
 {% include patch-sections/classes.md %}
 
 ---
