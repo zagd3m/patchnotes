@@ -1,6 +1,9 @@
-# Systems Changes {#systems-changes}
-
 ---
+title: Systems Changes
+order: 3
+---
+
+# Systems Changes {#systems-changes}
 
 {% include patch-sections/systems_simplifying.md %}
 

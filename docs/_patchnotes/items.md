@@ -1,6 +1,9 @@
-# Items Changes {#items-changes}
-
 ---
+title: Items Changes
+order: 2
+---
+
+# Items Changes {#items-changes}
 
 {% include patch-sections/items_unique_weapons.md %}
 

@@ -24,12 +24,9 @@ Please remember we are talking about FAKE patch notes. This is a huge feedback t
 > - [Items](#items-changes)
 > - [Systems](#systems-changes)
 
-{% include patch-sections/classes.md %}
-
+{% assign sorted_sections = site.patchnotes | sort: 'order' %}
+{% for section in sorted_sections %}
+<!-- ## {{ section.title }} -->
+{{ section.content }}
 ---
-
-{% include patch-sections/items.md %}
-
----
-
-{% include patch-sections/systems.md %}
+{% endfor %}

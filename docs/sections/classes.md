@@ -3,4 +3,5 @@ layout: default
 title: Classes Changes
 ---
 
-{% include patch-sections/classes.md %}
+{% assign section = site.patchnotes | where: "title", "Classes Changes" | first %}
+{{ section.content }}

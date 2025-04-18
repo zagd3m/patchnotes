@@ -3,4 +3,5 @@ layout: default
 title: Items Changes
 ---
 
-{% include patch-sections/items.md %}
+{% assign section = site.patchnotes | where: "title", "Items Changes" | first %}
+{{ section.content }}

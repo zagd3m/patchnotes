@@ -1,3 +1,8 @@
+---
+title: Classes Changes
+order: 1
+---
+
 # Classes Changes {#classes-changes}
 
 {% include patch-sections/classes_amazon.md %}

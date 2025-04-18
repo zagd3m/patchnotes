@@ -3,4 +3,5 @@ layout: default
 title: Systems Changes
 ---
 
-{% include patch-sections/systems.md %}
+{% assign section = site.patchnotes | where: "title", "Systems Changes" | first %}
+{{ section.content }}
