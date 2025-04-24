@@ -1,6 +1,8 @@
 - name: Home
-  link: /patchnotes/
+  link: /
 - name: Game Design
-  link: /patchnotes/gamedesign
+  link: /gamedesign
 - name: Full Patch Notes
-  link: /patchnotes/full-notes
+  link: /full-notes
+- name: Builds & Guides
+  link: /builds/

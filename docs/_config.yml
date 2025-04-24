@@ -42,7 +42,10 @@ gist:
 collections:
   patchnotes:
     output: true
-    permalink: /patchnotes/sections/:name/
+    permalink: /:name/
+  builds:
+    output: true
+    permalink: /builds/:name/
 
 kramdown:
   math_engine: mathjax
@@ -58,6 +61,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-google_search_console_verification_file
   - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: "builds"
+    values:
+      layout: "build"
 
 google_search_console:
   verification_file_code: 87963778c937225b
