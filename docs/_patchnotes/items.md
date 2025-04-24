@@ -41,3 +41,11 @@ The following items have had their affix pool improved to be more viable as magi
 ### Arrows and Quivers
 
 Arrows and Quivers are now 10 times less likely to drop. This should fix the situation where they aren't worth id-ing, and where they clutter the screen. Their affix pool has been slightly improved to compensate, by removing some trash affixes.
+
+### Balancing bases
+
+#### Battle Cestus
+
+> By far the worst base, please buff ^^
+
+Base damage increased by ~5
