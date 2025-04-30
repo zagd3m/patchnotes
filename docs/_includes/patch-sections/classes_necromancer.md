@@ -2,7 +2,9 @@
 
 ### Iron Golem {#iron-golem}
 
-Coming soon
+Coming soon.
+
+> Spoiler : iron golems won't be providing an item's aura anymore.
 
 ### Bone Armor
 
