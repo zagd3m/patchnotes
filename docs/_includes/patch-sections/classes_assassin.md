@@ -31,6 +31,14 @@ Changed the attack speed formula to make Dragon Claw easier to understand:
 
 This means that a 6fpa build would do both hits in 10 frames. Simple. Clear. Nothing substantial lost in the process.
 
+#### Dragon Flight {#dragon-flight}
+
+> Dflight is great, but too strong as a 1-pt wonder, and too reliant on Stalker's cull.
+
+- Cooldown: ~~2~~ **2.5** seconds
+- **Hard points now reduce the cooldown by .1 seconds (reaching .5 second at 20 points)**
+- **There is no item in the game** reducing the cooldown of DFlight [anymore](full-notes#stalker).
+
 #### Wake of Inferno
 
 > Make it viable for mapping.

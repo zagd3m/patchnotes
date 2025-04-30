@@ -100,3 +100,35 @@ No longer reduces Joust cooldown.
 | -[5-10] to Enemy Fire Resistance | -15% to Enemy Fire Resistance (\[10-15\]) | **Removed** |
 | Fire Resist +(\[30-50\])% | Fire Resist +(\[30-50\])% | **Removed** |
 | - | - | **Cold Resist -20%** |
+
+#### Mage Slayer {#mage-slayer}
+
+[![](https://static.wikitide.net/projectdiablo2wiki/6/6a/Mage_Slayer.png)](https://wiki.projectdiablo2.com/wiki/File:Mage_Slayer.png)
+
+> Mage Slayer has 2 issues : slaying mages doesn't require pdr%, and it is bad. Here we try to give it an identity and a purpose throughout the game, while staying true to its name.
+
+- **Level 16 Energy Shield When Equipped**
+- ~~- +[2-247]%~~ **+[2-347]%** Enhanced Maximum Damage (~~+2.5%~~ **+3.5%** per Character Level)
+- ~~Physical Damage Taken Reduced by [10-15]%~~
+- ~~Adds 10-25 Damage~~
+- ~~+[10-15] to Strength~~ **+[1-49] to Strength** (**+0.5** per Character Level)
+- **Magic Damage Taken Reduced by [3-6]**
+- **15% Damage Taken Gained as Mana when Hit**
+- **25% Better Chance of Getting Magic Items**
+
+#### Bartuc's Cut-Throat
+
+> Small nerf to make room for other options
+
+- +[200-~~300~~**280**]% Enhanced Damage
+
+#### Stalker's Cull {#stalker}
+
+> Cooldown reduction isn't healthy for the game, as it reduced items diversity for fast dflight builds. See changes to [Dragon Flight](full-notes#dragon-flight). We want it to be the Deadly Strike option amongst uniques claws, instead of being the CDR claw it used to be (hi trapsins).
+
+- ~~Dragon Flight's Cooldown is Reduced by 0.5 Seconds~~
+- [20-~~30~~**40**]% Deadly Strike
+
+#### Shadow Killer
+
+> Indirect buff because of the Battle Cestus changes.
