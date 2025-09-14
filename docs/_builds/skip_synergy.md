@@ -27,6 +27,8 @@ Just read the graph:
 - X axis shows the % of the synergy, for example 7% for Charged Bolt
 - Y axis shows your total damage divided by the total damage if all synergies were maxxed
 
+*Note that the formulas use work for spells (Blessed Hammer, Vulcano, ...), physical skills (like Zeal) work a bit differently.*
+
 ## Key takeaways
 
 I'll express the takeaways in "damage lost", since that's probably how you think about it.
@@ -123,3 +125,7 @@ Examples below from in game testing.
 - 45-52 = 26
 - 110-126 = 63
 - 174/200 -->
+
+---
+
+*Note: this post is only accurate for spells (like Nova, Chain Lightning, etc.). It is not intended for physical skills (like Zeal, Multiple Shot, etc.).*

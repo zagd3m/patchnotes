@@ -18,9 +18,12 @@ Removed mechanics where you have to talk to an NPC to access a specific portal o
 
 ### Gambling
 
-Increase the cost of gambled items significantly (around x10).
-Reduce the likelihood of getting a magic item, so that crafted items have more chances of being valuable.
+- Increase the cost of gambled items significantly (around x10).
+- Reduce the likelihood of getting a magic item, so that crafted items have more chances of being valuable.
+
 Overall this shouldn't make crafting better or worse, simply faster since we'd skip the crap.
+
+*Note : this would hurt gambling to craft items, but that's probably a good thing (it makes gold more valuable + it encourages using bases found from mobs).*
 
 ### Prebuffing
 

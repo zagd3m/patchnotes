@@ -52,6 +52,13 @@ This moves Conviction from "break immunities AND lower resistances" to "break im
 
 ### Skills - Combat skills
 
+#### Zeal
+
+> Zeal paladins need some help with mobility.
+
+- Sacrifice synergy removed
+- Joust synergy added (with the same %)
+
 #### Joust
 
 > We want Joust to have the opportunity to be a main skill.

@@ -80,6 +80,86 @@
 
 No longer reduces Joust cooldown.
 
+### Bows
+
+#### Endlesshail
+
+> Using Endlesshail for leveling or for Meme builds means facing AR/leech issues, that this Strafe buff should help alleviate.
+
+| Current PD2 | Zagd3m's patch |
+| :--|:--|
+| 6% Chance to Cast Level 24 [Blizzard](https://wiki.projectdiablo2.com/wiki/Blizzard "Blizzard") on Striking | **10% Chance to Cast Level 24 [Blizzard](https://wiki.projectdiablo2.com/wiki/Blizzard "Blizzard") on Striking** |
+| +\[180-220\]% Enhanced Damage | +\[180-220\]% Enhanced Damage |
+| Adds 15-30 Cold Damage | Adds 15-30 Cold Damage |
+| +\[3-5\] to [Strafe](https://wiki.projectdiablo2.com/wiki/Strafe "Strafe") | **+\[10-12\] to [Strafe](https://wiki.projectdiablo2.com/wiki/Strafe "Strafe")** |
+| Cold Resist +35% | Cold Resist +35% |
+| +40 to Mana | +40 to Mana |
+
+#### Widowmaker
+
+> Let's make Widowmaker more relevant in the early game for Meme builds (sorcs / paladins mostly) by increasing the number of arrows fired.
+
+| Current PD2 | Zagd3m's patch |
+| :--|:--|
+| Fires [Magic Arrows](https://wiki.projectdiablo2.com/wiki/Magic_Arrow "Magic Arrow") (Level 11) | Fires [Magic Arrows](https://wiki.projectdiablo2.com/wiki/Magic_Arrow "Magic Arrow") (Level 11) |
+| +\[275-350\]% Enhanced Damage | **+\[250-320\]% Enhanced Damage** |
+| Ignore Target's Defense | Ignore Target's Defense |
+| 33% Deadly Strike | 33% Deadly Strike |
+| +\[3-5\] to [Guided Arrow](https://wiki.projectdiablo2.com/wiki/Guided_Arrow "Guided Arrow") | **+\[10-12\] to [Guided Arrow](https://wiki.projectdiablo2.com/wiki/Guided_Arrow "Guided Arrow")** |
+| +\[3-5\] to [Multiple Shot](https://wiki.projectdiablo2.com/wiki/Multiple_Shot "Multiple Shot") | **+\[10-12\] to [Multiple Shot](https://wiki.projectdiablo2.com/wiki/Multiple_Shot "Multiple Shot")** |
+
+By buffing MS's level, we're also indirectly adding some AR, just as what the team did with Passion, and it is welcome indeed.
+
+### Crossbows
+
+#### Gut Siphon
+
+> Gut Siphon is still a bit off, and hasn't really found its identity. I really like the desecrate procs (for DS builds for example), but apart from that, I'm not sure. Let's buff its strengths and reinforce its identity.
+
+| Current PD2 | Zagd3m's patch |
+| :--|:--|
+| -10% to Enemy Physical Resistance | -10% to Enemy Physical Resistance |
+| 12% Chance to Cast Level 28 [Desecrate](https://wiki.projectdiablo2.com/wiki/Desecrate "Desecrate") on Striking | **24% Chance to Cast Level 28 [Desecrate](https://wiki.projectdiablo2.com/wiki/Desecrate "Desecrate") on Striking** |
+| +45% Chance to Pierce | +45% Chance to Pierce |
+| +\[340-400\]% Enhanced Damage | +\[340-400\]% Enhanced Damage |
+| \[6-8\]% Life Stolen per Hit | **Removed** |
+| 33% Chance of Open Wounds | 33% Chance of Open Wounds |
+| +1450 Open Wounds Damage per Second | **+1950 Open Wounds Damage per Second** |
+| Slows Target by 10% | Slows Target by 10% |
+| Drain Life -30 | **Removed** |
+
+#### Hellrack
+
+> Hellrack is, well, sometimes used. But never for one of its strengths: elemental damage. Let's see if, with some buffs, it becomes interesting.
+
+| Current PD2 | Zagd3m's patch |
+| :--|:--|
+| -10% to Enemy Fire Resistance | -10% to Enemy Fire Resistance |
+| +\[4-6\] to Fire Skills | +\[4-6\] to Fire Skills |
+| +60% Increased Attack Speed | +60% Increased Attack Speed |
+| +\[180-230\]% Enhanced Damage | +\[180-230\]% Enhanced Damage |
+| \[100-150\]% Bonus to Attack Rating | \[100-150\]% Bonus to Attack Rating |
+| Adds 63-324 Fire Damage | **Adds 99-499 Fire Damage** |
+| Adds 63-324 Lightning Damage | **Adds 1-999 Lightning Damage** |
+| Adds 63-324 Cold Damage | **Adds 199-299 Cold Damage** |
+| Socketed \[3-5\] | Socketed \[3-5\] |
+
+Note that those buffs are a start, maybe it will need even more buffs to become impactful enough.
+
+#### New Unique - Pellet Bow
+
+> There's room for a elite unique crossbow that serves as the Stone Crusher of ranged weapons. Let's see if there's room for this.
+
+| New item |
+|:--|
+| -[10-15]% to Enemy Physical Resistance |
+| +[300-350]% Enhanced Damage |
+| -25% Target Defense |
+| +20% Chance of Crushing Blow |
+| +50 to Life |
+
+The goal would be to compete with Buriza-Do Kyanon on the "raw damage" aspect, with less focus on attack speed, forcing itemization optimization.
+
 ### Class specific weapons - Assassin
 
 #### Firelizard's Talons {#firelizard-s-talons}

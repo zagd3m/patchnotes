@@ -145,6 +145,8 @@ Infinity received an indirect nerf, because of [conviction changes](#conviction)
 
 **Blade Cloud** : is a variant of Blade Shield (like Blade Dance for Wirlwind), providing 50-100 damage, 400% AR, but attacking slower (once per second).
 
+---
+
 ### Fortitude (weapon)
 
 > Fortitude is rarely used for weapons. Let's fix this.
@@ -167,3 +169,25 @@ Infinity received an indirect nerf, because of [conviction changes](#conviction)
 | +1 to Light Radius | **Removed** |
 | - | **Level 30 Chilling Armor when equipped** |
 | - | **Physical Damage Taken Reduced by 25** |
+
+---
+
+### Faith
+
+> Faith is too strong on mercs, and not strong enough on players.
+
+| Current PD2 | Zagd3m's patch |
+|:--- |:--- |
+| Level \[12-15\] Fanaticism Aura when Equipped | **Level 10 [Fanaticism](https://wiki.projectdiablo2.com/wiki/Fanaticism "Fanaticism") Aura when Equipped** |
+| +[325-345]% Enhanced Damage | **+[350-400]% Enhanced Damage** |
+| - | **+[30-40]% Increased Attack Speed** |
+| Ignore Target's Defense | Ignore Target's Defense |
+| 300% Bonus to Attack Rating | 300% Bonus to Attack Rating |
+| +75% Damage to Undead | +75% Damage to Undead |
+| +50 to Attack Rating against Undead | +50 to Attack Rating against Undead |
+| +120 Fire Damage | +120 Fire Damage |
+| All Resistances +15 | All Resistances +15 |
+| \[6-8\]% Reanimate As: Returned | \[6-8\]% Reanimate As: Returned |
+| 75% Extra Gold from Monsters | 75% Extra Gold from Monsters |
+
+Bringing Fanaticism's aura to Beast's level should also help balance Faith around characters instead of Mercs.
