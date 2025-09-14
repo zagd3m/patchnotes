@@ -9,7 +9,7 @@ order: 8
 
 How much (in % of max dmg) is lost when skipping one (or several) synergies ?
 
-<img src="{{ site.baseurl }}/assets/img/skip.png" alt="Skip Synergy Analysis" style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/img/skip.png" alt="Skip Synergy Analysis" class="responsive-img">
 
 ## Why this question ?
 
@@ -42,7 +42,7 @@ I'll express the takeaways in "damage lost", since that's probably how you think
 
 I suppose the math here clearly shows that synergies play a very impactful role in PD2. They would be extremely impactful at 2-4% already, and most of them sit around 15-20%. This isn't a feedback post, but if you're interested in such a post, [check it here]({{ site.baseurl }}/full-notes#synergies).
 
-<img src="{{ site.baseurl }}/assets/img/skip_few.png" alt="Skip Synergy Analysis" style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/img/skip_few.png" alt="Skip Synergy Analysis" class="responsive-img">
 
 A spell at 2% synergies would have :
 
@@ -55,15 +55,15 @@ It still seems fair ! This shows how impactful synergies are, even at low percen
 
 ### 3 synergies spells
 
-<img src="{{ site.baseurl }}/assets/img/skip_3.png" alt="Skip Synergy Analysis" style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/img/skip_3.png" alt="Skip Synergy Analysis" class="responsive-img">
 
 ### 2 synergies spells
 
-<img src="{{ site.baseurl }}/assets/img/skip_2.png" alt="Skip Synergy Analysis" style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/img/skip_2.png" alt="Skip Synergy Analysis" class="responsive-img">
 
 ### 1 synergy spells
 
-<img src="{{ site.baseurl }}/assets/img/skip_1.png" alt="Skip Synergy Analysis" style="width: 100%; max-width: 800px; height: auto; display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/img/skip_1.png" alt="Skip Synergy Analysis" class="responsive-img">
 
 ## Case studies (of builds with unmaxed synergies)
 
