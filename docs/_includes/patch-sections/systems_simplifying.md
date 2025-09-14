@@ -18,7 +18,7 @@ So let's fix this. (section in progress, TODO).
 
 ### Skill IAS
 
-Skill IAS makes computing breakpoints very complex and tedious. Therefore, it breaks the QoL and Noob Friendliness principles / pillars. Let's fix this.
+> Skill IAS makes computing breakpoints very complex and tedious. Therefore, it breaks the QoL and Noob Friendliness principles / pillars. Let's fix this.
 
 The formula has been changed from :
 
@@ -34,11 +34,11 @@ AnimRate + EIAS - WSM
 where EIAS = 120 * (SIAS + ItemIAS) / (120 + (SIAS + ItemIAS))
 ```
 
-Effectively, this means that IAS from skills (BoS, Fanaticism, ...) would count just like IAS from gear, instead of affecting a specific (and very effective) part of the formula. Simple. Obviously some skills and builds would need to be rebalanced, and a new (a lot simpler) calculator would need to be implemented, but that would be MUCH simpler.
+Effectively, this means that IAS from skills (BoS, Fanaticism, ...) would count just like IAS from gear, instead of affecting a specific (and very effective) part of the formula. Simple. Obviously some skills and builds would need to be rebalanced, and a new (a lot simpler) calculator would need to be implemented, but that would make everything MUCH simpler and noob friendly.
 
 ### Fluid breakpoints
 
-Breakpoints are a thing that we should fix. 
+> Breakpoints make optimization interesting, but it also means some stats are completely useless. We can have both !
 
 #### How it works now
 
@@ -78,9 +78,11 @@ For IAS, FHR, FCR, FBR, ...
 
 ### Unuseful mods
 
-Mods that's weren't really useful have been removed.
+> Mods (affixes) that weren't really useful have been removed.
 
-If you find someone telling you this would indirectly buff rares/crafts, please note that (1) they need this and (2) rares are balanced by optimal combinations of mods, not by the possibility of trash mods. This has always been the case and will always still be.
+If you find someone telling you this would indirectly buff rares/crafts, please note that (1) they need this and (2) rares are balanced by optimal combinations of mods, not by the possibility of trash mods. This has always been the case and will always still be. Let them enjoy their fcr/ar/ias weapon, while we make the game better.
+
+> Less troll : crappy affixes aren't the solution, and we could add more affixes that have a chance to be good instead.
 
 #### Prevent Monster Heal
 
@@ -99,3 +101,9 @@ That's it. Now, what we need is to buff the numbers until this starts being real
 Replaced by replenish mana, which is equivalent to replenish life. This is easier to understand, and it won't be broken anyway.
 
 All items that were giving mana regeneration should now be giving replenish mana.
+
+#### Elemental damage on bows/crossbows/arrows/quivers
+
+Elemental damage (+fire damage for example) on bows/crossbows/projectiles is ... trash. But the could be buffed until they are good enough to be considered as a real addition to one's damage, and can therefore be kept in the affix pool, not as trash, but as a flavourful (is that a word?) option.
+
+Just buff the numbers.

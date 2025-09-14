@@ -65,3 +65,7 @@ Synergies changed:
 - Wake of Inferno: +8% Damage per Level
 
 The goal here is to make DS a dedicated build, where players use it as a main skill, so we put weird synergies to avoid making it a fire or light spell. Also, we didn't pick the same synergies as WoI, so that WoI players have to choose if they want to add 20 extra points into CBS for more DS damage. I think this is meaningful choice, with both pure WoI and pure DS and hybrid builds being viable.
+
+#### BoS
+
+> Note: BoS has also been impacted by the [skill IAS](#skill-ias) change, though the values have been adjusted to compensate.

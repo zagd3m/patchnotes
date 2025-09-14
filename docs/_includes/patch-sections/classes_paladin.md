@@ -26,6 +26,10 @@ Rough values would be like :
 
 These changes give Concentration a cleared identity, and a role in builds that need more than raw damage.
 
+#### Fanaticism
+
+> Note: Fanaticism has also been impacted by the [skill IAS](#skill-ias) change, though the values have been adjusted to compensate.
+
 #### Conviction
 
 > Conviction is really, really strong. It breaks immunities, lowers resistances, lowers defense, and applies instantly. Like, 10x better than Lower Resist. This needs a strong rework. Here's what I suggest.

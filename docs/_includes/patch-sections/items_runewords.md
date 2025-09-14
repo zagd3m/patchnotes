@@ -54,7 +54,7 @@
 
 ### Passion
 
-> Passion is used as a pre-Ferocity item. Having so little AR and such a low level zeal is really gamebreaking for some builds. I think we can buff it without fear of it becoming better than end-game weapons used in combination with Ferocity. This change aims at making Passion good enough until Ferocity becomes affordable (right now people level & farm with other builds).
+> I'd like to thank Senpai for buffing it from +1 to +10, as suggested here. Some of the feedbacks sometimes make it to the real game !
 
 **4-Socket Weapons**
 
@@ -70,8 +70,8 @@
 | +75% Damage to Undead | +75% Damage to Undead |
 | +50 to Attack Rating against Undead | +50 to Attack Rating against Undead |
 | Adds 1-50 Lightning Damage | Adds 1-50 Lightning Damage |
-| +1 to [Concentrate](https://wiki.projectdiablo2.com/wiki/Concentrate "Concentrate") | +1 to [Concentrate](https://wiki.projectdiablo2.com/wiki/Concentrate "Concentrate") |
-| +1 to [Zeal](https://wiki.projectdiablo2.com/wiki/Zeal "Zeal") | **+8 to [Zeal](https://wiki.projectdiablo2.com/wiki/Zeal "Zeal")** |
+| +10 to [Concentrate](https://wiki.projectdiablo2.com/wiki/Concentrate "Concentrate") | +10 to [Concentrate](https://wiki.projectdiablo2.com/wiki/Concentrate "Concentrate") |
+| +10 to [Zeal](https://wiki.projectdiablo2.com/wiki/Zeal "Zeal") | +10 to [Zeal](https://wiki.projectdiablo2.com/wiki/Zeal "Zeal") |
 | Hit Blinds Target +10 | Hit Blinds Target +10 |
 | 75% Extra Gold from Monsters | 75% Extra Gold from Monsters |
 | Level 8 [Heart of Wolverine](https://wiki.projectdiablo2.com/wiki/Heart_of_Wolverine "Heart of Wolverine") (36 Charges) | Level 8 [Heart of Wolverine](https://wiki.projectdiablo2.com/wiki/Heart_of_Wolverine "Heart of Wolverine") (36 Charges) |
@@ -104,15 +104,13 @@
 | 30% Better Chance of Getting Magic Items | **60% Better Chance of Getting Magic Items** |
 | - | **10% chance to cast level 1 Battle Wrath on kill** |
 
-**NOTE:** [Battle Orders](https://wiki.projectdiablo2.com/wiki/Battle_Orders "Battle Orders") has been reworked and now grants a flat amount of life/mana. For example, +6 Battle Orders grants +125 Life instead of +50% Life
-
 Battle Wrath is a new skill that grants the following effects (not staking) for 20 seconds:
 
 - +125 life
 - +20% Faster Run/Walk
 - -20% to Enemy Defense
 
-Overall, builds that were using CTA as their damage weapon will appreciate the change. And others, well, sorry but prebuff sucks :p
+Overall, builds that were using CTA as their damage weapon will appreciate the change. And others, well, sorry but *prebuff sucks* :p
 
 ---
 
@@ -147,7 +145,7 @@ Infinity received an indirect nerf, because of [conviction changes](#conviction)
 
 **Blade Cloud** : is a variant of Blade Shield (like Blade Dance for Wirlwind), providing 50-100 damage, 400% AR, but attacking slower (once per second).
 
-### Fortitude
+### Fortitude (weapon)
 
 > Fortitude is rarely used for weapons. Let's fix this.
 

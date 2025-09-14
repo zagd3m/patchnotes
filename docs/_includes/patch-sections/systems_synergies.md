@@ -77,7 +77,9 @@ First, let me make a few things clear:
 - Proc builds are weak (apart from a few exceptions)
 - Proc builds have been buffed by the addition of Innocence, but that's something we already fixed (see our changed to Innocence)
 
-Overall, I think this isn't a fair objection to the synergy change we are doing. Yes we need to nerf synergies, and then we can balance proc levels accordingly. Simple.
+Overall, I think this isn't a fair objection to the synergy change we are doing.
+
+Yes we need to nerf synergies, and then we can balance proc levels accordingly. That is simple : the math is straightforward.
 
 ### Conclusion regarding synergies
 

@@ -14,21 +14,12 @@
 - Boots: **5 Mana after each Kill (3 items)**
 - Gloves: **+10% Faster Cast Rate (3 items)**
 
-### Hwanin's Majesty (Uncommon)
-
-> Moving bonuses from complete set to partial set bonuses.
-
-- Hwanin's Splendor: **All Resistances +[1-33] (+0.3 per Character Level) (3 items)**
-- Hwanin's Refuge: **+[1-99]% (+1 per Character Level) Damage to Demons (3 items)**
-- Hwanin's Blessing: **+30% Faster Run/Walk (3 items)**
-- Complete Set: **Level 13 Holy Shock aura**
-
 ### The Disciple (Uncommon)
 
 > Moving bonuses from complete set to partial set bonuses and buffing the amulet.
 
-- Laying of Hands: **+50% enhanced damage (3 items)** (we put the buff here since this is rlvl 63, thus preventing mld issues)
-- Credendum: **+50% enhanced damage (2 items)** (same)
+- Laying of Hands: **+30% enhanced damage (3 items)** (we put the buff here since this is rlvl 63, thus preventing mld issues)
+- Credendum: **+30% enhanced damage (2 items)** (same)
 - Telling of Beads: ~~+1 to All Skills~~ **+2 to All Skills**
 - Telling of Beads: ~~Attacker Takes Damage of [24-30]~~ **Attacker Takes Damage of [10-990] (+10 per Character Level)** (4 items)
 - Set Bonuses:
@@ -38,6 +29,8 @@
   - **50% Better Chance of Getting Magic Items (Complete Set)**
 
 ### Naj's Ancient Vestige (Uncommon)
+
+> The rlvl on Naj's Puzzler is puzzling.
 
 - Naj's Circlet: ~~+1 to All Skills (2 Items)~~ **+2 to All Skills (2 Items)**
 - Naj's Puzzler:

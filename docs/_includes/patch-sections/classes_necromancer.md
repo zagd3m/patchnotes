@@ -22,3 +22,11 @@ Synergies changed:
 - Gains +3 Additional Absorb per Energy
 - Bone Wall: ~~+15~~ **10** Damage Absorbed per Level
 - Bone Prison: ~~+15~~ **10** Damage Absorbed per Level
+
+### Bone Spirit
+
+> Almost never used for mapping
+
+- Bone Spirit now explodes into a Bone Nova on impact.
+
+This should give it some AoE.
