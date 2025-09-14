@@ -7,9 +7,17 @@
 - Chilling Armor synergy removed
 - Warmth synergy added
 
+### Inferno (QoL)
+
+> Inferno's width is a bit thin close to the sorc. Missing enemies in melee range is pretty common.
+
+- Moved the cone back a little bit to gain some initial width, as if the spell was cast slightly behind the sorc.
+
 ---
 
 > Sorceress spells have more synergies than needed, since they also require Element Mastery. Let's clean this a bit.
+
+---
 
 ### Ice Blast
 
