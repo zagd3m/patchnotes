@@ -2,9 +2,14 @@
 
 ### Iron Golem {#iron-golem}
 
-Coming soon.
+> Free auras are power creep. Nonsense !
 
-> Spoiler : iron golems won't be providing an item's aura anymore.
+- Iron golems are no longer cast on items, but instead summoned normally (as other summons)
+- Iron golems are destroyed when your mercenary's item is changed or removed
+- Iron golems use your Mercenary's weapon
+- You can now have 5 iron golems, just like any other golem
+
+This makes IG pretty appealing for necros and other classes, without providing an additional aura. Feel free to use them with Doom or Infinity though. It might also be nice to pair IGs with other golems.
 
 ### Bone Armor
 

@@ -1,6 +1,6 @@
 ## Paladin
 
-### Skills
+### Skills - Defensive auras
 
 #### Prayer
 
@@ -15,14 +15,38 @@ Rough values would be like :
 - Level 40 : 20
 - Level 60 : 30
 
+### Skills - Offensive auras
+
 #### Concentration
 
 > Concentration has two main issues : (1) no clear identity and (2) mandatory for hammerdins. Let's fix both.
 
-- Your Blessed Hammer Skill Damage +% **lowered** from 30-472% to 10-50%. This is already huge, but I can see how people could use another aura and accept ~40% less damage in exchange.
+- Your Blessed Hammer Skill Damage +% **lowered** from 30-472% to 10-50%. This is already HUGE, but I can see how people could - on meme builds - use another aura and accept ~40% less damage in exchange.
 - **Lowered** AR and ED, but now grants a good amount of **AR/ED against Demons**.
 
 These changes give Concentration a cleared identity, and a role in builds that need more than raw damage.
+
+#### Conviction
+
+> Conviction is really, really strong. It breaks immunities, lowers resistances, lowers defense, and applies instantly. Like, 10x better than Lower Resist. This needs a strong rework. Here's what I suggest.
+
+##### Option 1 - slight nerf to infinity, conviction unchanged
+
+- Radius nerfed to 12 + 1 per hard point.
+
+This means [Infinity](#infinity) would use a range of 12 (equivalent to Nova, sorceress spell), while a paladin with a lvl 30 conviction would hit 12 + 20 = 31, almost unchanged from current value (34). That nerf would mostly affect the Infinity item without hurting paladins.
+
+##### Option 2 - strong rework, new identity
+
+- Vengeance damage increased significantly
+- Conviction no longer reduces resistances
+- Immune monsters affected by conviction have their resistances set to 90% - 0.5 per soft point - 0.5 per hard points
+
+This moves Conviction from "break immunities AND lower resistances" to "break immunities". It also keeps [Infinity](#infinity) as a key item for LoD, but a bit less so for maps, flattening the late game power curve a bit.
+
+> Such a massive change would require rebalancing several skills. A short term solution could be to keep *some* form of resistance reduction, lowering it season by season until it can be removed entirely. This would make the balance team's work a lot easier.
+
+### Skills - Combat skills
 
 #### Joust
 

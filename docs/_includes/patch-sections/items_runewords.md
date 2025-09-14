@@ -116,6 +116,14 @@ Overall, builds that were using CTA as their damage weapon will appreciate the c
 
 ---
 
+### Infinity
+
+> Infinity is very very strong. Some builds can't work without, at all.
+
+Infinity received an indirect nerf, because of [conviction changes](#conviction), reducing its strength on long-range builds.
+
+---
+
 ### Innocence {#innocence}
 
 > We nerfed innocence hard since it is far too strong right now. We kept its defensive identity and a weaker blade shield. I do love proc-builds, but I'll cover how to make them work without this weird item in another section.
