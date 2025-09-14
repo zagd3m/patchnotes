@@ -17,6 +17,8 @@ Let me give you an example.
 
 > This means that Teeth is only playeable with all synergies maxed. Freeing points for a secondary spell isn't an option. Diversity is prevented.
 
+> A more visual analysis of the issue can be found here : [Should you skip that synergy ?]({{ site.baseurl }}/builds/skip-synergy/).
+
 Now what If I wanted to play a Teeth / Poison Nova nec ? Well, I can't. There's no way both spells can be impactful enough to justify the hybrid build. A good question though is : what would be the **right** damage penalty in this case ? I mean, I agree that a hybrid build should be weaker than a dedicated build, but how much weaker ? Since I can't cast both spells at once, but the poison damage lasts for some time, I suppose somewhere 80% damage on both would make sense.
 
 If I changed the synergies for Teeth to, say, 3%, the damage would go like this:
