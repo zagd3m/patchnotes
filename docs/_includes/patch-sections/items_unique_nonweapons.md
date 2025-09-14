@@ -22,6 +22,32 @@
 
 No longer reduces Joust cooldown.
 
+#### Kalan's Legacy
+
+> Kalan could be a late game shield with a tiny buff, allowing players to use other mercs than A1. Also ... Balance !
+
+##### Current
+
+Level [4-6] Vigor Aura when Equipped
++1 to Necromancer Skills
++20% Faster Block Rate
+20% Increased Chance of Blocking
++[40-75] Defense
+Socketed [1-2]
+
+##### Zagd3m's patch
+
+Level [4-6] Vigor Aura when Equipped
++1 to Necromancer Skills
+**+1 to Blood Warp**
+**+1 to Desecrate**
++20% Faster Block Rate
+20% Increased Chance of Blocking
+~~+[40-75] Defense~~
+Socketed [1-2]
+
+Those changes push Kalan towards a "save skill points" identity, while retaining its glass canon / mobility signature.
+
 ### Helmets
 
 #### Ravenlore
