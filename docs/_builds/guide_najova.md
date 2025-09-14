@@ -61,6 +61,8 @@ The rest is probably going to depend on what you find, because if you can afford
 
 Skill order: 20 Poison Nova, 20 Desecrate, then level both Fire Golem and Mastery, and finally last PN synergy (dagger).
 
+> More information about how much damage that is [here]({{ site.baseurl }}/builds/skip-synergy/).
+
 ## Merc
 
 - Vigor A1 merc (if you like to run fast)
