@@ -12,4 +12,10 @@ Mercs can now only have 2 auras : one from their own inner aura (ex : defiance f
 
 ### Curses
 
-Curses are unchanged, but please note that Innocence has been reworked to avoid its nonsensical power.
+Curses are unchanged.
+
+Note that Innocence has been reworked to avoid its nonsensical power, which means it is slightly harder to apply curses with your merc + innocence.
+
+### A3 Fire Merc
+
+Damage increased to compensate for the less valuable aura (that merc wan't used much).
