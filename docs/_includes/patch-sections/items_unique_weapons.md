@@ -95,6 +95,21 @@ No longer reduces Joust cooldown.
 | Cold Resist +35% | Cold Resist +35% |
 | +40 to Mana | +40 to Mana |
 
+#### Riphook
+
+> RH could have a bit more identity, and be that nice merc weapon for leveling it should always have been.
+
+| Current PD2 | Zagd3m's patch |
+| :--|:--|
+| - | **12% Chance to Cast Level 12 Iron Maiden on Striking** |
+| +50% Increased Attack Speed | +50% Increased Attack Speed |
+| +\[220-260\]% Enhanced Damage | +\[220-260\]% Enhanced Damage |
+| \[7-10\]% Life Stolen per Hit | \[7-10\]% Life Stolen per Hit |
+| 30% Chance of Open Wounds | **50% Chance of Open Wounds** |
+| +50 Open Wounds Damage per Second | +50 Open Wounds Damage per Second |
+| Slows Target by 10% | Slows Target by 10% |
+| +35 to Mana | **Removed** |
+
 #### Widowmaker
 
 > Let's make Widowmaker more relevant in the early game for Meme builds (sorcs / paladins mostly) by increasing the number of arrows fired.
