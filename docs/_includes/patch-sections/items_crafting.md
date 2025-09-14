@@ -13,3 +13,7 @@ The crafted item's level should be simplified, as follows:
 - Characters above level 80 are always considered level 94 for crafting formulas. This prevents leveling from making crafting worse, while making crafter amulets more accessible.
 - Consider removing high level affixes that make crafted items (and rare items) statistically better at lower levels than at higher levels (this doesn't really make sense).
 - Help loot filters implement visual indicators for bad/decent/great crafting bases.
+
+### Balancing
+
+- Slightly buff non-class-specific rare and crafted shields (remove crappy affixes + buff some).

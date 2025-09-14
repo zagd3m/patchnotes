@@ -25,7 +25,7 @@ Overall this shouldn't make crafting better or worse, simply faster since we'd s
 
 *Note : this would hurt gambling to craft items, but that's probably a good thing (it makes gold more valuable + it encourages using bases found from mobs).*
 
-### Prebuffing
+### Prebuffing and snapshotting
 
 Prebuffing is something we fight against, because it breaks the *quality of life* and *power creep* principles.
 
@@ -42,3 +42,12 @@ We suggest the following approach against prebuffing:
 - Items that were giving free buffs (CTA, Demon Limb, ...) have (or will) be reworked.
 
 The goal here is to remove prebuffing entirely. Gear swapping shouldn't be an optimal strategy (or else players will do it even though it is boring). We're saving them from this [boring dilemma](gamedesign#boring-dilemmas).
+
+### Blinking
+
+> Enigma's tp nerf was needed, but blinking should be more common in PD2. Having items with teleport charges seem a bit outdated. A better mechanism could to give them the ability to blink with SLOW replenishment. This would make them decent before you get enigma, useable as an alternative for infrequent wall jumps, or decent in combination with enigma to get a tiny buff to replishment speed.
+
+- All teleport charges affixes have been removed.
+- This new affix replaces them: Level 1 Blink (5 Charges), Replenish 1 Charge in 9 Seconds.
+
+Builds that heavily rely on enigma would appreciate the early game buff, while keeping enigma as the main endgame solution. It also means one could use both, with the extra replenishment speed being a small buff to enigma users.

@@ -28,3 +28,10 @@ Synergies changed :
 - **Shock Wave: +3% Damage per Level**
 
 The base damage has been increased to compendate (see [Synergies changes](/patchnotes/sections/systems)) for the synergies % being nerfed, and, additionnally, the max damage (fully synergized) has been increased by 150%.
+
+#### Grizzly
+
+> Too strong as 1-pt wonder on end-game builds
+
+- Nerfed Grizzly health
+- Added hard point scaling on Grizzly health so that 20-pt Grizzly is unchanged
