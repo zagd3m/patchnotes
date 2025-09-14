@@ -1,7 +1,7 @@
 ---
 layout: build
 title: Should you skip that synergy ?
-summary: Math analysis of the impact of synergies on damage based on % and number of synergies.
+summary: The cost of saving 20 points.
 order: 8
 ---
 
@@ -26,6 +26,15 @@ Just read the graph:
 
 - X axis shows the % of the synergy, for example 7% for Charged Bolt
 - Y axis shows your total damage divided by the total damage if all synergies were maxxed
+
+## Key takeaways
+
+I'll express the takeaways in "damage lost", since that's probably how you think about it.
+
+- Skipping all synergies is always a bad idea.
+- Skipping one synergy on Nova removes ~30% of your total damage. On Chain Lightning that would be ~35%, and on Fireball that’s ~45%.
+- Skipping 2 synergies on Blessed Hammer means doing almost no damage (~83% of damage is lost) vs ~31% at one skept.
+- On 3-synergies spells, skipping one is a bit less abrupt, with for example Twister losing ~31% damage, and Vulcano ~29%. As we can see the synergy % doesn’t have a strong impact in this case (red line becomes flat fast).
 
 ## Small % synergies : still impactful !
 
