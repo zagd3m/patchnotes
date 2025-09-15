@@ -4,8 +4,6 @@ summary: A death sentry build focused on using Death Sentry exclusively, with de
 order: 2
 ---
 
-# Death Sentry Assassin Guide (S7)
-
 ## Intro
 
 Hi there,
