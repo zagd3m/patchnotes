@@ -6,16 +6,6 @@ Pillar #4 of Zagd3m's patch notes is noob friendlyness. And you know what isn't 
 
 The answer is now always the same : slam. Indeed, you can puzzlebox or puzzlepiece an item that has been slammed with sockets. In this case, the slam will be removed and another corruption will be rolled (no risk of bricking), and then the puzzle will be applied. This solves the noob trap issue and doesn't change anything for knowledgeable players.
 
-### Mods that don't work
-
-Examples :
-
-- Skills that don't benefit from %enhanced damage against demons
-- Mods that don't do what they say (ex : %ed/max jewels before the bugfix)
-- Bonuses that look good on paper but are not useful in practice (ex: IAS on a skill that doesn't benefit from IAS)
-
-So let's fix this. (section in progress, TODO).
-
 ### Skill IAS
 
 > Skill IAS makes computing breakpoints very complex and tedious. Therefore, it breaks the QoL and Noob Friendliness principles / pillars. Let's fix this.
@@ -107,3 +97,13 @@ All items that were giving mana regeneration should now be giving replenish mana
 Elemental damage (+fire damage for example) on bows/crossbows/projectiles is ... trash. But the could be buffed until they are good enough to be considered as a real addition to one's damage, and can therefore be kept in the affix pool, not as trash, but as a flavourful (is that a word?) option.
 
 Just buff the numbers.
+
+### Mods that don't work
+
+Examples :
+
+- Skills that don't benefit from %enhanced damage against demons
+- Mods that don't do what they say (ex : %ed/max jewels before the bugfix)
+- Bonuses that look good on paper but are not useful in practice (ex: IAS on a skill that doesn't benefit from IAS)
+
+So let's fix this. (section in progress, TODO).

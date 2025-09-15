@@ -12,7 +12,7 @@ Welcome to a **FAKE** futuristic patch notes for Project Diablo 2!
 - More QoL
 - More Balance
 
-This website lists all the changes that should be implemented in PD2, for it to become what it claims to be.
+This website lists all the changes that should be implemented (imo) in PD2, for it to become what it claims to be.
 
 ## How to Use This Site
   
