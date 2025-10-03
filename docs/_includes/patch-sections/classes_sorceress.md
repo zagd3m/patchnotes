@@ -42,12 +42,18 @@
 - Synergies nerfed from +4% to +2% damage per level (D2 LoD value)
 - Base damage buffed to compensate
 
-### Lightning
+### Lightning (patch option 1)
 
 - Charged bolt synergy removed
 - Chain Lightning synergy increased from 6% to 10%
 
 This should give Lightning an identity as a level spell and/or a hybrid build spell.
+
+### Lightning (patch option 2)
+
+- Charged bolt synergy replaced by Thunder Storm
+
+This would make Lightning / TS a viable build, and a clearly distinct build compared to Chain Lightning.
 
 ### Thunder Storm
 
