@@ -46,8 +46,6 @@ GEM
       logger
     faraday-net_http (3.4.2)
       net-http (~> 0.5)
-    faraday-retry (2.3.2)
-      faraday (~> 2.0)
     ffi (1.17.2-x64-mingw-ucrt)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
@@ -145,8 +143,6 @@ GEM
     jekyll-github-metadata (2.16.1)
       jekyll (>= 3.4, < 5.0)
       octokit (>= 4, < 7, != 4.4.0)
-    jekyll-google_search_console_verification_file (1.1.0)
-      jekyll (>= 3.7, < 5.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-mentions (1.6.0)
@@ -282,11 +278,9 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  faraday-retry
   github-pages (~> 232)
   http_parser.rb (~> 0.6.0)
   jekyll-feed (~> 0.12)
-  jekyll-google_search_console_verification_file
   jekyll-seo-tag
   jekyll-sitemap
   tzinfo (>= 1, < 3)
