@@ -2,19 +2,30 @@
 
 ### Leveling and progression
 
+> Let's help players reach the end game easily, without making the lvl 99 more accessible.
+
 Xp penalty from levels 15-25 have been lowered, so that players and groups who manage to get to act 3-4-5 early gain more experience there.
 
 Xp has been increased from level 73 to level 93, to help players reach the end game faster. This is to compensate the daddy problem the community seems to be facing.
 
+### Merc XP
+
+> Sometimes you need to sell your merc since it doesn't level up with you. This happens when you're right above it in level and get past a certain area level.
+
+The level-based xp penalty applies to mercs based on character level, instead of their own level, meaning if your character can xp somewhere then your merc can do so too.
+
 ### Rushing
 
-All characters (from the same mode and season) share their waypoint list, effectively making creating a second (and third, and...) character faster.
+- All characters (from the same mode and season) share their waypoint list, effectively making creating a second (and third, and...) character faster.
 
 This should make leveling solo more appealing (good for people who play at the end of the season when there isn't much help available), without breaking the ladder start experience.
 
 ### Talk to cain / whoever
 
-Removed mechanics where you have to talk to an NPC to access a specific portal or whatever. Implement an alternative technique that prevents rushing the game or skipping content, without having those outdated tricks in place.
+> Mechanics like "talk to cain" are confusing for newcomers
+
+- Removed mechanics where you have to talk to an NPC to access a specific portal or whatever.
+- Implemented an alternative technique (I don't know what ^^) that prevents rushing the game or skipping content, without having those outdated tricks in place.
 
 ### Gambling
 

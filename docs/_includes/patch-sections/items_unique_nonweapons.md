@@ -1,5 +1,34 @@
 ## Unique items
 
+### Chests
+
+#### Skin of the Flayed One
+
+> By adding flat fire damage, the team tries to make it appealing for Vengeance pallies. So let's help them.
+
+- ~~Replenish Life +[15-25]~~
+- +\[2-3\] Life after each Kill
+
+#### Crow Caw
+
+> Crow Caw is a bit weak in the late game, but is a much needed item for those who need pierce. Let's help it a bit.
+
+- ~~+\[20-30\] to Dexterity~~
+- +[0-49] to Dexterity (+0.5 per Character Level)
+
+#### Duriel's Shell
+
+> Duriel used to shine when CBF was hard to come by. Now it is almost dead. Let's buff it a bit.
+
+- ~~+[160-200]% Enhanced Defense~~
+- +[260-300]% Enhanced Defense
+- ~~+100 Durability~~
+- +[3-5]% to Maximum Cold Resist
+- ~~+15 to Strength~~
+- +[0-37] to Strength (+0.375 per Character Level)
+
+This should give it the bulky identity it deserved, based on Duriel himself.
+
 ### Shields
 
 #### Moser's Blessed Circle
