@@ -54,6 +54,15 @@ We want a Raven Druid build. See the changes to the [Raven skill](full-notes#rav
 | +[20-30] to Energy | +[20-30] to Energy |
 | All Resistances +[15-25] | All Resistances +[15-25] |
 
+### Gloves
+
+#### Lava Gout
+
+> Lava Gout is very good for mercs, and not enought for characters.
+
+- **+200-250 to attack rating**
+- Enchant fire level *decreased* from 10 to 3 (granting 30% Attack Rating, *down* from 65%)
+
 ### Belts
 
 #### Gloom's Trap

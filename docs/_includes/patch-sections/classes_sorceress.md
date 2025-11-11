@@ -1,6 +1,14 @@
 ## Sorceress
 
-### Cold Enchant
+### Enchant fire and Cold Enchant
+
+> Enchant skills are too good for party and not enough for the sorc herself.
+
+- Enchant fire and Cold Enchant now grants 50% of its damage to party members, down from 100%.
+
+This should prevent teams from abusing the skill while helping sorcs building around it. The only concern is with the new quivers from s12 granting skeleton archers - those would probably need a buff to compensate the above change.
+
+### Cold Enchant (only)
 
 > Using Cold + Fire enchant should be an option.
 

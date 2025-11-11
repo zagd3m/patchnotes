@@ -1,7 +1,5 @@
 ## Amazon
 
-Amazons are perfect. End of story.
-
 ### Guided Arrow
 
 > Guided Arrow isn't used at all. Let's rework it.
