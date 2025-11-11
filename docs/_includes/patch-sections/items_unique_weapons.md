@@ -125,6 +125,14 @@ No longer reduces Joust cooldown.
 
 By buffing MS's level, we're also indirectly adding some AR, just as what the team did with Passion, and it is welcome indeed.
 
+#### Crackleshot
+
+> Nice addition to the arsenal, let's see if sorcs can use it too !
+
+- Added +[3-5] to Multiple Shot
+
+Since they won't have the synergies, I don't think it will be much better than Widowmaker, but let's see how it goes.
+
 ### Crossbows
 
 #### Gut Siphon
