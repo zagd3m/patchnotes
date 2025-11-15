@@ -23,3 +23,9 @@ I decided to move the builds I wrote for Project Diablo 2 here, to keep stuff up
 ## Other guides
 
 If you want better builds, consider checking the [PD2 wiki](https://wiki.projectdiablo2.com/wiki/Links#Builds) !
+
+- [Main website](https://www.projectdiablo2.com/)
+- [Discord](https://discord.gg/projectdiablo2)
+- [Reddit](https://www.reddit.com/r/ProjectDiablo2/)
+- [Mark's PD2 Resources (aka Hiim)](https://maaaaaarrk.github.io/Hiim-PD2-Resources/index.html)
+- [Support FAQ](https://wiki.projectdiablo2.com/wiki/Support_FAQ)
