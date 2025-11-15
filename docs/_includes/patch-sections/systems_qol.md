@@ -62,3 +62,11 @@ The goal here is to remove prebuffing entirely. Gear swapping shouldn't be an op
 - This new affix replaces them: Level 1 Blink (5 Charges), Replenish 1 Charge in 9 Seconds.
 
 Builds that heavily rely on enigma would appreciate the early game buff, while keeping enigma as the main endgame solution. It also means one could use both, with the extra replenishment speed being a small buff to enigma users.
+
+### Shrines
+
+> People abuse shrines, particularly xp ones.
+
+- Shrines bonuses are lost upon taking a portal or waypoint.
+
+This should make it less appealing to abuse shrines, while keeping them as a nice help during playthrough.
