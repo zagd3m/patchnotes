@@ -13,84 +13,100 @@ I'm an old man. I've done enough reset team runs in the past to share a few tips
 
 I'll try to write the guide in a noob-friendly way, but please feel free to add definitions or ask questions via PM. This is a nice community where everyone can help :)
 
+**Quick navigation**: [General Tips](#general-tips) • [Normal](#normal) • [Nightmare](#nightmare-mode) • [Hell](#hell-mode) • [Skills](#what-skill-should-i-level) • [Common Mistakes](#common-mistakes-to-avoid) • [Glossary](#glossary)
+
+---
+
 ## Context
 
 - 8 players
 - Softcore
 - Lvl 1 to Hell Baal dead
 - Chill atmosphere, no pressure
-- Playable on reset date (not too reliant on creating new games when queue times might be long)
-- Small add: join our EU team on the 23rd :)
 
 ## General Tips
 
+### Mindset
+
 - Staying focused helps everyone have a good time and keeps things moving smoothly. Specifically, when the sorcs asks for help, be ready and react (it will save her life). Be that nice person.
 - Feel free to chat with your team about your role before we start
+
+### Feel good
+
 - Sit comfortably
 - Have water at hand
 - Have a 5-minute or 10-minute break between each mode (Normal, Nightmare, Hell). It helps :)
+
+### Teamplay
+
 - One person should lead the team on voice chat, and the team should always try to be ready and react to the leader. I know this sounds strict, but it saves a lot of time to have the necro join the teleporter when we yell heeeeeeeeelp!
+- When the sorc asks for help, take her TP simultaneously as a group. Group coordination is key for difficult passages.
 - One person should play a sorc that focuses on teleport. This sorc is the key to fast runs, so she should know the game reasonably well, invest her resources into teleporting well, and the group should give her any useful gear found.
 - The rest of the team is pretty flexible, but you will be fine with something like this:
-- 2 to 3 damage dealers, ideally with at least one non-fire one (like druid, assassin, and a second sorc)
-- 1+ summoners (like necro)
-- 2 paladins (for conviction + salvation), though one can be enough
-- 1 BO barb
+  - 2 to 3 damage dealers, ideally with at least one non-fire one (like druid, assassin, and a second sorc)
+  - 1+ summoners (like necro)
+  - 2 paladins (for conviction + salvation), though one can be enough
+  - 1 BO barb
 - The Sorceress 1 (teleport) and Assassin 1 (dps) are the most difficult roles to play
-- And this is personal preference, but I'll share it too: all loot goes to telesorc, and is shared randomly after Hell Baal is killed
 
-### Advanced
+> 🥷 : This icon indicates advanced tips (not necessary but will save a few minutes)
 
-*This is not necessary but will save a few minutes*
+- 🥷 Clarify groups. Are you in Group B or Group C (useful for Act 2 and Act 5, read below) ?
 
-- Clarify groups. Are you in Group B or Group C (useful for Act 2 and Act 5, read below) ?
+> 🆒 : This icon indicates bonus objectives (good if it happens, but not required)
+
+- 🆒 And this is personal preference, but I'll share it too: all loot goes to telesorc, and is shared randomly after Hell Baal is killed
+
+---
 
 ## Normal
 
 **Imo, the normal mode is the hardest. You have to be focused or you can easily lose 1+ hour here.**
 
-### General tips
-
 - Always have blue scrolls (to create teleport portals) with you
 - Sell almost everything to buy mana pots
 - Spam your spells, drink pots, a lot, really, a lot. Don't save mana, save gold for pots.
 - If you don't know what to do, feel free to ask, this is a game not a job :p
-- You might need fire resist and lightning resist. Feel free to socket resistances into a crappy helm or shield.
+- You might need fire resist and lightning resist (the most important resists throughout the run). Feel free to socket resistances into a crappy helm or shield.
 - Don't lose time on optimization: you can do all this without gear.
 
 ### Act 1 (~30 min)
 
 ### Act 1 Step 1
 
-- Paladin 1 runs to Stony Field and makes a TP (use blue scroll) at the waypoint. (Bonus) Finding Rakanishu is useful, just remember where you saw him, we'll go there later.
-- Assassin 1 runs to Black Marsh and makes a TP (use blue scroll) at the waypoint. Try to find Cain's scroll along the way (on Black Marsh).
+- Paladin 1 runs to Stony Field and makes a TP (use blue scroll) at the waypoint.
+  - 🆒 If you happen to find Rakanishu, just remember where you saw him, we'll go there later.
+- Assassin 1 runs to Black Marsh and makes a TP (use blue scroll) at the waypoint.
+  - 🆒 Try to find Cain's scroll along the way (on Black Marsh).
 - While they do that, everyone else clears the Den of Evil.
+
+*Note : killing basic mobs in early Act 1 gives almost no XP. Focus on elite packs and champions, then keep moving.*
 
 ### Act 1 Step 2
 
 - Everyone (but the assassin) goes to Stony Field and rescues Cain.
-- (Advanced / Optional) Assassin 1 runs to Countess Tower and leaves a TP.
+- 🥷 Assassin 1 runs to Countess Tower and leaves a TP.
 
 ### Act 1 Step 3
 
 - Everyone (but the assassin) goes to Countess Tower and clears it (skip small monsters, only kill champions).
-- (Advanced / Optional) Assassin 1 runs to Outer Cloister and leaves a TP. Feel free to go up to Andariel if you can, but no problem if you need help before that.
+- 🥷 Assassin 1 runs to Outer Cloister and leaves a TP. Feel free to go up to Andariel if you can, but no problem if you need help before that.
 
 ### Act 1 Step 4
 
-- Servers stable: make a new game and do Trist + Countess in 2 groups.
-- Servers unstable: all run to Andariel.
+- Servers stable --> XP a bit. In order to do that, make a new game and do Trist + Countess in 2 groups.
+- Servers unstable --> all run to Andariel straight away. You'll be underleveled but you'll catch up easily.
 
-### Extra points if you
+- 🆒 If you find Wirt's leg, keep it with you (we'll need it later)
+- 🆒 10 FCR rings found should be given to the telesorc
 
-- Find Wirt's leg and keep it with you (we'll need it later)
-- Found 10 FCR rings and gave it to the telesorc
-
-**If you did this correctly, you should have killed Andariel easily and you are now in Act 2. Well played!**
+**If you did this correctly, you should have killed Andariel easily around level 10-15 and you are now in Act 2. Well played!**
 
 ### Act 2 (~25 min)
 
 **Our goal in Act 2 is to get the telesorc to level 18 asap. That is why it is better (if servers are stable) to do Countess runs and Tristruns in Act 1. But fear not: you can also get XP in Act 2!**
+
+*Target levels: Duriel around level 16-18*
 
 ### Act 2 Step 1
 
@@ -113,28 +129,28 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 
 ### Act 2 Step 3
 
+*You should be around level ~16 here.*
+
 - Sorceress 1 teleports to the Summoner (buy pots, drink pots).
 - Everyone kills the Summoner.
 - Everyone clears the Tomb.
 - Everyone kills Duriel.
 
-### Extra points if
+### 🆒 Bonus Objectives
 
 - Those who hired a mercenary wrote which aura they took in the chat so we don't have 8 times the same merc!
 
 **This was the hard part of playing Diablo 2. Now, everything is going to be easy.**
 
-### Key concept : backup tp
+### Key Concept: Backup TP
 
-> Sometimes the sorc will ask for a backup tp. This is in case she dies or ends in a dead end. Just join her tp, make a tp, and go back to town. This will help her a lot. Maybe she'll ask to "copy" her tp ; that's the same thing.
+*Sometimes the sorc will ask for a backup tp. This is in case she dies or ends in a dead end. Just join her tp, make a tp, and go back to town. This will help her a lot. Maybe she'll ask to "copy" her tp ; that's the same thing.*
 
 ### Act 3 (~20 min)
 
-*Now the speedrun becomes simple : the sorc teleports, everyone joins, kills the boss, and so on.*
+*Now the speedrun becomes simple: the sorc teleports, everyone joins, kills the boss, and so on.*
 
-### Goal for Act 3
-
-### Sorcerer location reminder
+**Locations for Khalim's organs:**
 
 - For Khalim's Eye: Spider Forest (WP) → Spider Cavern (WP)
 - For Khalim's Brain: Flayer Jungle (WP) → Flayer Dungeon
@@ -149,8 +165,8 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 
 ### Act 3 Step 2
 
-- As a team, kill Travincal, kill Mephisto (you should be around level 19ish).
-- Note that you can spawn Travincal in P1 in a new game and have the team join after to make things easier. This requires a stable server though.
+- As a team, kill Travincal, kill Mephisto (you should be around level 17-19).
+- 🥷 Note that you can spawn Travincal in P1 in a new game and have the team join after to make things easier. This requires a stable server though.
 
 ### Act 4 (~10 min)
 
@@ -160,7 +176,7 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 
 ### Act 5 (~20 min)
 
-### Remember to feed the Sorceress 1
+*Remember to feed the Sorceress 1 with gear, pots, and gold when she asks for it.*
 
 ### Act 5 Step 1
 
@@ -169,10 +185,14 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 - Remember that you can kill and spawn Ancients in P1 if needed (normally you don't need that).
 - Kill Baal.
 
+*You should be around level 20 (or hopefully a bit more) here.*
+
 ### Act 5 Step 2
 
 - Go to Act 1 and open the Cow Level.
 - Clear it. Get 4 socket weapons for Spirit / Insight / whatever.
+
+*Why Cow Level? Good XP, simple, safe, and great for farming 4-socket weapons for runewords.*
 
 ### Act 5 Step 3
 
@@ -182,9 +202,15 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 
 **Rinse and repeat until level ~35 (less if faster, more is easier).**
 
+*Note: After Nightmare you'll be around level 40. You can quickly reach 50-60 by doing more cow runs or Baal runs, which makes Hell mode much safer.*
+
+---
+
 ## Nightmare Mode
 
 You don't need to do anything fancy. Just let the sorc TP in player 1 (in another game), help her when she asks for help, and give her Battle Order from the Barbarian.
+
+🥷 *Why P1 (player 1)? This is an optional/advanced strategy. In a solo game, monsters are weaker, making it safer for the sorc to teleport.*
 
 ### Act 1
 
@@ -201,9 +227,7 @@ You don't need to do anything fancy. Just let the sorc TP in player 1 (in anothe
 ### Act 3
 
 - Sorceress 1 teleports.
-- Everyone gets
-
- XP (Andariel, Countess, ...) and joins when asked to.
+- Everyone gets XP (Andariel, Countess, ...) and joins when asked to.
 
 ### Act 4 & 5
 
@@ -211,11 +235,23 @@ You don't need to do anything fancy. Just let the sorc TP in player 1 (in anothe
 - Everyone joins when asked to.
 - Nightmare Cows.
 
+---
+
 ## Hell Mode
 
-Same thing, just let the sorc TP in P1 and don't hesitate to XP in another game, for example in Nightmare Chaos or Baal runs. Just, be there for her when she asks for help. Be a good teammate :)
+Same thing, just let the sorc TP in P1 and don't hesitate to XP in another game, for example in Nightmare Chaos or Baal runs (they give lots of XP). Just, be there for her when she asks for help. Be a good teammate :)
 
 **That's it. Well played.**
+
+---
+
+## Common Mistakes to Avoid
+
+- **Not helping the sorc when she calls**: When she asks for help, react quickly and take her TP as a group.
+- **Falling asleep waiting**: Stay engaged! Farm, organize inventory, or help with side tasks while the sorc teleports.
+- **Not copying/backing up TPs**: If the sorc asks for a backup TP, do it immediately. It can save her life if she dies or gets stuck.
+
+---
 
 ## What skill should I level?
 
@@ -224,6 +260,8 @@ Same thing, just let the sorc TP in P1 and don't hesitate to XP in another game,
 - Max teleport, have points in Static to help the team.
 - You don't need a strong source of damage, but you can use Nova or Cold Nova.
 - 43 str, 50 energy, everything else in Vitality.
+- FCR is your most important stat, then FHR and resists.
+- **FCR goal**: Aim for 63 FCR breakpoint. [FCR breakpoints reference](https://wiki.projectdiablo2.com/wiki/Breakpoints#FCR)
 
 ### Assassin 1
 
@@ -233,6 +271,7 @@ Same thing, just let the sorc TP in P1 and don't hesitate to XP in another game,
 ### Druid (DPS)
 
 - Use the Fissure skill, level its synergies too.
+- You are a key DPS, as strong as the assassin, so use that.
 
 ### Barbarian
 
@@ -240,7 +279,8 @@ Same thing, just let the sorc TP in P1 and don't hesitate to XP in another game,
 
 ### Necromancer
 
-- Some teams play with a bone necro, but I like to have a summoner. It makes everything easier for everyone. So, go skellies, investing points equally between Summon Skeleton Warrior and its Mastery.
+- Some teams play with a bone necro, but I like to have a summoner. It makes everything easier for everyone. 
+  - So, go skellies, investing points equally between Summon Skeleton Warrior and its Mastery.
 - Remember to have curses and use them, mostly Lower Resist that helps your team A LOT.
 
 ### Paladins
@@ -249,8 +289,25 @@ Same thing, just let the sorc TP in P1 and don't hesitate to XP in another game,
 
 ### Amazon
 
-- I tend to not use them so feel free to help in the comments :p
+- I tend to not use them so feel free to help via PM :p
+- Options : Elemental skills, summons, poison javs (all are pretty decent, and should help the team)
+
+---
+
+## Glossary
+
+- **TP** = Town Portal (blue scroll)
+- **P1** = Player 1, meaning a solo game. Monsters are weaker in P1, making it safer for teleporting. This is an optional/advanced strategy.
+- **FCR** = Faster Cast Rate. Important stat for the sorceress to teleport faster. [See breakpoints](https://wiki.projectdiablo2.com/wiki/Breakpoints#FCR)
+- **BO** = Battle Orders (Barbarian skill that boosts HP/Mana)
+- **WP** = Waypoint
+- **XP** = Experience points
+- **Backup TP / Copy TP** = Join the sorc's portal, make your own portal, return to town. This gives the sorc a safe escape route if she dies or gets stuck.
+
+---
 
 ## Conclusion
 
 I hope this helps someone one day. Feel free to share tips, correct mistakes, and hf!
+
+--> find me on Discord or Reddit
