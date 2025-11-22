@@ -24,9 +24,8 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 
 ## General Tips
 
-- I'm going to insist on people being focused. This isn't the most chilled thing I can say to start with, and sorry for that, but you'll see it helps a lot! As someone who has been the telesorc on a lazy team, ... just, be nice with her :)
-- Define your role before the game starts
-- Are you in Group B or Group C (useful for Act 2 and Act 5, read below)
+- Staying focused helps everyone have a good time and keeps things moving smoothly. Specifically, when the sorcs asks for help, be ready and react (it will save her life). Be that nice person.
+- Feel free to chat with your team about your role before we start
 - Sit comfortably
 - Have water at hand
 - Have a 5-minute or 10-minute break between each mode (Normal, Nightmare, Hell). It helps :)
@@ -39,6 +38,12 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 - 1 BO barb
 - The Sorceress 1 (teleport) and Assassin 1 (dps) are the most difficult roles to play
 - And this is personal preference, but I'll share it too: all loot goes to telesorc, and is shared randomly after Hell Baal is killed
+
+### Advanced
+
+*This is not necessary but will save a few minutes*
+
+- Clarify groups. Are you in Group B or Group C (useful for Act 2 and Act 5, read below) ?
 
 ## Normal
 
@@ -57,19 +62,19 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 
 ### Act 1 Step 1
 
-- Paladin 1 runs to Stony Field and makes a TP (use blue scroll) at the waypoint. Finding Rakanishu is useful, just remember where you saw him, we'll go there later.
+- Paladin 1 runs to Stony Field and makes a TP (use blue scroll) at the waypoint. (Bonus) Finding Rakanishu is useful, just remember where you saw him, we'll go there later.
 - Assassin 1 runs to Black Marsh and makes a TP (use blue scroll) at the waypoint. Try to find Cain's scroll along the way (on Black Marsh).
 - While they do that, everyone else clears the Den of Evil.
 
 ### Act 1 Step 2
 
 - Everyone (but the assassin) goes to Stony Field and rescues Cain.
-- Assassin 1 runs to Countess Tower and leaves a TP.
+- (Advanced / Optional) Assassin 1 runs to Countess Tower and leaves a TP.
 
 ### Act 1 Step 3
 
 - Everyone (but the assassin) goes to Countess Tower and clears it (skip small monsters, only kill champions).
-- Assassin 1 runs to Outer Cloister and leaves a TP. Feel free to go up to Andariel if you can, but no problem if you need help before that.
+- (Advanced / Optional) Assassin 1 runs to Outer Cloister and leaves a TP. Feel free to go up to Andariel if you can, but no problem if you need help before that.
 
 ### Act 1 Step 4
 
@@ -89,10 +94,14 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 
 ### Act 2 Step 1
 
+*The idea here is to use the sorc and assassin to find stuff while the group does quests. It works because the assassin is strong enough to kill champions and beetles, granting the sorc XP (precious to reach level 18 and get the teleport skill asap).*
+
 - Split the group into 3 parts, A, B, and C.
 - Group A (Assassin 1 + Sorceress 1) runs to Far Oasis WP and gets the amulet, killing beetles, champions, and elites along the way. When you see the Ancient Tunnels, leave a TP there.
 - Group B goes and finds the Horadric Cube.
 - Group C kills Radament (in sewers).
+
+*Note: making only two groups can work fine too.*
 
 **Having sorc + sin alone is ideal in terms of XP, but if you need help, ask.**
 
@@ -115,7 +124,13 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 
 **This was the hard part of playing Diablo 2. Now, everything is going to be easy.**
 
+### Key concept : backup tp
+
+> Sometimes the sorc will ask for a backup tp. This is in case she dies or ends in a dead end. Just join her tp, make a tp, and go back to town. This will help her a lot. Maybe she'll ask to "copy" her tp ; that's the same thing.
+
 ### Act 3 (~20 min)
+
+*Now the speedrun becomes simple : the sorc teleports, everyone joins, kills the boss, and so on.*
 
 ### Goal for Act 3
 
