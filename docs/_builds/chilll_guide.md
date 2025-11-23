@@ -5,15 +5,20 @@ summary: A guide for team reset speed runs, balancing speed with a chill atmosph
 order: 1
 ---
 
+> **⚔ Season 12 late reset team ⚔**  
+> We'll be playing for Season 12 on Saturday morning 29th November at 9 a.m. CET (late reset).  
+> Join [us here](https://discord.gg/jgrJQejy).
+
 ## Intro
 
-Hi there :)
+Hi there. I'm an old man. I've done enough reset runs to share a few tips for beginners. This guide aims to balance speed with a chill atmosphere—expect to finish about an hour behind the trained speedrun teams. It's not an optimal guide, but rather my personal preference for a stress-free run. I don't know everything, so please share your tips via PM (I'll add them)! I've tried to write this in a beginner-friendly way, but feel free to ask for definitions or clarifications. This is a nice community where everyone helps each other :)
 
-I'm an old man. I've done enough reset team runs in the past to share a few tips for beginners. This guide should get you ~1 hour late compared to trained speedrun teams, so don't take it as an optimal one but rather as my personal preference in terms of chill/speed balance. Also, I don't know everything, so please share your tips and tricks via PM (I'll add them to the guide).
-
-I'll try to write the guide in a noob-friendly way, but please feel free to add definitions or ask questions via PM. This is a nice community where everyone can help :)
+---
 
 **Quick navigation**: [General Tips](#general-tips) • [Normal](#normal) • [Nightmare](#nightmare-mode) • [Hell](#hell-mode) • [Skills](#what-skill-should-i-level) • [Common Mistakes](#common-mistakes-to-avoid) • [Glossary](#glossary)
+
+> ℹ️ : This icon indicates bonus objectives (good if it happens, but not required) or extra tips  
+> 🥷 : This icon indicates advanced tips (not necessary, but saves a few minutes - more experienced groups will likely use them)  
 
 ---
 
@@ -42,20 +47,16 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 - One person should lead the team on voice chat, and the team should always try to be ready and react to the leader. I know this sounds strict, but it saves a lot of time to have the necro join the teleporter when we yell heeeeeeeeelp!
 - When the sorc asks for help, take her TP simultaneously as a group. Group coordination is key for difficult passages.
 - One person should play a sorc that focuses on teleport. This sorc is the key to fast runs, so she should know the game reasonably well, invest her resources into teleporting well, and the group should give her any useful gear found.
+- The Sorceress 1 (teleport) and Assassin 1 (dps) are the most difficult roles to play
 - The rest of the team is pretty flexible, but you will be fine with something like this:
   - 2 to 3 damage dealers, ideally with at least one non-fire one (like druid, assassin, and a second sorc)
   - 1+ summoners (like necro)
   - 2 paladins (for conviction + salvation), though one can be enough
   - 1 BO barb
-- The Sorceress 1 (teleport) and Assassin 1 (dps) are the most difficult roles to play
-
-> 🥷 : This icon indicates advanced tips (not necessary but will save a few minutes)
-
+- ℹ️ And this is personal preference, but I'll share it too: all loot goes to telesorc, and is shared randomly after Hell Baal is killed
+- 🥷 **Physical Teams**: Some groups prefer physical damage teams, see the [Hell section](#hell-mode) for more details.
 - 🥷 Clarify groups. Are you in Group B or Group C (useful for Act 2 and Act 5, read below) ?
-
-> 🆒 : This icon indicates bonus objectives (good if it happens, but not required)
-
-- 🆒 And this is personal preference, but I'll share it too: all loot goes to telesorc, and is shared randomly after Hell Baal is killed
+- 🥷 **Game Names**: Define a naming convention before starting (e.g., `luc1/ion`, `luc2/ion`...) so everyone knows exactly what the next game name is. This saves a lot of time during "Rejoin" phases.
 
 ---
 
@@ -75,9 +76,9 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 ### Act 1 Step 1
 
 - Paladin 1 runs to Stony Field and makes a TP (use blue scroll) at the waypoint.
-  - 🆒 If you happen to find Rakanishu, just remember where you saw him, we'll go there later.
+  - ℹ️ If you happen to find Rakanishu, just remember where you saw him, we'll go there later.
 - Assassin 1 runs to Black Marsh and makes a TP (use blue scroll) at the waypoint.
-  - 🆒 Try to find Cain's scroll along the way (on Black Marsh).
+  - ℹ️ Try to find Cain's scroll along the way (on Black Marsh).
 - While they do that, everyone else clears the Den of Evil.
 
 *Note : killing basic mobs in early Act 1 gives almost no XP. Focus on elite packs and champions, then keep moving.*
@@ -97,8 +98,8 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 - Servers stable --> XP a bit. In order to do that, make a new game and do Trist + Countess in 2 groups.
 - Servers unstable --> all run to Andariel straight away. You'll be underleveled but you'll catch up easily.
 
-- 🆒 If you find Wirt's leg, keep it with you (we'll need it later)
-- 🆒 10 FCR rings found should be given to the telesorc
+- ℹ️ If you find Wirt's leg, keep it with you (we'll need it later)
+- ℹ️ 10 FCR rings found should be given to the telesorc
 
 **If you did this correctly, you should have killed Andariel easily around level 10-15 and you are now in Act 2. Well played!**
 
@@ -136,7 +137,7 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 - Everyone clears the Tomb.
 - Everyone kills Duriel.
 
-### 🆒 Bonus Objectives
+### ℹ️ Bonus Objectives
 
 - Those who hired a mercenary wrote which aura they took in the chat so we don't have 8 times the same merc!
 
@@ -190,9 +191,9 @@ I'll try to write the guide in a noob-friendly way, but please feel free to add 
 ### Act 5 Step 2
 
 - Go to Act 1 and open the Cow Level.
-- Clear it. Get 4 socket weapons for Spirit / Insight / whatever.
+- Clear it. Get 4 socket weapons for [Spirit](https://wiki.projectdiablo2.com/wiki/RWWeapons#Spirit) / [Insight](https://wiki.projectdiablo2.com/wiki/RWWeapons#Insight) / whatever.
 
-*Why Cow Level? Good XP, simple, safe, and great for farming 4-socket weapons for runewords.*
+> ℹ️ **Why Cow Level?** Good XP, simple, safe, and great for farming 4-socket weapons for runewords.
 
 ### Act 5 Step 3
 
@@ -241,6 +242,11 @@ You don't need to do anything fancy. Just let the sorc TP in player 1 (in anothe
 
 Same thing, just let the sorc TP in P1 and don't hesitate to XP in another game, for example in Nightmare Chaos or Baal runs (they give lots of XP). Just, be there for her when she asks for help. Be a good teammate :)
 
+> ℹ️ **Dealing with Immunities**: Hell has many immune monsters.  
+> Ensure your team has mixed damage types (Fire, Cold, Magic, Phys) or damage types with very few immunes (like physical) to never get stuck.  
+> **Elemental Teams** ⚡: Use **Lower Resist** (Necro) + **Conviction** (Paladin) to break immunities.  
+> **Physical Teams**  ⚔: Some groups prefer **Amplify Damage** (Necro) + **Fanaticism** (Paladin) if the team is physical-heavy.  
+
 **That's it. Well played.**
 
 ---
@@ -275,7 +281,7 @@ Same thing, just let the sorc TP in P1 and don't hesitate to XP in another game,
 
 ### Barbarian
 
-- Battle Orders is why you are here, but some do the early game with leap and respec for BO.
+- Battle Orders is why you are here, but some do the early game with leap and respec (Akara Quest) for BO.
 
 ### Necromancer
 
@@ -285,7 +291,11 @@ Same thing, just let the sorc TP in P1 and don't hesitate to XP in another game,
 
 ### Paladins
 
-- You be auras. Use Holy Bolt at the beginning then respec for Conviction or Salvation.
+- You be auras.
+- At the beginning, you can focus on Holy Bolt (option 1) or Holy fire (option 2).
+- In both cases, feel free to respec (Akara Quest) when you can have access to Conviction (paladin 1) or Salvation (paladin 2, if there are 2 paladins on the team).
+
+> ℹ️ This might sound boring (it is), but you're in practice doing most of the damage (by raising the one of others) while chilling. Not a bad job actually!
 
 ### Amazon
 
