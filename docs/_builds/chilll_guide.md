@@ -1,7 +1,7 @@
 ---
 layout: build
 title: A Chill Guide to Team Reset "Speed" Runs
-summary: A guide for team reset speed runs, balancing speed with a chill atmosphere and no pressure. Written by old men, for dads.
+summary: A guide for team reset speed runs, balancing speed with a chill atmosphere and no pressure.
 order: 1
 ---
 
@@ -11,7 +11,7 @@ order: 1
 
 ## Intro
 
-Hi there. I'm an old man. I've done enough reset runs to share a few tips for beginners. This guide aims to balance speed with a chill atmosphere—expect to finish about an hour behind the trained speedrun teams. It's not an optimal guide, but rather my personal preference for a stress-free run. I don't know everything, so please share your tips via PM (I'll add them)! I've tried to write this in a beginner-friendly way, but feel free to ask for definitions or clarifications. This is a nice community where everyone helps each other :)
+Hi there. I'm an old man: I've done enough reset runs to share a few tips for beginners. This guide aims to balance speed with a chill atmosphere—expect to finish about an hour behind the trained speedrun teams. It's not an optimal guide, but rather my personal preference for a stress-free run. I don't know everything, so please share your tips via PM (I'll add them)! I've tried to write this in a beginner-friendly way, but feel free to ask for definitions or clarifications. This is a nice community where everyone helps each other :)
 
 ---
 
@@ -24,16 +24,18 @@ Hi there. I'm an old man. I've done enough reset runs to share a few tips for be
 
 ## Context
 
-- 8 players
 - Softcore
+- 8 players
 - Lvl 1 to Hell Baal dead
 - Chill atmosphere, no pressure
+- We're trying to do it fast (by using speedrun techniques, without the headache)
 
 ## General Tips
 
 ### Mindset
 
-- Staying focused helps everyone have a good time and keeps things moving smoothly. Specifically, when the sorcs asks for help, be ready and react (it will save her life). Be that nice person.
+- Staying focused helps everyone have a good time and keeps things moving smoothly.
+- Specifically, when the sorcs asks for help, be ready and react (it will save her life). Be that nice person.
 - Feel free to chat with your team about your role before we start
 
 ### Feel good
@@ -44,21 +46,25 @@ Hi there. I'm an old man. I've done enough reset runs to share a few tips for be
 
 ### Teamplay
 
-- One person should lead the team on voice chat, and the team should always try to be ready and react to the leader. I know this sounds strict, but it saves a lot of time to have the necro join the teleporter when we yell heeeeeeeeelp!
+- One person should lead the team on voice chat, and the team should try to be ready and react.
 - When the sorc asks for help, take her TP simultaneously as a group. Group coordination is key for difficult passages.
-- One person should play a sorc that focuses on teleport. This sorc is the key to fast runs, so she should know the game reasonably well, invest her resources into teleporting well, and the group should give her any useful gear found.
+- One person should play a sorc that focuses on teleport.
+  - This sorc is the key to fast runs, so she should know the game reasonably well, invest her resources into teleporting well, and the group should give her any useful gear found.
 - The Sorceress 1 (teleport) and Assassin 1 (dps) are the most difficult roles to play
 - The rest of the team is pretty flexible, but you will be fine with something like this:
   - 2 to 3 damage dealers, ideally with at least one non-fire one (like druid, assassin, and a second sorc)
   - 1+ summoners (like necro)
   - 2 paladins (for conviction + salvation), though one can be enough
-  - 1 BO barb
+  - 1 BO barb  
+
+### Bonus tips
+
 - ℹ️ And this is personal preference, but I'll share it too: all loot goes to telesorc, and is shared randomly after Hell Baal is killed
 - 🥷 **Physical Teams**: Some groups prefer physical damage teams, see the [Hell section](#hell-mode) for more details.
 - 🥷 Clarify groups. Are you in Group B or Group C (useful for Act 2 and Act 5, read below) ?
 - 🥷 **Game Names**: Define a naming convention before starting (e.g., `luc1/ion`, `luc2/ion`...) so everyone knows exactly what the next game name is. This saves a lot of time during "Rejoin" phases.
 
----
+![Banner]({{ site.baseurl }}/assets/img/banner.png)
 
 ## Normal
 
@@ -205,7 +211,7 @@ Hi there. I'm an old man. I've done enough reset runs to share a few tips for be
 
 *Note: After Nightmare you'll be around level 40. You can quickly reach 50-60 by doing more cow runs or Baal runs, which makes Hell mode much safer.*
 
----
+![Banner]({{ site.baseurl }}/assets/img/banner.png)
 
 ## Nightmare Mode
 
@@ -236,7 +242,7 @@ You don't need to do anything fancy. Just let the sorc TP in player 1 (in anothe
 - Everyone joins when asked to.
 - Nightmare Cows.
 
----
+![Banner]({{ site.baseurl }}/assets/img/banner.png)
 
 ## Hell Mode
 
@@ -249,7 +255,7 @@ Same thing, just let the sorc TP in P1 and don't hesitate to XP in another game,
 
 **That's it. Well played.**
 
----
+![Banner]({{ site.baseurl }}/assets/img/banner2.png)
 
 ## Common Mistakes to Avoid
 
