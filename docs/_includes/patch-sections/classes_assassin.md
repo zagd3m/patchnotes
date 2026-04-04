@@ -2,12 +2,15 @@
 
 ### Skills
 
-#### Tiger Strike
+#### Tiger Strike (partial victory)
 
 > Tiger Strike should not be an auxiliary skill for Blade Dance. Overall this makes Tiger Strike more appealing for mapping, without indirectly buffing WWsins.
 
 - Tiger Strike bonuses are lost upon using Blade Dance.
 - Tiger Strike radius has been buffed from 0/20/40 to 20/40/60.
+
+> Partial victory : the splash is now local to the skill (fixed in s13's patch notes), thank you Senpai ! But now we need to buff the skill to map-level efficiency.
+{:.victory}
 
 #### Dragon Talon
 
@@ -31,13 +34,16 @@ Changed the attack speed formula to make Dragon Claw easier to understand:
 
 This means that a 6fpa build would do both hits in 10 frames. Simple. Clear. Nothing substantial lost in the process.
 
-#### Dragon Flight {#dragon-flight}
+#### Dragon Flight (partial victory) {#dragon-flight}
 
 > Dflight is great, but too strong as a 1-pt wonder, and too reliant on Stalker's cull.
 
 - Cooldown: ~~2~~ **2.5** seconds
 - **Hard points now reduce the cooldown by .1 seconds (reaching .5 second at 20 points)**
 - **There is no item in the game** reducing the cooldown of DFlight [anymore](full-notes#stalker).
+
+> Partial victory in s12 : Now has it's cooldown reduced with soft points going from 2 seconds (base) to 1 second (at level 24)
+{:.victory}
 
 #### Wake of Inferno
 

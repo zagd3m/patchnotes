@@ -40,7 +40,7 @@
   - **25% Better Chance of Getting Magic Items (2 items)**
   - **25% Better Chance of Getting Magic Items (3 items)**
 
-This gives full set a total buff of +2 to All Skills. This would make the set more appealing.
+This gives full set a total buff of +2 to All Skills. This would make the set more appealing for early mapping and mfing.
 
 ### Heaven's Brethren (Uncommon)
 

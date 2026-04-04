@@ -81,8 +81,11 @@ This would make Lightning / TS a viable build, and a clearly distinct build comp
 
 This should help Fire Ball be the leveling spell and/or secondary spell it wants to be.
 
-### Lesser Hydra
+### Lesser Hydra (victory)
 
 - Projectiles now pierce through enemies.
 
 This should help Hydras work as a Mapping spell, not only as a boss fight one.
+
+> Victory : this was fixed in s13's patch notes ! Thank you Senpai ! Hydra (not lesser) now pierces !
+{:.victory}

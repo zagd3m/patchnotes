@@ -11,7 +11,10 @@
 - Frenzy now has a passive component : AS and MS based on hard points (from 1 AS / 20 MS to 40 AS / 60 MS).
 - Frenzy base numbers have been changed to incorporate this passive.
 
-> Note: Frenzy has also been impacted by the [skill IAS](#skill-ias) change, though the values have been adjusted to compensate.
+> Partial victory: in s13 the splash bonus from Frenzy became local ! Thank you Senpai !
+{:.victory}
+
+*Note: Frenzy has also been impacted by the [skill IAS](#skill-ias) change, though the values have been adjusted to compensate.*
 
 #### Find Potion and Find Item
 

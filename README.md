@@ -4,4 +4,12 @@ Welcome to patchnotes, a jekyll fanmade website for PD2. This isn't a real patch
 
 The website is here : https://zagd3m.github.io/patchnotes/
 
+## Local development
+
+To start the website locally, run:
+
+```bash
+bundle exec jekyll serve
+```
+
 Have fun.

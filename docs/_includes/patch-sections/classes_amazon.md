@@ -1,5 +1,12 @@
 ## Amazon
 
+### Decoy
+
+> Pure Decoy (no strafe) should be slightly better, so let's free some points for passives.
+
+- Removed Strafe from Decoy's synergies
+- Increased Valkyrie's synergy from 10% to 20%
+
 ### Guided Arrow
 
 > Guided Arrow isn't used at all. Let's rework it.

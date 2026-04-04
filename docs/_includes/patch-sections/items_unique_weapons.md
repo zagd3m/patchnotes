@@ -225,12 +225,14 @@ The goal would be to compete with Buriza-Do Kyanon on the "raw damage" aspect, w
 
 - +[200-~~300~~**280**]% Enhanced Damage
 
-#### Stalker's Cull {#stalker}
+#### Stalker's Cull (victory) {#stalker}
 
 > Cooldown reduction isn't healthy for the game, as it reduced items diversity for fast dflight builds. See changes to [Dragon Flight](full-notes#dragon-flight). We want it to be the Deadly Strike option amongst uniques claws, instead of being the CDR claw it used to be (hi trapsins).
 
 - ~~Dragon Flight's Cooldown is Reduced by 0.5 Seconds~~
 - [20-~~30~~**40**]% Deadly Strike
+
+> Victory : no more CDR, it was fixed in s12. Thank you Senpai ! {:.victory}
 
 #### Shadow Killer
 

@@ -25,7 +25,7 @@ Synergies changed:
 
 ### Bone Spirit
 
-> Almost never used for mapping
+> Almost never used for mapping, despite having awesome visuals.
 
 - Bone Spirit now explodes into a Bone Nova on impact.
 
