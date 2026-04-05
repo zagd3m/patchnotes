@@ -16,6 +16,7 @@ This website lists all the changes that should be implemented (imo) in PD2, for 
 
 ## How to Use This Site
   
+- The [Top 10](/patchnotes/top10) page lists the 10 most important changes imo.
 - The [Game Design](/patchnotes/gamedesign) section explains our game design approach.
 - The [Full Patch Notes](/patchnotes/full-notes) page lists all changes, including Classes Changes, Items Changes, Systems Changes...
 
