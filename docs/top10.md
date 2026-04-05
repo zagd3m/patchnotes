@@ -97,3 +97,13 @@ Two options exist :
 - Rework the whole thing, by making it break immunities but *not* lowering resists
 
 See our proposal [here](full-notes#conviction) for more details.
+
+---
+
+## Bonus : top 5 easy changes
+
+- [Gut Siphon](full-notes#gut-siphon) : increase the chance to cast Desecrate
+- [Skin of the Flayed One](full-notes#skin-of-the-flayed-one) : add laek to help Vengeance pallies
+- [Kalan's Legacy](full-notes#kalans-legacy) : reinforce its mid game identity by saving utility points
+- [Lava Gout](full-notes#lava-gout) : better for characters, worse for mercenaries
+- [Charged Bolt Sentry](full-notes#cbs) : buff its range, make it viable for maps
