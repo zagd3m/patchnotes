@@ -4,6 +4,9 @@
 
 Blue maps have been removed. Maps only loot in white form, or rare form (aside from unique ones of course).
 
+> Victory: in s13, they finally changed it !!!
+{:.victory}
+
 ### Free GoldFind on maps
 
 - Maps no longer grant extra gold

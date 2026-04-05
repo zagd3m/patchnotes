@@ -8,7 +8,7 @@
 
 > We want to (1) nerf late game aurabot mercs and (2) help with the early game where they die a lot.
 
-### Auras
+### Auras {#merc-auras}
 
 - Rework (probably hard to code, but definitely worth it)
 

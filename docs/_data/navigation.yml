@@ -1,5 +1,7 @@
 - name: Home
   link: /
+- name: Top 10
+  link: /top10
 - name: Game Design
   link: /gamedesign
 - name: Full Patch Notes

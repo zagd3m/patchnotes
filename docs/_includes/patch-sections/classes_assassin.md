@@ -59,6 +59,13 @@ Synergies changed:
 
 The base damage has been increased to compendate (see [Synergies changes](/patchnotes/sections/systems)) for the synergies % being nerfed, resulting in equivalent damage.
 
+#### Charged Bolt Sentry {#cbs}
+
+> Make it viable for mapping.
+
+- Setup time (before first cast) lowered
+- Range increased
+
 #### Death Sentry
 
 > Death Sentry shouldn't be a one point wonder, or even a 20 point skill, since it would be too strong. High percent synergies seem reasonable in this case.
