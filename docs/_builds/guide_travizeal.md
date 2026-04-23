@@ -61,7 +61,7 @@ Work with what you find, but here are some recommendations / inexpensive options
 - Wealth (mf/gf)
 - Iron Pelt (for dmg reduction)
 - Guardian angel (for max res)
-- Gladiator's Bane (for dmg reduction)
+- Gladiator's Bane (for dmg reduction, which was nerfed in s13)
 
 **Shield**
 
@@ -169,6 +169,12 @@ Some players create Town Portals from the Council and return to Act 4, then tele
 - Barbarians remain the kings of Travincal
 - Kick Assassins and Tiger Strike Assassins are great too.
 - This Paladin build might be the next best option for Travincal, unless Necromancers join the discussion!
+
+## S13 Update
+
+> Zeal now applies +20%/40%/60% increased melee splash radius up from +0%/+20%/+40%
+
+This looks good on paper, and it is, but don't expect miracles. It's still a small difference.
 
 ## Conclusion
 

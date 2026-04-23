@@ -23,6 +23,17 @@ I'd like to share the build I've played last season. I think it was nice and old
 
 - Orphan's set has gained 150% ED + 100% against demons and undead and 15@ res. It is now pretty strong and the set was already good for kicksins, so, yeah, kind of late game viable now!
 
+## S13 Changes
+
+> Dragon Talon
+> Level 1 mana cost reduced from 6 to 2
+> Mana cost now increased by .25 per level
+> Base enhanced damage bonus increased from 50% to 60%
+> Enhanced damage per level increased to 25% to 30%
+> Synergies increased from 22% to 25%
+
+This is a huge damage boost. Very welcome. Also helps with leveling.
+
 ## Viability
 
 - **Can I level as this build?:** Yes, but traps is faster.
