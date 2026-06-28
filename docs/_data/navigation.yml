@@ -1,10 +1,8 @@
 - name: Home
   link: /
-- name: Top 10
-  link: /top10
-- name: Game Design
-  link: /gamedesign
 - name: Full Patch Notes
   link: /full-notes
 - name: Builds & Guides
   link: /builds/
+- name: Blog
+  link: /blog/

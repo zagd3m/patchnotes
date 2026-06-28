@@ -18,6 +18,8 @@ Please remember we are talking about FAKE patch notes. This is a huge feedback t
 
 # Complete Patch Notes
 
+> **TL;DR?** Check out the [Top 10 Changes](/patchnotes/blog/top-10-changes/) blog post for the most important ideas.
+
 > ### Quick links
 > 
 > - [Classes](#classes-changes)

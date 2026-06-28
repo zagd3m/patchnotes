@@ -6,24 +6,10 @@ description: Unofficial futuristic patch notes for Project Diablo 2
 
 # Zagd3m's PD2 Patch Notes
 
-Welcome to a **FAKE** futuristic patch notes for Project Diablo 2!
+This website started as imaginary patch notes for Project Diablo 2. It's a fan-made wishlist of changes that would make the game better. Then it got a blog, and I deciced to update it regularly as the team improves the game (surprisingly often in the direction mentioned here, showing good ideas sometimes find theyr way).
 
-- More Build Diversity
-- More QoL
-- More Balance
+I hope this will contribute to convincing the community that PD2 should push harder toward real build diversity, more QoL, and better balance. Having a website also means I can host the guides I write outside of proprietary platforms, which is nice, hopefully making knowledge more accessible.
 
-This website lists all the changes that should be implemented (imo) in PD2, for it to become what it claims to be.
+Want the full story? Check out the [About This Project](/patchnotes/blog/about-this-project/) blog post.
 
-## How to Use This Site
-  
-- The [Top 10](/patchnotes/top10) page lists the 10 most important changes imo.
-- The [Game Design](/patchnotes/gamedesign) section explains our game design approach.
-- The [Full Patch Notes](/patchnotes/full-notes) page lists all changes, including Classes Changes, Items Changes, Systems Changes...
-
-## About
-
-I am Zagd3m. I've been playing D2 since WW1, and before that I was serving in a pre-life bacteria research facility on mars. I said too much. I tend to spam the #feedback channel with ideas, so I made a website to collect them. Simpler, leaner, nerdier. 
-
-Good game design often involves finding the right balance between competing goals and understanding that not every player will agree with every decision. That's why some suggestions have been [censored](/patchnotes/censored). With that said, see you on Discord's #feedback channel.
-
-I am active on Discord, so feel free to react there.
+*None of this is real, official, or endorsed by the PD2 team. It's a structured feedback argument, laid out like patch notes because nerds gonna nerd.*

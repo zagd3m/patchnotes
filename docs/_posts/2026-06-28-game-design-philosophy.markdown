@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Game Design Philosophy
+layout: post
+title:  "Game Design Philosophy"
+date:   2026-06-28 14:00:00 +0200
 description: Design reasoning and philosophy behind Project Diablo 2 changes
 ---
 
@@ -8,7 +9,7 @@ description: Design reasoning and philosophy behind Project Diablo 2 changes
 
 <!-- --- -->
 
-# Guiding principles {#guiding-principles}
+## Guiding principles {#guiding-principles}
 
 First 3 are PD2's official goals, which I agree with, and the next ones are mine.
 

@@ -18,7 +18,7 @@
 
 #### Find Potion and Find Item
 
-> Find Potion and Find Item have been reworked. They were a good idea on paper but it never really clicked because of the [boring dilemma](gamedesign#boring-dilemmas).
+> Find Potion and Find Item have been reworked. They were a good idea on paper but it never really clicked because of the [boring dilemma](/patchnotes/blog/game-design-philosophy/#boring-dilemmas).
 
 - Gobble Potion is now a passive that grants temporary movement speed for 5 seconds after drinking any potion
 - Find Item is now a passive that grants passive gold find and magic find (small amounts) per soft and hard points

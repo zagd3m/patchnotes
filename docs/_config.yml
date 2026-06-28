@@ -29,6 +29,7 @@ github_username:  zagd3m
 domain: zagd3m.github.io
 url: https://zagd3m.github.io
 baseurl: /patchnotes
+permalink: /blog/:title/
 
 # Github not modifiable
 lsi: false
@@ -68,6 +69,11 @@ defaults:
       type: "builds"
     values:
       layout: "build"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
 
 google_search_console:
   verification_file_code: 87963778c937225b
