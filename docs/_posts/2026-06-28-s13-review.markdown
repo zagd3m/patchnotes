@@ -1,0 +1,74 @@
+---
+layout: post
+title:  "S13 Review: What We Got, What We're Still Waiting For"
+date:   2026-06-28 17:00:00 +0200
+description: A review of Project Diablo 2's Season 13 patch through the lens of our Top 10 changes and game design philosophy — what moved in the right direction, and what we're still hoping to see in S14.
+---
+
+S13 has been out for a few weeks, and it's a good time to look at the changes through the lens of our [Top 10](/patchnotes/blog/top-10-changes/) list and [design philosophy](/patchnotes/blog/game-design-philosophy/). Fair review: some good things happened, but the structural changes that would truly unlock build diversity are still ahead.
+
+## Things that moved in the right direction
+
+Several S13 changes overlap with ideas we — and many others in the community — have been pushing for. Good to see.
+
+- **Frenzy and Tiger Strike splash is now local.** The melee splash bonus now only applies to the skill itself, not to other skills. This is exactly what we suggested in our [Top 10 #1](/patchnotes/blog/top-10-changes/#1-balance-changes) and [patch notes](/patchnotes/full-notes#frenzy). It opens up build paths for Frenzy and Tiger Strike without indirectly buffing Whirlwind assassins.
+
+- **Hydra now pierces.** We suggested [Lesser Hydra pierce](/patchnotes/full-notes#lesser-hydra-victory) to make it viable for mapping, not just boss fights. The team applied it to the full Hydra. Great change — it gives Hydras a real mapping identity.
+
+- **Blue maps removed.** Maps now only drop as white or unique. This is something we [advocated for](/patchnotes/full-notes#blue-maps) — it simplifies the map economy and removes a confusing tier.
+
+- **S-tier nerfs landed.** Volcano, Nova, and Corpse Explosion all got toned down. These were our [Top 10 #1](/patchnotes/blog/top-10-changes/#1-balance-changes) targets. The nerfs are moderate — they didn't overdo it, which is the right call.
+
+- **Smite and other D-tier skills buffed.** Smite got crushing blow efficiency improvements and cap removal. More of this, please. Smite for mapping maybe ?
+
+## Good changes we didn't see coming
+
+Not everything worth mentioning is on our list. A few S13 changes caught our attention:
+
+- **Critical Strike rework.** All crit sources are now combined instead of rolling independently, and the multiplier went from 1.5x to 2x. This is a clean, systemic improvement that makes crit more consistent and more impactful across the board.
+
+- **Mastery reworks.** General Mastery became One Handed Mastery (applies to any 1H melee weapon), and Spear/Polearm became Two Handed Mastery. This removes the old "which mastery do I pick" confusion and makes weapon choice more flexible. Good for build diversity.
+
+- **New Barbarian skill: Split Throw.** A dedicated throwing skill with returning projectiles that pierce and shotgun on the way back. Throwing barbs have needed love for a long time, and this gives them a real active skill.
+
+- **Crushing blow scaling rework.** The old formula made CB nearly useless in p8. The new scaling keeps it relevant without making it trivial. This was long overdue.
+
+- **Fend, Fury, and Zeal splash bug fixes.** Turns out the splash bonus never worked properly for these skills. This is the first season they actually apply. That's a significant buff hiding in a bugfix.
+
+- **Potions during mobility skills.** You can now drink potions during charge, leap, whirlwind, etc. Simple QoL, big quality of life improvement.
+
+- **New uniques and maps.** Several new uniques (Embersworn, Giant Maimer, Ephemeral, Skyfall, Nethercrux) and new unique maps (Djinn's Domain, Na-krul's Abyss). More items and more content is always welcome... unless they don't find a reason to exist. Maybe there's some iteration needed on the new uniques?
+
+Credit where it's due — the team shipped some solid work this season.
+
+## Steps in the right direction (but not far enough)
+
+- **Infinity nerfed directly.** The team removed the +35% FCR on staves and reduced the -lightning res from 45-55% to 40-50%. It's a step, but [self-wield Infinity remains BiS for most light sorc builds](/patchnotes/full-notes#conviction), and Conviction is still "break immunities AND lower resistances" in one package. Our [proposed Conviction rework](/patchnotes/full-notes#conviction) would have opened up more alternatives.
+
+- **Boss difficulty reduced.** T2 uber minions got HP cuts and damage reduction removals, and drop rates were normalized to 1/200. Welcome tuning. But the [structural issues](/patchnotes/full-notes#how-to-get-players-to-try-end-game-bosses) — currency consumed on failure, rejuv dependency, separate balance numbers for boss fights — remain unaddressed.
+
+- **Raven got attention.** The team reworked Raven — cold damage, new limit scaling, synergy reductions. But they went the [opposite direction](/patchnotes/full-notes#raven) from what we proposed: base damage was nerfed, and Raven stays a summon support skill rather than becoming its own build. We still think a dedicated Raven Druid is worth exploring.
+
+## Still missing — hopes for S14
+
+Going through the rest of our [Top 10](/patchnotes/blog/top-10-changes/):
+
+- **#2 Snapshotting / prebuffing.** CTA can no longer be made in bows or crossbows. That's it. [Demon Limb](/patchnotes/full-notes#demon-limb) untouched. Prebuffing is still alive and well. Our [proposal](/patchnotes/full-notes#prebuffing-and-snapshotting) would remove it entirely.
+
+- **#5 Naj's set.** No set changes at all this season. [Naj's](/patchnotes/full-notes#najs-ancient-vestige-uncommon) is still just a staff you use alone, which isn't how sets should work.
+
+- **#6 Synergies.** A few token reductions (Jab 18%→15%, Cold Arrow 17%→15%, Volcano 9%→8%). These are 2-3 percentage point drops — not the [overhaul](/patchnotes/full-notes#synergies) we proposed, where most synergies would drop to ~3% and base damage would be buffed to compensate. Hybrid builds remain non-viable.
+
+- **#8 Fluid breakpoints.** Not mentioned. The [proposal](/patchnotes/full-notes#fluid-breakpoints) to make partial progress toward breakpoints meaningful would help new players without harming veterans.
+
+- **#9 Aurabot mercs.** No aura cap. [Faith](/patchnotes/full-notes#faith) untouched. [Innocence](/patchnotes/full-notes#innocence) untouched. Mercs are still aura platforms. Our [2-aura cap proposal](/patchnotes/full-notes#merc-auras) would keep the big power spikes while removing the aurabot nonsense.
+
+- **#10 Conviction.** Not reworked. Only the Infinity item was nerfed. Conviction still does too much — break immunities, lower resistances, lower defense, all in one aura.
+
+## Closing thoughts
+
+S13 is a net positive. Several of the changes we've been advocating for are clearly things the community wants too — it's good to see them happen. The local splash fix, Hydra pierce, and S-tier nerfs are all meaningful improvements.
+
+But the structural changes — the ones that would truly unlock [build diversity](/patchnotes/blog/game-design-philosophy/#build-diversity) — are still ahead of us. Prebuffing, synergies, aurabot mercs, Conviction: these are the bottlenecks. Until they're addressed, we'll keep seeing the same builds dominate, the same items mandatory, the same mercs on every character.
+
+S14 could be the season where it happens. We'll keep posting ideas on Discord's #feedback channel — feel free to join the conversation.
