@@ -17,6 +17,10 @@ This post is about everything I learnt doing so. I hope it will help you enjoy t
 - Infinity self-wield is the best option, with an A3 merc for Static
 - The build is good if you oneshot mobs. Corrupted zones >> t3 imo, unless you have awesome gear
 
+## Disclaimer - a journey isn't exacly a guide
+
+I'm not saying this is how you *should* play this build — it's just how I played it. Honestly, I expected the build to perform better than it did, so there are probably things I didn't fully figure out, whether in terms of itemization or playstyle. That's why I wrote this as a journey rather than an authoritative guide.
+
 ## Why would you play this build ?
 
 ### Pros
