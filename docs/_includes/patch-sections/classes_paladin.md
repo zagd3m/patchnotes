@@ -50,6 +50,8 @@ This moves Conviction from "break immunities AND lower resistances" to "break im
 
 > Such a massive change would require rebalancing several skills. A short term solution could be to keep *some* form of resistance reduction, lowering it season by season until it can be removed entirely. This would make the balance team's work a lot easier.
 
+> **S13 update**: The team chose to nerf Infinity directly instead of reworking Conviction — they removed the +35% FCR on staves and reduced the -lightning res from 45-55% to 40-50%. It's a step in the right direction, but self-wield Infinity remains BiS for most light sorc builds, and Conviction is still "break immunities AND lower resistances" in one package. Our proposal would have opened up more alternatives.
+
 ### Skills - Combat skills
 
 #### Zeal

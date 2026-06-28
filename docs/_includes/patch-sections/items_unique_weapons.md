@@ -9,11 +9,14 @@
 | Current PD2                      | Zagd3m's patch                                          |
 |:--|:--|
 | +30% Increased Attack Speed                     | +30% Increased Attack Speed                    |
-| +75% Chance to Pierce                           | +75% Chance to Pierce                          |
+| +50% Chance to Pierce                           | +75% Chance to Pierce                          |
 | +[375-425]% Enhanced Damage                     | +[375-425]% Enhanced Damage                    |
 | 50% Deadly Strike                               | 50% Deadly Strike                              |
-| 40% Chance to Cast Level 35 Nova On Striking    | **40% Chance to Cast Level 40 Nova On Striking**   |
+| +25% Deadly Strike Multiplier                   | -                                              |
+| 18% Chance to Cast Level 40 Nova On Striking    | **40% Chance to Cast Level 40 Nova On Striking**   |
 | -                                               | **5% Chance to Cast Level 40 Nova On Kill**        |
+
+> **S13 update**: The team took Warshrike in a different direction — pierce was reduced from 75% to 50%, and the Nova proc was changed to 18% chance at level 40 (down from 40% at level 35). They added +25% deadly strike multiplier. We would have kept the pierce high and leaned into the Nova theme, but their version trades pierce for deadly strike consistency.
 
 ### Maces
 
@@ -88,7 +91,7 @@ No longer reduces Joust cooldown.
 
 | Current PD2 | Zagd3m's patch |
 | :--|:--|
-| 6% Chance to Cast Level 24 [Blizzard](https://wiki.projectdiablo2.com/wiki/Blizzard "Blizzard") on Striking | **10% Chance to Cast Level 24 [Blizzard](https://wiki.projectdiablo2.com/wiki/Blizzard "Blizzard") on Striking** |
+| 6% Chance to Cast Level 24 [Ice Barrage](https://wiki.projectdiablo2.com/wiki/Ice_Barrage "Ice Barrage") on Striking | **6% Chance to Cast Level 24 [Ice Barrage](https://wiki.projectdiablo2.com/wiki/Ice_Barrage "Ice Barrage") on Striking** |
 | +\[180-220\]% Enhanced Damage | +\[180-220\]% Enhanced Damage |
 | Adds 15-30 Cold Damage | Adds 15-30 Cold Damage |
 | +\[3-5\] to [Strafe](https://wiki.projectdiablo2.com/wiki/Strafe "Strafe") | **+\[10-12\] to [Strafe](https://wiki.projectdiablo2.com/wiki/Strafe "Strafe")** |

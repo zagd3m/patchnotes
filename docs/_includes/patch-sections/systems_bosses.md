@@ -26,3 +26,5 @@ The solution would be to have specific balance numbers for skills in the context
 This means boss fights will involve up to 4 times 4 potions, which can be 33% rajuvs or regular potions.
 
 Obviously this means rebalancing those fights, but it will make them more interesting. We can even do only one of the bosses for season 11 (to see how people adapt), and then roll the others in s12 with the adjustments needed.
+
+> **S13 update**: The team slightly reduced T2 uber difficulty — minion HP cut ~25%, removed innate damage reduction/poison length reduction on minions, and normalized T2 drop rates to 1/200 (same as T1). Lucion desecrate chances were also increased. These are welcome tuning changes, but the structural issues we raise here (currency consumption on failure, rejuv dependency, separate balance numbers for boss fights) remain unaddressed.

@@ -16,6 +16,8 @@ Synergies changed :
 
 The base damage has been increased to compendate (see [Synergies changes](/patchnotes/sections/systems)) for the synergies % being nerfed.
 
+> **S13 update**: The team went the opposite direction — they reduced Raven base damage (4-6 → 2-3), made ravens deal 100% cold damage, and increased the limit every 2 levels instead of every level. Synergies were reduced from 10% to 8%. This keeps Raven as a summon support skill rather than a main skill, which is the opposite of what we proposed here. We still think a Raven Druid build is worth exploring.
+
 #### Hurricane
 
 > These changes aim to make Hurricane more impactful when fully synergized, while maintaining its power as a secondary source of damage.

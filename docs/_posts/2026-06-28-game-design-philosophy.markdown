@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Game Design Philosophy"
-date:   2026-06-28 14:00:00 +0200
+date:   2026-02-01 15:00:00 +0200
 description: Design reasoning and philosophy behind Project Diablo 2 changes
 ---
 

@@ -112,6 +112,8 @@ Battle Wrath is a new skill that grants the following effects (not staking) for 
 
 Overall, builds that were using CTA as their damage weapon will appreciate the change. And others, well, sorry but *prebuff sucks* :p
 
+> **S13 update**: The team restricted CTA so it can no longer be made in bows or crossbows. A minor change that doesn't address the prebuff issue.
+
 ---
 
 ### Infinity

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "About This Project"
-date:   2026-06-28 13:00:00 +0200
+date:   2026-02-01 15:00:00 +0200
 description: What this project is, how to use the site, and who is behind it
 ---
 
