@@ -240,3 +240,15 @@ The goal would be to compete with Buriza-Do Kyanon on the "raw damage" aspect, w
 #### Shadow Killer
 
 > Indirect buff because of the Battle Cestus changes.
+
+### Class specific weapons - Sorceress
+
+#### The Oculus
+
+> Occulus used to be a decent item, now noone will use it. Let's give it a purpose around teleport, which is its signature spell.
+
+- ~~+[2-3] to All Skills~~
+- +3 to All Skills
+- Teleport's Spell Damage % is reduced by 10%
+
+*Note: the Spell Damage penalty is halved below 0%, meaning one can reach -5% reduction at teleport lvl 51*

@@ -1,5 +1,11 @@
 ## QoL
 
+### Corrupted zones density
+
+> Corrupted zones are fun, but they don't have inner MF like maps.
+
+- Increased the density of corrupted zones by ~10%
+
 ### Leveling and progression
 
 > Let's help players reach the end game easily, without making the lvl 99 more accessible.
@@ -70,3 +76,21 @@ Builds that heavily rely on enigma would appreciate the early game buff, while k
 - Shrines bonuses are lost upon taking a portal or waypoint.
 
 This should make it less appealing to abuse shrines, while keeping them as a nice help during playthrough.
+
+### Charm inventory
+
+> Charms are too impactful. Players fill their entire inventory with skillers, torch, anni, and small charms — leaving no room for actual loot, and making charms the dominant gear influence (which isn't very fun, original, or build specific).
+
+- Reduce the charm inventory width from 10 columns to 4 columns.
+- Reduce the droprate of charms accordingly (to keep the economy stable).
+
+That's still enough for 3 skillers, torch/anni, and a handful of small charms — which is plenty of power. The point isn't to nerf charms into the ground, it's to stop them from crowding out everything else. With 6 fewer columns, picking up items while farming becomes natural again, and charm optimization stops being the main thing you think about when gearing.
+
+### Stacked drops for basic items
+
+> Low runes, pgems, and other basic crafting materials drop constantly but in single units. The frequency makes them feel meaningless — you pick them up out of habit, not excitement.
+
+- Basic items (low runes, pgems, flawless gems, ...) can drop in stacks of 1 to 20, with decreasing likelihood for larger stacks.
+- Overall drop rate is reduced to compensate, so the total supply stays roughly the same.
+
+The goal is to make finding these items feel meaningful again. Instead of picking up 40 individual Tal runes over a session, you'd find a few stacks — and a stack of 12 feels like an event, not a chore. It also reduces inventory clutter and click fatigue without changing the economy.

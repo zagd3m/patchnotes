@@ -82,3 +82,7 @@ The goal here is to make DS a dedicated build, where players use it as a main sk
 #### BoS
 
 > Note: BoS has also been impacted by the [skill IAS](#skill-ias) change, though the values have been adjusted to compensate.
+
+> Burst of Speed is really strong for 10 points, and not so appealing for the next 10 ones.
+
+- Nerfed the scaling to be more linear than logarithmic, making the skill slightly worst at 10 points, and identical at 20 points.
