@@ -115,18 +115,22 @@ No longer reduces Joust cooldown.
 
 #### Widowmaker
 
-> Let's make Widowmaker more relevant in the early game for Meme builds (sorcs / paladins mostly) by increasing the number of arrows fired.
+> Let's make Widowmaker more relevant in the early game for Meme builds (sorcs / paladins mostly) by increasing the number of arrows fired and making attack speed more accessible.
 
 | Current PD2 | Zagd3m's patch |
 | :--|:--|
 | Fires [Magic Arrows](https://wiki.projectdiablo2.com/wiki/Magic_Arrow "Magic Arrow") (Level 11) | Fires [Magic Arrows](https://wiki.projectdiablo2.com/wiki/Magic_Arrow "Magic Arrow") (Level 11) |
+| - | **+20% Increased Attack Speed** |
 | +\[275-350\]% Enhanced Damage | **+\[250-320\]% Enhanced Damage** |
 | Ignore Target's Defense | Ignore Target's Defense |
 | 33% Deadly Strike | 33% Deadly Strike |
 | +\[3-5\] to [Guided Arrow](https://wiki.projectdiablo2.com/wiki/Guided_Arrow "Guided Arrow") | **+\[10-12\] to [Guided Arrow](https://wiki.projectdiablo2.com/wiki/Guided_Arrow "Guided Arrow")** |
 | +\[3-5\] to [Multiple Shot](https://wiki.projectdiablo2.com/wiki/Multiple_Shot "Multiple Shot") | **+\[10-12\] to [Multiple Shot](https://wiki.projectdiablo2.com/wiki/Multiple_Shot "Multiple Shot")** |
+| - | Socketed (2-3) |
 
-By buffing MS's level, we're also indirectly adding some AR, just as what the team did with Passion, and it is welcome indeed.
+By buffing Multiple Shot's level, we're also indirectly adding some AR, just as what the team did with Passion, and it is welcome indeed.
+
+By giving inner attack speed, we're making the weapon more viable for early game builds that's can't realiably hope for a 4 sockets version that they can Shael. We are losing on the personalisation side (4 sox was more freedom than 20% IAS + 3sox), but we think the pros outweight the cons.
 
 #### Crackleshot
 
