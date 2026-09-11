@@ -1,4 +1,4 @@
-# Folder-based AGENT.md: patchnotes/docs
+# Folder-based AGENTS.md: patchnotes/docs
 
 ## Purpose
 
