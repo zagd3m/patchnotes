@@ -21,7 +21,7 @@ Synergies changed :
 - ~~Dragon Tail: +22% Damage per Level~~
 - Dragon Flight: +5% Damage per Level
 
-The base damage has been increased to compendate (see [Synergies changes](/patchnotes/sections/systems)) for the synergies % being nerfed, resulting in equivalent damage.
+The base damage has been increased to compendate (see [Synergies changes]({{ site.baseurl }}/systems/#synergies)) for the synergies % being nerfed, resulting in equivalent damage.
 
 #### Dragon Claw
 
@@ -40,7 +40,7 @@ This means that a 6fpa build would do both hits in 10 frames. Simple. Clear. Not
 
 - Cooldown: ~~2~~ **2.5** seconds
 - **Hard points now reduce the cooldown by .1 seconds (reaching .5 second at 20 points)**
-- **There is no item in the game** reducing the cooldown of DFlight [anymore](full-notes#stalker).
+- **There is no item in the game** reducing the cooldown of DFlight [anymore]({{ site.baseurl }}/full-notes#stalker).
 
 > Partial victory in s12 : Now has it's cooldown reduced with soft points going from 2 seconds (base) to 1 second (at level 24)
 {:.victory}
@@ -57,7 +57,7 @@ Synergies changed:
 - Wake of Fire: ~~+10%~~ **+3% Fire Damage per Level**
 - **Death Sentry: +3% Damage per Level**
 
-The base damage has been increased to compendate (see [Synergies changes](/patchnotes/sections/systems)) for the synergies % being nerfed, resulting in equivalent damage.
+The base damage has been increased to compendate (see [Synergies changes]({{ site.baseurl }}/systems/#synergies)) for the synergies % being nerfed, resulting in equivalent damage.
 
 #### Charged Bolt Sentry {#cbs}
 

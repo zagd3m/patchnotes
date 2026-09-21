@@ -4,7 +4,7 @@
 
 *Note : This situation comes from the fact that many builds are crap without infinity (for ex) being involved. As a result, playing those builds alone would suck without mercs having this source of auras, and they would pretty much be limited to groups of players. I don't want to prevent people from playing their fire build solo ; but there are other solutions. Here, I'll focus on limiting the power coming from mercs, and we'll cover recovery options afterwards.*
 
-[Iron golems](full-notes#iron-golem) will be reworked for the same reason and won't provide an aura.
+[Iron golems]({{ site.baseurl }}/full-notes#iron-golem) will be reworked for the same reason and won't provide an aura.
 
 > We want to (1) nerf late game aurabot mercs and (2) help with the early game where they die a lot.
 

@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PD2 Dragon Talon Kick Damage Calculator</title>
+<meta name="description" content="Estimate Dragon Talon kick damage in Project Diablo 2 using the community-verified PD2 kick formula: boot base damage, dex scaling, strength %ED, and skill enhanced damage.">
+<style>
+  :root {
+    --bg: #14100c;
+    --panel: #1e1913;
+    --panel2: #262019;
+    --border: #3d3327;
+    --text: #e8ddc8;
+    --muted: #a89a80;
+    --accent: #c8a23c;
+    --accent2: #7fb069;
+    --red: #c05c4a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px;
+    background: var(--bg); color: var(--text);
+    font-family: "Segoe UI", system-ui, sans-serif;
+    font-size: 15px; line-height: 1.45;
+  }
+  h1 { font-size: 1.5rem; color: var(--accent); margin: 0 0 4px; }
+  h2 { font-size: 1.1rem; color: var(--accent); margin: 0 0 12px; border-bottom: 1px solid var(--border); padding-bottom: 6px; }
+  .sub { color: var(--muted); margin: 0 0 20px; font-size: 0.9rem; }
+  .layout { display: grid; grid-template-columns: 340px 1fr; gap: 20px; max-width: 1200px; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+  .panel { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 16px; }
+  .panel + .panel { margin-top: 20px; }
+  label.field { display: block; margin-bottom: 12px; }
+  label.field > span { display: block; color: var(--muted); font-size: 0.85rem; margin-bottom: 4px; }
+  input[type="number"], select {
+    width: 100%; padding: 7px 9px; border-radius: 5px;
+    border: 1px solid var(--border); background: var(--panel2); color: var(--text);
+    font-size: 0.95rem;
+  }
+  input:focus, select:focus { outline: 1px solid var(--accent); }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .hint { font-size: 0.78rem; color: var(--muted); margin-top: 3px; }
+  .results { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 4px; }
+  @media (max-width: 700px) { .results { grid-template-columns: repeat(2, 1fr); } }
+  .stat { background: var(--panel2); border: 1px solid var(--border); border-radius: 8px; padding: 12px; text-align: center; }
+  .stat .v { font-size: 1.5rem; font-weight: 700; color: var(--accent2); }
+  .stat .l { font-size: 0.78rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .pos { color: var(--accent2); }
+  .note { background: var(--panel2); border-left: 3px solid var(--accent); padding: 10px 12px; border-radius: 0 6px 6px 0; margin: 10px 0; font-size: 0.88rem; }
+  .warn { border-left-color: var(--red); }
+  ul { margin: 8px 0; padding-left: 20px; }
+  li { margin-bottom: 5px; }
+  code { background: var(--panel2); padding: 1px 5px; border-radius: 4px; font-size: 0.85em; }
+  .tip { cursor: help; border-bottom: 1px dotted var(--muted); }
+  details { margin-top: 8px; }
+  summary { cursor: pointer; color: var(--muted); font-size: 0.85rem; }
+</style>
+</head>
+<body>
+
+<h1>PD2 Dragon Talon Kick Damage Calculator</h1>
+<p class="sub">Project Diablo 2 kick damage — models the community-verified formula from Bubbles' Dragon Tail calculator (confirmed by PD2 regulars), not the vanilla D2 formula. Still an estimate — see notes.</p>
+
+<div class="layout">
+
+  <!-- ==================== INPUTS ==================== -->
+  <div class="panel">
+    <h2>Inputs</h2>
+
+    <label class="field">
+      <span>Game version</span>
+      <select id="version">
+        <option value="s13" selected>Season 13 (current)</option>
+        <option value="s10">Season 10–12 (legacy)</option>
+      </select>
+      <div class="hint">S13: +60% base, +30%/lvl, 25%/lvl synergies. S10–12: +50% base, +25%/lvl, 22%/lvl synergies.</div>
+    </label>
+
+    <label class="field">
+      <span>Formula <span class="tip" title="The current PD2 formula (dex/4–dex/3, str ×1.0, +kick damage counts double) comes from Bubbles' community spreadsheet, vouched as correct on the PD2 forums. The historical option is the literal S8 patch-note wording, now known to be inaccurate.">(?)</span></span>
+      <select id="model">
+        <option value="current" selected>Current PD2 (community-verified)</option>
+        <option value="patchnotes">S8 patch-notes wording (historical, inaccurate)</option>
+      </select>
+    </label>
+
+    <div class="row2">
+      <label class="field">
+        <span>Dragon Talon level</span>
+        <input type="number" id="slvl" min="1" max="60" value="30">
+      </label>
+      <label class="field">
+        <span>Kicks per attack</span>
+        <input type="number" id="kicks" min="1" max="3" value="3">
+        <div class="hint">Auto-set: 1 (slvl 1–5), 2 (6–11), 3 (12+).</div>
+      </label>
+    </div>
+
+    <div class="row2">
+      <label class="field">
+        <span>Dragon Tail level (synergy)</span>
+        <input type="number" id="synTail" min="0" max="60" value="20">
+      </label>
+      <label class="field">
+        <span>Dragon Flight level (synergy)</span>
+        <input type="number" id="synFlight" min="0" max="60" value="20">
+      </label>
+    </div>
+
+    <div class="row2">
+      <label class="field">
+        <span>Strength</span>
+        <input type="number" id="str" min="0" max="1200" value="150">
+      </label>
+      <label class="field">
+        <span>Dexterity</span>
+        <input type="number" id="dex" min="0" max="1200" value="150">
+      </label>
+    </div>
+
+    <label class="field">
+      <span>Boots</span>
+      <select id="boot"></select>
+    </label>
+
+    <div class="row2" id="customBootRow" style="display:none">
+      <label class="field">
+        <span>Custom boot min kick</span>
+        <input type="number" id="bootMin" min="0" value="80">
+      </label>
+      <label class="field">
+        <span>Custom boot max kick</span>
+        <input type="number" id="bootMax" min="0" value="125">
+      </label>
+    </div>
+
+    <label class="field">
+      <span>+Kick Damage on gear <span class="tip" title="e.g. Natalya's Odium set bonus (+30), unique claw (+30–40). Counts DOUBLE in PD2: +30 adds 60 to both min and max base.">(?)</span></span>
+      <input type="number" id="kickFlat" min="0" value="0">
+      <div class="hint">Applied ×2 to each endpoint (PD2 quirk — verified in Bubbles' calc).</div>
+    </label>
+
+    <div class="row2">
+      <label class="field">
+        <span>Damage +X <span class="tip" title="Generic 'Damage +X' mods (e.g. Astreon's). Added once to both min and max base.">(?)</span></span>
+        <input type="number" id="dmgPlus" min="0" value="0">
+      </label>
+      <label class="field">
+        <span>&nbsp;</span>
+        <span></span>
+      </label>
+    </div>
+
+    <div class="row2">
+      <label class="field">
+        <span>Off-weapon min damage</span>
+        <input type="number" id="dmgMin" min="0" value="0">
+      </label>
+      <label class="field">
+        <span>Off-weapon max damage</span>
+        <input type="number" id="dmgMax" min="0" value="0">
+      </label>
+    </div>
+    <div class="hint" style="margin-top:-8px;margin-bottom:12px">"Adds X–Y Damage" and +min/+max on non-weapon gear (e.g. War Traveler). Added once to kick base, before %ED.</div>
+
+    <div class="row2">
+      <label class="field">
+        <span>Min elemental damage</span>
+        <input type="number" id="eleMin" min="0" value="0">
+      </label>
+      <label class="field">
+        <span>Max elemental damage</span>
+        <input type="number" id="eleMax" min="0" value="0">
+      </label>
+    </div>
+    <div class="hint" style="margin-top:-8px;margin-bottom:12px">Fire/cold/light/etc. on gear — added after %ED, not scaled by it.</div>
+
+    <label class="field">
+      <span>Off-weapon % Enhanced Damage <span class="tip" title="Gear %ED, auras (Might, Fanaticism, Concentration, HoW, Battle Command), Fortitude, etc. All additive in one bucket with str %ED and Talon %ED.">(?)</span></span>
+      <input type="number" id="offEd" min="0" value="0">
+    </label>
+
+    <label class="field">
+      <span>%ED vs demons/undead <span class="tip" title="e.g. %Damage to Demons/Undead. Applies only against matching targets — shown as a separate output row.">(?)</span></span>
+      <input type="number" id="raceEd" min="0" value="0">
+    </label>
+
+    <div class="row2">
+      <label class="field">
+        <span>Critical Strike %</span>
+        <input type="number" id="cs" min="0" max="100" value="0">
+        <div class="hint">×2.0 phys, 75% cap, checked first.</div>
+      </label>
+      <label class="field">
+        <span>Deadly Strike %</span>
+        <input type="number" id="ds" min="0" max="100" value="0">
+        <div class="hint">×1.5 phys, 75% cap.</div>
+      </label>
+    </div>
+  </div>
+
+  <!-- ==================== OUTPUT ==================== -->
+  <div>
+    <div class="panel">
+      <h2>Damage per kick (estimate)</h2>
+      <div class="results">
+        <div class="stat"><div class="v" id="rMin">–</div><div class="l">Min / kick</div></div>
+        <div class="stat"><div class="v" id="rMax">–</div><div class="l">Max / kick</div></div>
+        <div class="stat"><div class="v" id="rAvg">–</div><div class="l">Avg / kick</div></div>
+        <div class="stat"><div class="v" id="rSeq">–</div><div class="l">Full sequence (avg)</div></div>
+      </div>
+      <div class="results" id="extraStats" style="display:none">
+        <div class="stat"><div class="v" id="rCrit">–</div><div class="l">Avg / kick incl. crits</div></div>
+        <div class="stat"><div class="v" id="rCritSeq">–</div><div class="l">Sequence incl. crits</div></div>
+        <div class="stat" id="raceStat1" style="display:none"><div class="v" id="rRaceMin">–</div><div class="l">Min vs demon/undead</div></div>
+        <div class="stat" id="raceStat2" style="display:none"><div class="v" id="rRaceMax">–</div><div class="l">Max vs demon/undead</div></div>
+      </div>
+      <div class="hint" id="rSeqSub"></div>
+      <div class="note warn" style="margin-top:12px">Estimate based on the community-verified formula (see notes below) — not engine-verified for S13.</div>
+    </div>
+
+    <div class="panel">
+      <h2>Formula breakdown</h2>
+      <table id="breakdown"></table>
+    </div>
+
+    <div class="panel">
+      <h2>What moves the needle?</h2>
+      <table>
+        <thead><tr><th>Change</th><th class="num">Δ avg / kick</th><th class="num">% gain</th><th class="num">Δ sequence</th></tr></thead>
+        <tbody id="compare"></tbody>
+      </table>
+      <div class="note">All %ED is <strong>additive</strong> in one bucket (str, skill, synergies, gear, auras). +30% from a skill level sounds big, but once your bucket is ~700–900%, it's only a few % real damage.</div>
+    </div>
+
+    <div class="panel">
+      <h2>Formula & assumptions</h2>
+      <div class="note">
+        <strong>Implemented model (from Bubbles' PD2 calculator, forum-verified):</strong><br>
+        <code>baseMin = floor(dex/4 + bootMin + kickFlat×2 + dmgPlus + flatMin)</code><br>
+        <code>baseMax = floor(dex/3 + bootMax + kickFlat×2 + dmgPlus + flatMax)</code><br>
+        <code>ED% = str×1.0 + talonED + synergyED + gearED + auraED</code><br>
+        <code>kickDmg = floor(base × (1 + ED%/100)) + elemental</code>
+      </div>
+      <ul>
+        <li><strong>Single bucket:</strong> the dex "feet" term sits inside the same %ED multiplier as everything else — the vanilla two-term split does not exist in PD2.</li>
+        <li><strong>Strength:</strong> each point = +1% ED (×1.0). The "80%" patch-note wording is inaccurate to the implementation.</li>
+        <li><strong>+Kick Damage counts double:</strong> +30 adds 60 to min and max base before %ED.</li>
+        <li><strong>Elemental flat damage:</strong> added after %ED, not scaled, and not doubled by crits.</li>
+        <li><strong>Skill ED:</strong> S13 → <code>30 + 30×slvl</code> (+25%/lvl per synergy); S10–12 → <code>25 + 25×slvl</code> (+22%/lvl per synergy).</li>
+        <li><strong>Crits:</strong> CS ×2.0 and DS ×1.5, each 75%-capped, CS checked first. Expected value = <code>physAvg × (1 + cs + (1−cs)×ds×0.5)</code>.</li>
+        <li><strong>Not modeled:</strong> crushing blow, open wounds, splash to secondary targets (same damage), target resistances/PDR.</li>
+        <li>Weapon damage and weapon %ED do <strong>not</strong> apply to kicks in PD2.</li>
+      </ul>
+      <div class="note">Full source audit and remaining unknowns: see <code>formula.md</code> in this folder. Formula structure comes from a Season-11-era community sheet; S12/S13 didn't touch the kick routine, so it's assumed current.</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const BOOTS = [
+  { name: "Boots",               tier: "Normal",     min: 3,  max: 8   },
+  { name: "Heavy Boots",         tier: "Normal",     min: 4,  max: 12  },
+  { name: "Chain Boots",         tier: "Normal",     min: 6,  max: 14  },
+  { name: "Light Plated Boots",  tier: "Normal",     min: 8,  max: 18  },
+  { name: "Greaves",             tier: "Normal",     min: 10, max: 20  },
+  { name: "Demonhide Boots",     tier: "Exceptional",min: 30, max: 64  },
+  { name: "Sharkskin Boots",     tier: "Exceptional",min: 32, max: 72  },
+  { name: "Mesh Boots",          tier: "Exceptional",min: 35, max: 78  },
+  { name: "Battle Boots",        tier: "Exceptional",min: 42, max: 84  },
+  { name: "War Boots",           tier: "Exceptional",min: 45, max: 90  },
+  { name: "Wyrmhide Boots",      tier: "Elite",      min: 75, max: 100 },
+  { name: "Scarabshell Boots",   tier: "Elite",      min: 70, max: 110 },
+  { name: "Boneweave Boots",     tier: "Elite",      min: 80, max: 125 },
+  { name: "Mirrored Boots",      tier: "Elite",      min: 69, max: 147 },
+  { name: "Myrmidon Greaves",    tier: "Elite",      min: 83, max: 155 },
+  { name: "Custom…",             tier: "Custom",     min: null, max: null },
+];
+
+function num(id) { return Math.max(0, Number(document.getElementById(id).value) || 0); }
+
+function autoKicks(slvl) { return Math.min(3, 1 + Math.floor(slvl / 6)); }
+
+function skillParams(version) {
+  return version === "s13"
+    ? { base: 30, perLvl: 30, syn: 25 }   // ED = 30 + 30*slvl  (60% at slvl 1, +30%/lvl)
+    : { base: 25, perLvl: 25, syn: 22 };  // ED = 25 + 25*slvl  (50% at slvl 1, +25%/lvl)
+}
+
+function modelParams(model) {
+  return model === "current"
+    ? { dexMinDiv: 4, dexMaxDiv: 3, strFactor: 1.0 }
+    : { dexMinDiv: 3, dexMaxDiv: 2, strFactor: 0.8 };
+}
+
+function readInputs(overrides) {
+  const o = overrides || {};
+  const bootSel = document.getElementById("boot");
+  const boot = BOOTS[bootSel.selectedIndex];
+  const custom = boot.min === null;
+  const in_ = {
+    version:  document.getElementById("version").value,
+    model:    document.getElementById("model").value,
+    slvl:     Math.min(60, Math.max(1, num("slvl"))),
+    kicks:    Math.min(3, Math.max(1, num("kicks"))),
+    synTail:  num("synTail"),
+    synFlight:num("synFlight"),
+    str:      num("str"),
+    dex:      num("dex"),
+    bootName: custom ? "Custom" : boot.name,
+    bootMin:  custom ? num("bootMin") : boot.min,
+    bootMax:  custom ? num("bootMax") : boot.max,
+    kickFlat: num("kickFlat"),
+    dmgPlus:  num("dmgPlus"),
+    dmgMin:   num("dmgMin"),
+    dmgMax:   num("dmgMax"),
+    eleMin:   num("eleMin"),
+    eleMax:   num("eleMax"),
+    offEd:    num("offEd"),
+    raceEd:   num("raceEd"),
+    cs:       num("cs"),
+    ds:       num("ds"),
+  };
+  return Object.assign(in_, o);
+}
+
+function compute(i) {
+  const sp = skillParams(i.version);
+  const mp = modelParams(i.model);
+
+  // Base: one unified bucket — dex feet + boot + flats, floored once
+  const baseMin = Math.floor(i.dex / mp.dexMinDiv + i.bootMin + i.kickFlat * 2 + i.dmgPlus + i.dmgMin);
+  const baseMax = Math.floor(i.dex / mp.dexMaxDiv + i.bootMax + i.kickFlat * 2 + i.dmgPlus + i.dmgMax);
+
+  const skillED = sp.base + sp.perLvl * i.slvl;
+  const synED   = sp.syn * (i.synTail + i.synFlight);
+  const strED   = i.str * mp.strFactor;
+  const totalED = strED + skillED + synED + i.offEd;
+
+  // Physical endpoints: floor(base × mult), then elemental added unscaled
+  const physMin = Math.floor(baseMin * (1 + totalED / 100));
+  const physMax = Math.floor(baseMax * (1 + totalED / 100));
+  const min = physMin + i.eleMin;
+  const max = physMax + i.eleMax;
+
+  // vs demons/undead: race ED joins the same additive bucket
+  const raceMin = Math.floor(baseMin * (1 + (totalED + i.raceEd) / 100)) + i.eleMin;
+  const raceMax = Math.floor(baseMax * (1 + (totalED + i.raceEd) / 100)) + i.eleMax;
+
+  // Expected damage with crits: CS (×2) checked first, then DS (×1.5); physical only
+  const cs = Math.min(75, i.cs) / 100;
+  const ds = Math.min(75, i.ds) / 100;
+  const critMult = 1 + cs * 1.0 + (1 - cs) * ds * 0.5;
+  const physAvg = (physMin + physMax) / 2;
+  const eleAvg  = (i.eleMin + i.eleMax) / 2;
+  const avgCrit = physAvg * critMult + eleAvg;
+
+  const avg = (min + max) / 2;
+  return {
+    min, max, avg, seq: avg * i.kicks, avgCrit, seqCrit: avgCrit * i.kicks,
+    raceMin, raceMax, baseMin, baseMax, skillED, synED, strED, totalED,
+    kicks: i.kicks,
+    dexMin: i.dex / mp.dexMinDiv, dexMax: i.dex / mp.dexMaxDiv,
+  };
+}
+
+function render() {
+  const i = readInputs();
+  const r = compute(i);
+  const mp = modelParams(i.model);
+
+  document.getElementById("rMin").textContent = r.min.toLocaleString();
+  document.getElementById("rMax").textContent = r.max.toLocaleString();
+  document.getElementById("rAvg").textContent = r.avg.toLocaleString(undefined, {maximumFractionDigits: 1});
+  document.getElementById("rSeq").textContent = r.seq.toLocaleString(undefined, {maximumFractionDigits: 0});
+  document.getElementById("rSeqSub").textContent = r.kicks + " kick" + (r.kicks > 1 ? "s" : "") + " per Dragon Talon attack — assumes every kick lands.";
+
+  const showExtra = i.cs > 0 || i.ds > 0 || i.raceEd > 0;
+  document.getElementById("extraStats").style.display = showExtra ? "grid" : "none";
+  document.getElementById("rCrit").textContent = r.avgCrit.toLocaleString(undefined, {maximumFractionDigits: 1});
+  document.getElementById("rCritSeq").textContent = r.seqCrit.toLocaleString(undefined, {maximumFractionDigits: 0});
+  document.getElementById("raceStat1").style.display = i.raceEd > 0 ? "" : "none";
+  document.getElementById("raceStat2").style.display = i.raceEd > 0 ? "" : "none";
+  document.getElementById("rRaceMin").textContent = r.raceMin.toLocaleString();
+  document.getElementById("rRaceMax").textContent = r.raceMax.toLocaleString();
+
+  const dexLabel = i.model === "current" ? "dex/4 – dex/3" : "dex/3 – dex/2";
+  const bd = [
+    ["Boot base kick (" + i.bootName + ")", i.bootMin + " – " + i.bootMax],
+    ["+ Kick damage ×2 (" + i.kickFlat + " → " + i.kickFlat * 2 + ")", "+" + i.kickFlat * 2 + " – +" + i.kickFlat * 2],
+    ["Damage +X", "+" + i.dmgPlus + " – +" + i.dmgPlus],
+    ["Off-weapon min/max damage", "+" + i.dmgMin + " – +" + i.dmgMax],
+    ["Dex feet damage (" + dexLabel + ", unfloored)", r.dexMin.toFixed(2) + " – " + r.dexMax.toFixed(2)],
+    ["<strong>Base (floored)</strong>", "<strong>" + r.baseMin + " – " + r.baseMax + "</strong>"],
+    ["Strength %ED (str × " + mp.strFactor + ")", "+" + r.strED.toLocaleString() + "%"],
+    ["Dragon Talon %ED (slvl " + i.slvl + ")", "+" + r.skillED + "%"],
+    ["Synergy %ED (Tail " + i.synTail + " + Flight " + i.synFlight + ")", "+" + r.synED + "%"],
+    ["Other off-weapon %ED", "+" + i.offEd + "%"],
+    ["<strong>Total %ED multiplier</strong>", "<strong>×" + (1 + r.totalED / 100).toFixed(2) + "  (" + r.totalED.toLocaleString() + "% ED)</strong>"],
+    ["Elemental (added post-%ED)", "+" + i.eleMin + " – +" + i.eleMax],
+  ];
+  document.getElementById("breakdown").innerHTML =
+    bd.map(row => "<tr><td>" + row[0] + "</td><td class='num'>" + row[1] + "</td></tr>").join("");
+
+  // ---- comparison rows ----
+  const rows = [];
+  const base = r.avg;
+
+  function delta(label, overrides) {
+    const r2 = compute(readInputs(overrides));
+    const d = r2.avg - base;
+    rows.push({ label, dAvg: d, pct: base > 0 ? d / base * 100 : 0, dSeq: r2.seq - r.seq });
+  }
+
+  if (i.slvl < 60) delta("+1 Dragon Talon level", { slvl: i.slvl + 1 });
+  delta("+10 Strength",  { str: i.str + 10 });
+  delta("+10 Dexterity", { dex: i.dex + 10 });
+  delta("+10 Kick Damage on gear (counts ×2)", { kickFlat: i.kickFlat + 10 });
+  delta("+10 Damage +X / flat min-max", { dmgMin: i.dmgMin + 10, dmgMax: i.dmgMax + 10 });
+
+  // boot upgrade: next boot in list with higher avg
+  const curAvg = (i.bootMin + i.bootMax) / 2;
+  let bestUp = null;
+  for (const b of BOOTS) {
+    if (b.min === null) continue;
+    const a = (b.min + b.max) / 2;
+    if (a > curAvg && (!bestUp || a < (bestUp.min + bestUp.max) / 2)) bestUp = b;
+  }
+  if (bestUp) delta("Boots → " + bestUp.name, { bootMin: bestUp.min, bootMax: bestUp.max, bootName: bestUp.name });
+
+  document.getElementById("compare").innerHTML = rows.map(x =>
+    "<tr><td>" + x.label + "</td><td class='num pos'>+" + x.dAvg.toLocaleString(undefined, {maximumFractionDigits: 1}) +
+    "</td><td class='num pos'>+" + x.pct.toFixed(1) + "%</td><td class='num pos'>+" +
+    x.dSeq.toLocaleString(undefined, {maximumFractionDigits: 0}) + "</td></tr>").join("");
+}
+
+function init() {
+  const bootSel = document.getElementById("boot");
+  BOOTS.forEach((b) => {
+    const opt = document.createElement("option");
+    opt.textContent = b.min === null ? b.name : b.name + "  (" + b.min + "–" + b.max + ", " + b.tier + ")";
+    if (b.name === "Boneweave Boots") opt.selected = true;
+    bootSel.appendChild(opt);
+  });
+
+  bootSel.addEventListener("change", () => {
+    document.getElementById("customBootRow").style.display =
+      BOOTS[bootSel.selectedIndex].min === null ? "grid" : "none";
+    render();
+  });
+
+  document.getElementById("slvl").addEventListener("input", () => {
+    document.getElementById("kicks").value = autoKicks(num("slvl"));
+    render();
+  });
+
+  document.querySelectorAll("input, select").forEach(el => {
+    if (el.id === "boot" || el.id === "slvl") return;
+    el.addEventListener("input", render);
+    el.addEventListener("change", render);
+  });
+
+  render();
+}
+
+if (typeof document !== "undefined") {
+  document.addEventListener("DOMContentLoaded", init);
+}
+</script>
+</body>
+</html>

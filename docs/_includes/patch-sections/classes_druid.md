@@ -14,7 +14,7 @@ Synergies changed :
 - **Hurricane: +3% Damage per Level**
 - **Carrion Vine: +3% Damage per Level**
 
-The base damage has been increased to compendate (see [Synergies changes](/patchnotes/sections/systems)) for the synergies % being nerfed.
+The base damage has been increased to compendate (see [Synergies changes]({{ site.baseurl }}/systems/#synergies)) for the synergies % being nerfed.
 
 > **S13 update**: The team went the opposite direction — they reduced Raven base damage (4-6 → 2-3), made ravens deal 100% cold damage, and increased the limit every 2 levels instead of every level. Synergies were reduced from 10% to 8%. This keeps Raven as a summon support skill rather than a main skill, which is the opposite of what we proposed here. We still think a Raven Druid build is worth exploring.
 
@@ -29,7 +29,7 @@ Synergies changed :
 - **Raven: +3% Damage per Level**
 - **Shock Wave: +3% Damage per Level**
 
-The base damage has been increased to compendate (see [Synergies changes](/patchnotes/sections/systems)) for the synergies % being nerfed, and, additionnally, the max damage (fully synergized) has been increased by 150%.
+The base damage has been increased to compendate (see [Synergies changes]({{ site.baseurl }}/systems/#synergies)) for the synergies % being nerfed, and, additionnally, the max damage (fully synergized) has been increased by 150%.
 
 #### Grizzly
 

@@ -234,7 +234,7 @@ The goal would be to compete with Buriza-Do Kyanon on the "raw damage" aspect, w
 
 #### Stalker's Cull (victory) {#stalker}
 
-> Cooldown reduction isn't healthy for the game, as it reduced items diversity for fast dflight builds. See changes to [Dragon Flight](full-notes#dragon-flight). We want it to be the Deadly Strike option amongst uniques claws, instead of being the CDR claw it used to be (hi trapsins).
+> Cooldown reduction isn't healthy for the game, as it reduced items diversity for fast dflight builds. See changes to [Dragon Flight]({{ site.baseurl }}/full-notes#dragon-flight). We want it to be the Deadly Strike option amongst uniques claws, instead of being the CDR claw it used to be (hi trapsins).
 
 - ~~Dragon Flight's Cooldown is Reduced by 0.5 Seconds~~
 - [20-~~30~~**40**]% Deadly Strike

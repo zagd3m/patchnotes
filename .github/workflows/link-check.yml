@@ -1,0 +1,38 @@
+name: Build and link-check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+          working-directory: patchnotes/docs
+
+      - name: Build site
+        run: bundle exec jekyll build
+        working-directory: patchnotes/docs
+
+      # The site uses the /patchnotes baseurl: stage _site under a matching
+      # directory so root-relative links resolve offline (same as
+      # personnal/check_links does locally).
+      - name: Stage link-check root
+        run: |
+          mkdir -p patchnotes/docs/.checkroot/patchnotes
+          cp -r patchnotes/docs/_site/* patchnotes/docs/.checkroot/patchnotes/
+
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --offline
+            --root-dir patchnotes/docs/.checkroot
+            patchnotes/docs/.checkroot

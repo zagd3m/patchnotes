@@ -70,7 +70,7 @@ Those changes push Kalan towards a "save skill points" identity, while retaining
 
 #### Ravenlore
 
-We want a Raven Druid build. See the changes to the [Raven skill](full-notes#raven) too.
+We want a Raven Druid build. See the changes to the [Raven skill]({{ site.baseurl }}/full-notes#raven) too.
 
 | Current PD2 | Zagd3m's patch |
 |:--|:--|
