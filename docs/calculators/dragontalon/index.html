@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PD2 Dragon Talon Kick Damage Calculator</title>
-<meta name="description" content="Estimate Dragon Talon kick damage in Project Diablo 2 using the community-verified PD2 kick formula: boot base damage, dex scaling, strength %ED, and skill enhanced damage.">
+<title>PD2 Dragon Talon Kick Damage Calculator (Beta)</title>
+<meta name="description" content="Estimate Dragon Talon kick damage in Project Diablo 2. Beta — inspired by community work (Bubbles' kick calculator), not verified against the live game (yet).">
 <style>
   :root {
     --bg: #14100c;
@@ -63,8 +63,8 @@
 </head>
 <body>
 
-<h1>PD2 Dragon Talon Kick Damage Calculator</h1>
-<p class="sub">Project Diablo 2 kick damage — models the community-verified formula from Bubbles' Dragon Tail calculator (confirmed by PD2 regulars), not the vanilla D2 formula. Still an estimate — see notes.</p>
+<h1>PD2 Dragon Talon Kick Damage Calculator <span style="font-size:0.7rem;color:var(--muted);vertical-align:middle;border:1px solid var(--border);border-radius:4px;padding:2px 6px;">BETA</span></h1>
+<p class="sub">Estimates Dragon Talon kick damage in Project Diablo 2, taking inspiration from community work — mainly Bubbles' Dragon Tail calculator, shared by PD2 regulars. Not the vanilla D2 formula, and never verified in-game: treat the numbers as a rough guide, not gospel.</p>
 
 <div class="layout">
 
@@ -82,10 +82,10 @@
     </label>
 
     <label class="field">
-      <span>Formula <span class="tip" title="The current PD2 formula (dex/4–dex/3, str ×1.0, +kick damage counts double) comes from Bubbles' community spreadsheet, vouched as correct on the PD2 forums. The historical option is the literal S8 patch-note wording, now known to be inaccurate.">(?)</span></span>
+      <span>Formula <span class="tip" title="The current PD2 option (dex/4–dex/3, str ×1.0, +kick damage counts double) is inspired by Bubbles' community spreadsheet, vouched for on the PD2 forums — not officially confirmed. The historical option is the literal S8 patch-note wording, believed to be inaccurate.">(?)</span></span>
       <select id="model">
-        <option value="current" selected>Current PD2 (community-verified)</option>
-        <option value="patchnotes">S8 patch-notes wording (historical, inaccurate)</option>
+        <option value="current" selected>Current PD2 (community-derived)</option>
+        <option value="patchnotes">S8 patch-notes wording (historical, believed inaccurate)</option>
       </select>
     </label>
 
@@ -142,7 +142,7 @@
     <label class="field">
       <span>+Kick Damage on gear <span class="tip" title="e.g. Natalya's Odium set bonus (+30), unique claw (+30–40). Counts DOUBLE in PD2: +30 adds 60 to both min and max base.">(?)</span></span>
       <input type="number" id="kickFlat" min="0" value="0">
-      <div class="hint">Applied ×2 to each endpoint (PD2 quirk — verified in Bubbles' calc).</div>
+      <div class="hint">Applied ×2 to each endpoint (PD2 quirk — per Bubbles' calc).</div>
     </label>
 
     <div class="row2">
@@ -221,7 +221,7 @@
         <div class="stat" id="raceStat2" style="display:none"><div class="v" id="rRaceMax">–</div><div class="l">Max vs demon/undead</div></div>
       </div>
       <div class="hint" id="rSeqSub"></div>
-      <div class="note warn" style="margin-top:12px">Estimate based on the community-verified formula (see notes below) — not engine-verified for S13.</div>
+      <div class="note warn" style="margin-top:12px">Beta estimate — inspired by a community formula (see notes below), never verified in-game for S13. Numbers may differ from what you see in-game.</div>
     </div>
 
     <div class="panel">
@@ -241,21 +241,21 @@
     <div class="panel">
       <h2>Formula & assumptions</h2>
       <div class="note">
-        <strong>Implemented model (from Bubbles' PD2 calculator, forum-verified):</strong><br>
+        <strong>Implemented model (inspired by Bubbles' community PD2 calculator):</strong><br>
         <code>baseMin = floor(dex/4 + bootMin + kickFlat×2 + dmgPlus + flatMin)</code><br>
         <code>baseMax = floor(dex/3 + bootMax + kickFlat×2 + dmgPlus + flatMax)</code><br>
         <code>ED% = str×1.0 + talonED + synergyED + gearED + auraED</code><br>
         <code>kickDmg = floor(base × (1 + ED%/100)) + elemental</code>
       </div>
       <ul>
-        <li><strong>Single bucket:</strong> the dex "feet" term sits inside the same %ED multiplier as everything else — the vanilla two-term split does not exist in PD2.</li>
-        <li><strong>Strength:</strong> each point = +1% ED (×1.0). The "80%" patch-note wording is inaccurate to the implementation.</li>
+        <li><strong>Single bucket:</strong> in this model the dex "feet" term sits inside the same %ED multiplier as everything else — the vanilla two-term split isn't used.</li>
+        <li><strong>Strength:</strong> each point = +1% ED (×1.0). The "80%" patch-note wording doesn't match this model.</li>
         <li><strong>+Kick Damage counts double:</strong> +30 adds 60 to min and max base before %ED.</li>
         <li><strong>Elemental flat damage:</strong> added after %ED, not scaled, and not doubled by crits.</li>
         <li><strong>Skill ED:</strong> S13 → <code>30 + 30×slvl</code> (+25%/lvl per synergy); S10–12 → <code>25 + 25×slvl</code> (+22%/lvl per synergy).</li>
         <li><strong>Crits:</strong> CS ×2.0 and DS ×1.5, each 75%-capped, CS checked first. Expected value = <code>physAvg × (1 + cs + (1−cs)×ds×0.5)</code>.</li>
         <li><strong>Not modeled:</strong> crushing blow, open wounds, splash to secondary targets (same damage), target resistances/PDR.</li>
-        <li>Weapon damage and weapon %ED do <strong>not</strong> apply to kicks in PD2.</li>
+        <li>Weapon damage and weapon %ED are <strong>not</strong> used for kicks in this model.</li>
       </ul>
       <div class="note">Full source audit and remaining unknowns: see <code>formula.md</code> in this folder. Formula structure comes from a Season-11-era community sheet; S12/S13 didn't touch the kick routine, so it's assumed current.</div>
     </div>
