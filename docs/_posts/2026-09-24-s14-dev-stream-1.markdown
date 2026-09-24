@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Reacting to the S14 Dev Stream #1"
+date:   2026-09-24 15:00:00 +0200
+description: My take on the S14 stash rework, Discovery Progress, the Blessed Hammer fix, and what the stream still leaves off my Top 10.
+---
+
+TLDR: This stream makes PD2 more comfortable, not more diverse. That's fine for a QoL showcase. But the stash changes are the clear win; the Hammer change fixes an annoyance without fixing the build.
+
+## The stash is the big win
+
+Uniques and sets get their own tabs, with room for one of each item and stat ranges visible before you find them. Add a map tab and automatic page affinities, and stash management suddenly looks a lot less like mule management.
+
+Discovery Progress is the part I find more interesting. Find and identify an item in the same game, and party members who were there get credit toward the grail. Finish it and you get an aura; the top finishers get a special version. I like a season goal that isn't just more damage. Party credit could be a nice reason to play together, though I don't know yet how the details work for solo players. Either way, this sounds more fun than another stash tab full of mules.
+
+## Hammers are nicer, not more diverse
+
+The team is removing Blessed Hammer's collision with walls and objects. I proposed a 5% chance to do that through the Meditation synergy. They chose the QoL fix over my build-choice version, and I can't blame them: hammers hitting walls feels bad.
+
+But this doesn't change the Hammerdin build. Concentration is still the obvious aura, and the synergies still push you down the same path. My [Top 10]({{ site.baseurl }}/blog/top-10-changes/) is about changes like reducing synergy pressure so skills have room for other choices. This fixes how hammers move, not how Hammerdins are built.
+
+Blaze gets phasing instead of the longer duration I suggested. That's useful, but it doesn't make Blaze a build. Dire Wolves getting pierce is a nice summon buff; I'm not sure it creates a new reason to play them. The +5% elemental jewel prefix could be interesting, but I want to see what it competes with before calling it a win.
+
+## Good QoL. Where's the balance?
+
+Socketing straight from a stack and a monsters-remaining counter are exactly the kind of small fixes that remove daily friction. Character sorting is welcome too. Gloom is reworked and there's a new map, but the recap doesn't give enough detail for me to have a take yet.
+
+No real news on my bigger asks: [balance changes]({{ site.baseurl }}/blog/top-10-changes/#1-balance-changes), [synergies]({{ site.baseurl }}/blog/top-10-changes/#6-nerf-synergies-buff-proc-based-builds), or [snapshotting]({{ site.baseurl }}/blog/top-10-changes/#2-fix-snapshotting). Maybe those are for the next stream. This was a good QoL start; now show me the changes that might make me play a different build !
+
+After all, PD2 was supposed to be about build diversity.
