@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# Build the Jekyll site and check all internal links offline.
+#
+# The site is served under the /patchnotes baseurl, so root-relative links like
+# /patchnotes/items/ cannot be resolved against _site directly. We copy _site
+# into .checkroot/patchnotes/ and point lychee's --root-dir at .checkroot, which
+# makes /patchnotes/* resolve to the staged copy.
+#
+# Usage (from anywhere in the workspace):
+#   personnal/check_links
+#
+# .checkroot/ is gitignored and safe to delete — it is regenerated each run.
+
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+DOCS="$ROOT/docs"
+
+cd "$DOCS"
+echo "==> jekyll build"
+bundle exec jekyll build
+
+echo "==> staging .checkroot/patchnotes"
+rm -rf .checkroot
+mkdir -p .checkroot/patchnotes
+cp -r _site/* .checkroot/patchnotes/
+
+LYCHEE="$(command -v lychee || true)"
+if [ -z "$LYCHEE" ]; then
+  # winget installs outside PATH in some shells — fall back to the known path
+  LYCHEE="$LOCALAPPDATA/Microsoft/WinGet/Packages/lycheeverse.lychee_Microsoft.Winget.Source_8wekyb3d8bbwe/lychee-x86_64-pc-windows-msvc/lychee.exe"
+fi
+
+echo "==> lychee (offline)"
+"$LYCHEE" --offline --root-dir .checkroot .checkroot

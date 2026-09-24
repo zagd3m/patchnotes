@@ -1,0 +1,100 @@
+#!/usr/bin/env bash
+# Read-only diagnostic for the patchnotes repo — shared tooling checks.
+#
+# This is the repo layer: everything here must hold for ANYONE who clones the
+# repo, on any machine, with any GitHub account. Machine/account/workspace
+# checks (credential pins, token scope, gh wrapper, .agents/ freshness) live in
+# personnal/doctor at the workspace root — not here.
+#
+# Usage:
+#   scripts/doctor            # all checks
+#   scripts/doctor --offline  # skip network checks (push dry-run)
+#   scripts/doctor --json     # machine-readable output
+#
+# Exit code: 0 if no FAIL, 1 otherwise. WARN never fails the run.
+
+set -uo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+DOCS="$ROOT/docs"
+export GIT_TERMINAL_PROMPT=0
+
+OFFLINE=0; JSON=0
+for a in "$@"; do case "$a" in --offline) OFFLINE=1;; --json) JSON=1;; esac; done
+
+RESULTS=()
+add() {
+  RESULTS+=("$1|$2|$3")
+  [ "$JSON" = 1 ] || printf '%-5s %-18s %s\n' "$1" "$2" "$3"
+}
+pass() { add PASS "$1" "$2"; }
+warn() { add WARN "$1" "$2"; }
+fail() { add FAIL "$1" "$2"; }
+skip() { add SKIP "$1" "$2"; }
+
+# --- repo sanity ------------------------------------------------------------
+[ -f "$DOCS/Gemfile" ] && pass repo.gemfile "docs/Gemfile present" || fail repo.gemfile "docs/Gemfile missing — Jekyll site can't build"
+[ -f "$DOCS/_config.yml" ] && pass repo.config "docs/_config.yml present" || fail repo.config "docs/_config.yml missing"
+
+# --- toolchain ---------------------------------------------------------------
+if command -v bundle >/dev/null 2>&1; then
+  if timeout 30 bash -c "cd '$DOCS' && bundle exec jekyll --version" >/dev/null 2>&1; then
+    pass tool.jekyll "bundle exec jekyll works"
+  else
+    fail tool.jekyll "bundler present but 'bundle exec jekyll' fails — run 'bundle install' in docs/"
+  fi
+else
+  fail tool.jekyll "bundler not on PATH"
+fi
+
+LYCHEE="$(command -v lychee || true)"
+if [ -z "$LYCHEE" ]; then
+  # winget installs outside PATH in some shells — fall back to the known path
+  LYCHEE=$(ls "$LOCALAPPDATA/Microsoft/WinGet/Packages/"lycheeverse.lychee_*/lychee-x86_64-pc-windows-msvc/lychee.exe 2>/dev/null | head -1 || true)
+fi
+[ -n "$LYCHEE" ] && pass tool.lychee "found" || warn tool.lychee "not found — scripts/check_links will fail; install via winget (lycheeverse.lychee)"
+
+command -v git >/dev/null 2>&1 && pass tool.git "$(git --version)" || fail tool.git "git not on PATH"
+
+# --- repo hygiene -------------------------------------------------------------
+EMAIL=$(git -C "$ROOT" config user.email 2>/dev/null || true)
+[ -n "$EMAIL" ] && pass repo.identity "user.email = $EMAIL" || warn repo.identity "no user.email — commits will use global identity"
+
+LEAKED=$(git -C "$ROOT" ls-files 2>/dev/null | grep -E '(^|/)\.env$|mcp_config\.local\.json|\.gh/' || true)
+[ -z "$LEAKED" ] && pass secrets.none "no token-bearing files tracked" || fail secrets.none "tracked secret file(s): $LEAKED"
+
+git -C "$ROOT" check-ignore -q docs/.checkroot 2>/dev/null \
+  && pass repo.checkroot ".checkroot ignored (link-check staging)" \
+  || warn repo.checkroot ".checkroot not gitignored — link-check staging dir could be committed"
+
+# --- network (skip with --offline) ---------------------------------------------
+if [ "$OFFLINE" = 1 ]; then
+  skip push.dryrun "skipped (--offline)"
+else
+  if timeout 20 git -C "$ROOT" push --dry-run >/dev/null 2>&1; then
+    pass push.dryrun "your credentials can push"
+  else
+    warn push.dryrun "push dry-run failed — your account/token may lack write access (or you are a read-only collaborator)"
+  fi
+fi
+
+# --- summary --------------------------------------------------------------------
+FAILS=0; WARNS=0
+for r in "${RESULTS[@]}"; do
+  case "$r" in FAIL*) ((FAILS++));; WARN*) ((WARNS++));; esac
+done
+
+if [ "$JSON" = 1 ]; then
+  printf '{"checks":['
+  first=1
+  for r in "${RESULTS[@]}"; do
+    IFS='|' read -r s id d <<< "$r"
+    [ $first = 0 ] && printf ','; first=0
+    printf '{"status":"%s","id":"%s","detail":%s}' "$s" "$id" "\"$(printf '%s' "$d" | sed 's/"/\\"/g')\""
+  done
+  printf '],"fails":%d,"warns":%d}\n' "$FAILS" "$WARNS"
+else
+  echo "----"
+  echo "doctor: $FAILS fail, $WARNS warn"
+fi
+[ "$FAILS" = 0 ]
