@@ -110,6 +110,29 @@ def analytics(hdrs: dict, dimension: str, days: int = 28, rows: int = 25) -> lis
     return data.get("rows", [])
 
 
+def sitemaps(hdrs: dict) -> str:
+    url = f"{API_ANALYTICS}/sites/{requests.utils.quote(SITE_URL, safe='')}/sitemaps"
+    r = requests.get(url, headers=hdrs, timeout=30)
+    if not r.ok:
+        return f"_sitemap status unavailable (HTTP {r.status_code})_\n"
+    lines = ["| sitemap | submitted | pending | warnings | errors |", "|---|---|---:|---:|---:|"]
+    for s in r.json().get("sitemap", []):
+        lines.append(
+            f"| {s['path'].replace(SITE_URL, '/')} | {s.get('lastSubmitted', '?')[:10]} "
+            f"| {s.get('isPending')} | {s.get('warnings')} | {s.get('errors')} |"
+        )
+    return "\n".join(lines) + "\n"
+
+
+def trend(rows: list[dict]) -> str:
+    if not rows:
+        return "_No daily data yet._\n"
+    lines = ["| date | clicks | impressions |", "|---|---:|---:|"]
+    for r in rows[-14:]:  # last two weeks only — earlier days are usually flat-zero
+        lines.append(f"| {r['keys'][0]} | {r['clicks']} | {r['impressions']} |")
+    return "\n".join(lines) + "\n"
+
+
 def table(rows: list[dict], keyname: str) -> str:
     if not rows:
         return "_No data — property too new, or traffic below reporting threshold._\n"
@@ -162,6 +185,10 @@ def main() -> None:
         table(analytics(hdrs, "query"), "query"),
         "## Top pages (last 28d)\n",
         table(analytics(hdrs, "page"), "page"),
+        "## Daily trend (last 14d of window)\n",
+        trend(analytics(hdrs, "date")),
+        "## Sitemap status\n",
+        sitemaps(hdrs),
         "## URL inspection\n",
         inspect_urls(hdrs),
     ]
