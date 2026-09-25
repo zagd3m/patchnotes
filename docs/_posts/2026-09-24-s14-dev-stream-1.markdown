@@ -23,7 +23,9 @@ Blaze gets phasing instead of the longer duration I suggested. That's useful, bu
 
 ## Good QoL. Where's the balance?
 
-Socketing straight from a stack and a monsters-remaining counter are exactly the kind of small fixes that remove daily friction. Character sorting is welcome too. Gloom is reworked and there's a new map, but the recap doesn't give enough detail for me to have a take yet.
+Socketing straight from a stack and a monsters-remaining counter are exactly the kind of small fixes that remove daily friction. Character sorting is welcome too, and there's a new map.
+
+Gloom got a real rework, and I care about this one — Dim Vision when struck is one of my favorite defensive procs. I liked it enough to steal a weaker version for [Gloom's Trap]({{ site.baseurl }}/full-notes#glooms-trap). The new Gloom keeps the proc and adds a curse identity: you may apply an additional curse, and curse resistance goes from 20% to 30-40%. That's the kind of buff I like — better for curse builds specifically instead of just more stats for everyone. A cheap chest runeword enabling double-curse setups could open some builds.
 
 No real news on my bigger asks: [balance changes]({{ site.baseurl }}/blog/top-10-changes/#1-balance-changes), [synergies]({{ site.baseurl }}/blog/top-10-changes/#6-nerf-synergies-buff-proc-based-builds), or [snapshotting]({{ site.baseurl }}/blog/top-10-changes/#2-fix-snapshotting). Maybe those are for the next stream. This was a good QoL start; now show me the changes that might make me play a different build !
 
