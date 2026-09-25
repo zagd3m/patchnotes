@@ -5,10 +5,6 @@ description: A guide for team reset speed runs, balancing speed with a chill atm
 order: 1
 ---
 
-> **⚔ Season 12 late reset team ⚔**  
-> We'll be playing for Season 12 on Saturday morning 29th November at 9 a.m. CET (late reset).  
-> Join [us here](https://discord.gg/jgrJQejy).
-
 ## Intro
 
 Hi there. I'm an old man: I've done enough reset runs to share a few tips for beginners. This guide aims to balance speed with a chill atmosphere—expect to finish about an hour behind the trained speedrun teams. It's not an optimal guide, but rather my personal preference for a stress-free run. I don't know everything, so please share your tips via PM (I'll add them)! I've tried to write this in a beginner-friendly way, but feel free to ask for definitions or clarifications. This is a nice community where everyone helps each other :)
