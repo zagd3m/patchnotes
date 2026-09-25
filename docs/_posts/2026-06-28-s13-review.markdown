@@ -2,7 +2,7 @@
 layout: post
 title:  "S13 Review: What We Got, What We're Still Waiting For"
 date:   2026-06-28 17:00:00 +0200
-description: A review of Project Diablo 2's Season 13 patch through the lens of our Top 10 changes and game design philosophy — what moved in the right direction, and what we're still hoping to see in S14.
+description: Reviewing PD2's Season 13 patch against our Top 10 changes and design philosophy — what moved, and what we're still waiting for in S14.
 ---
 
 S13 has been out for a few weeks, and it's a good time to look at the changes through the lens of our [Top 10](/patchnotes/blog/top-10-changes/) list and [design philosophy](/patchnotes/blog/game-design-philosophy/). Fair review: some good things happened, but the structural changes that would truly unlock build diversity are still ahead.
