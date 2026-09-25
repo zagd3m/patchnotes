@@ -15,3 +15,5 @@ This is the root directory for the Jekyll-based website. It contains the site co
 ## Agent Focus
 
 When working here, ensure Jekyll-compatible formatting and maintain the "futuristic patch notes" persona.
+
+Always test locally before pushing.
