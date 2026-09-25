@@ -1,7 +1,7 @@
 ---
 layout: build
 title: Orphan's Call Assassin Guide
-summary: Dragon Talon build using Orphan's call
+description: Dragon Talon build using Orphan's call
 order: 6
 ---
 

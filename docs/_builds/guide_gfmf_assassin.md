@@ -1,6 +1,6 @@
 ---
 title: GF/MF Tiger Strike Assassin Guide
-summary: A gold find and magic find Tiger Strike assassin build, focused on Travincal farming.
+description: A gold find and magic find Tiger Strike assassin build, focused on Travincal farming.
 order: 4
 ---
 

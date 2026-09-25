@@ -1,7 +1,7 @@
 ---
 layout: build
 title: Frost Kick Assassin Guide
-summary: A build focused on using Dragon Talon exclusively, leveraging the area-of-effect potential of Blizzard procs from Nord's Tenderizer.
+description: A build focused on using Dragon Talon exclusively, leveraging the area-of-effect potential of Blizzard procs from Nord's Tenderizer.
 order: 3
 ---
 

@@ -1,3 +1,8 @@
+---
+title: Censored
+description: Patch ideas too bold to ship — removed for your own protection.
+---
+
 # Censored
 
 This page is for great ideas that have been censored since they are too bold ... and you are not ready for their wisdom.

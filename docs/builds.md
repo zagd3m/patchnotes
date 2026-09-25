@@ -15,7 +15,7 @@ I decided to move the builds I wrote for Project Diablo 2 here, to keep stuff up
 <ul>
 {% for build in sorted_builds %}
   <li>
-    <a href="{{ site.baseurl }}{{ build.url }}">{{ build.title }}</a>{% if build.summary %} – {{ build.summary }}{% endif %}
+    <a href="{{ site.baseurl }}{{ build.url }}">{{ build.title }}</a>{% if build.description %} – {{ build.description }}{% endif %}
   </li>
 {% endfor %}
 </ul>

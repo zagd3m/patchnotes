@@ -1,6 +1,7 @@
 ---
 title: Systems Changes
 order: 3
+redirect_to: /full-notes/#systems-changes
 ---
 
 # Systems Changes {#systems-changes}

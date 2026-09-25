@@ -1,7 +1,7 @@
 ---
 layout: build
 title: Travincal Zealer paladin
-summary: Early ladder guide to farming travincal as a zealer
+description: Early ladder guide to farming travincal as a zealer
 order: 7
 ---
 

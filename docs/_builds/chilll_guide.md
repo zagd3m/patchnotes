@@ -1,7 +1,7 @@
 ---
 layout: build
 title: A Chill Guide to Team Reset "Speed" Runs
-summary: A guide for team reset speed runs, balancing speed with a chill atmosphere and no pressure.
+description: A guide for team reset speed runs, balancing speed with a chill atmosphere and no pressure.
 order: 1
 ---
 

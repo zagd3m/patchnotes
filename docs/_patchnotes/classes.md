@@ -1,6 +1,7 @@
 ---
 title: Classes Changes
 order: 1
+redirect_to: /full-notes/#classes-changes
 ---
 
 # Classes Changes {#classes-changes}

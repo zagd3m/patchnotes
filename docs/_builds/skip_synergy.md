@@ -1,7 +1,7 @@
 ---
 layout: build
 title: Should you skip that synergy ?
-summary: The cost of saving 20 points.
+description: The cost of saving 20 points.
 order: 8
 ---
 

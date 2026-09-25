@@ -1,6 +1,7 @@
 ---
 title: Items Changes
 order: 2
+redirect_to: /full-notes/#items-changes
 ---
 
 # Items Changes {#items-changes}

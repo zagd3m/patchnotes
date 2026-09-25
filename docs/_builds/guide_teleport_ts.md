@@ -1,7 +1,7 @@
 ---
 layout: build
 title: Teleport Thunderstorm Sorc — A Journey
-summary: A passive sorc build that kills with Thunderstorm while teleporting through content. No Nova, just lightning from the sky.
+description: A passive sorc build that kills with Thunderstorm while teleporting through content. No Nova, just lightning from the sky.
 order: 9
 ---
 
