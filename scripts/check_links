@@ -20,6 +20,40 @@ cd "$DOCS"
 echo "==> jekyll build"
 bundle exec jekyll build
 
+echo "==> content smoke checks"
+# jekyll build + lychee can both pass while a page ships empty or fragmentary
+# HTML. Two classes of checks below:
+#
+# 1. Generic invariant: every emitted .html is a full document (<html> tag,
+#    exactly one <title>). Catches "naked fragment" pages — collection docs
+#    with output: true but no layout, which publish raw content with no head.
+#
+# 2. Content canaries: pages that ASSEMBLE content must contain expected
+#    markers. full-notes once rendered blank because redirect_to on its
+#    source docs emptied `{{ section.content }}` — build passed, links passed.
+#    Add a line when a page starts composing content from other docs.
+fail=0
+while IFS= read -r f; do
+  grep -q '<html' "$f" || { echo "  MISSING <html>: $f"; fail=1; }
+  titles=$(grep -c '<title>' "$f" || true)
+  [ "$titles" -eq 1 ] || { echo "  BAD <title> count ($titles): $f"; fail=1; }
+done < <(find _site -name '*.html')
+
+canary() { # <file under _site> <grep pattern> <label>
+  grep -q "$2" "_site/$1" || { echo "  CANARY FAILED: $1 — expected $3"; fail=1; }
+}
+canary full-notes/index.html 'id="classes-changes"'    'Classes section'
+canary full-notes/index.html 'id="items-changes"'      'Items section'
+canary full-notes/index.html 'id="systems-changes"'    'Systems section'
+canary blog/index.html   'href="/patchnotes/blog/'     'post list'
+canary builds/index.html 'href="/patchnotes/builds/'   'build list'
+
+if [ "$fail" -ne 0 ]; then
+  echo "smoke checks FAILED"
+  exit 1
+fi
+echo "  all passed"
+
 echo "==> staging .checkroot/patchnotes"
 rm -rf .checkroot
 mkdir -p .checkroot/patchnotes
