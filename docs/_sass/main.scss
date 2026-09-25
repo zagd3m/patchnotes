@@ -104,10 +104,11 @@ footer {
 //   margin-bottom: 1rem;
 // }
 
-// Links
+// Links — underlined by default so they're distinguishable without color
+// (nav and TOC keep their own `none` overrides above/below)
 a {
   // color: #0366d6;
-  text-decoration: none;
+  text-decoration: underline;
   
   &:hover {
     text-decoration: underline;
