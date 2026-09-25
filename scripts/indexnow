@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+# Submit URLs to IndexNow (Bing, Yandex, Naver, Seznam, Yep — NOT Google).
+#
+#   scripts/indexnow                # submit every URL in the sitemap
+#   scripts/indexnow <path...>      # submit specific paths, e.g. blog/new-post/
+#
+# Auth: a 32-hex key published at /patchnotes/<key>.txt (file lives in docs/,
+# must be deployed before first real submission — `keyLocation` param).
+# A 200 response means "received", not "indexed". Marginal value at our
+# scale — run it after deploys if Bing/Yandex visibility matters, it's free.
+
+set -euo pipefail
+
+SITE="https://zagd3m.github.io/patchnotes"
+HOST="zagd3m.github.io"
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+DOCS="$ROOT/docs"
+
+KEY_FILE="$(ls "$DOCS" | grep -E '^[0-9a-f]{32}\.txt$' | head -1 || true)"
+if [ -z "$KEY_FILE" ]; then
+  echo "indexnow: no key file (docs/<32-hex>.txt) — generate one:" >&2
+  echo "  python -c \"import secrets; k=secrets.token_hex(16); open('docs/'+k+'.txt','w').write(k)\"" >&2
+  exit 1
+fi
+KEY="${KEY_FILE%.txt}"
+
+# the key must be reachable before engines will honour submissions
+if ! curl -sf "$SITE/$KEY_FILE" | grep -q "$KEY"; then
+  echo "indexnow: key file not live at $SITE/$KEY_FILE — push it first" >&2
+  exit 1
+fi
+
+if [ $# -gt 0 ]; then
+  URLS=()
+  for p in "$@"; do URLS+=("$SITE/$p"); done
+else
+  # build + read the fresh sitemap
+  (cd "$DOCS" && bundle exec jekyll build >/dev/null)
+  mapfile -t URLS < <(grep -o '<loc>[^<]*</loc>' "$DOCS/_site/sitemap.xml" | sed 's/<[^>]*>//g')
+fi
+echo "indexnow: submitting ${#URLS[@]} URL(s)"
+
+PAYLOAD="$(printf '%s\n' "${URLS[@]}" | uv run --no-project --quiet python -c "
+import json,sys
+print(json.dumps({
+  'host': '$HOST',
+  'key': '$KEY',
+  'keyLocation': '$SITE/$KEY_FILE',
+  'urlList': [l.strip() for l in sys.stdin if l.strip()],
+}))")"
+
+curl -sf -X POST https://api.indexnow.org/indexnow \
+  -H 'Content-Type: application/json; charset=utf-8' -d "$PAYLOAD" \
+  -o /dev/null -w 'indexnow: HTTP %{http_code} (receipt, not indexing)\n'

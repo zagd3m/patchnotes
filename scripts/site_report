@@ -1,0 +1,103 @@
+#!/usr/bin/env bash
+# Post-deploy verification of the LIVE site — the "did it actually ship" check.
+#
+#   scripts/site_report              # pages build status + live canaries
+#   scripts/site_report --lighthouse # + Lighthouse SEO/a11y/perf on key pages
+#
+# Fails loudly (exit 1) if the deployed site regresses. This is the layer
+# between "git push" and "trust": jekyll build + lychee prove the local
+# build; this proves what GitHub Pages actually serves.
+#
+# Requires: curl; `git gh` (repo-bound gh) or unauthenticated api.github.com
+# (60 req/h — plenty); npx+Chrome for --lighthouse.
+
+set -euo pipefail
+
+SITE="${SITE_URL:-https://zagd3m.github.io/patchnotes}"
+REPO="zagd3m/patchnotes"
+DO_LIGHTHOUSE=0
+[ "${1:-}" = "--lighthouse" ] && DO_LIGHTHOUSE=1
+fail=0
+
+# python resolution: `python` on PATH is the Windows Store stub here — go
+# through uv (workspace convention), fall back to a real interpreter.
+if command -v uv >/dev/null 2>&1; then
+  PY() { uv run --no-project --quiet python "$@"; }
+else
+  PY="$(command -v python3 || command -v python)"
+  PY() { "$PY" "$@"; }
+fi
+json_get() { PY -c "import json,sys; print(json.load(sys.stdin)$1)"; }
+
+echo "==> Pages build status"
+RESPONSE="$(git gh api "repos/$REPO/pages/builds/latest" 2>/dev/null \
+  || curl -sf "https://api.github.com/repos/$REPO/pages/builds/latest")" \
+  || { echo "  could not query Pages API"; exit 1; }
+echo "$RESPONSE" | PY -c "
+import json, sys
+b = json.load(sys.stdin)
+print(f\"  {b['status']}  commit={b['commit'][:8]}  error={b['error'].get('message')}\")
+sys.exit(0 if b['status'] == 'built' and not b['error'].get('message') else 1)
+" || fail=1
+
+echo "==> live canaries"
+canary() { # <path> <grep pattern> <label>
+  # Fetch to a variable: `curl | grep -q` under pipefail fails the pipeline
+  # via SIGPIPE when grep exits early on a match near the top of the page.
+  local body
+  # Pages edge caches roll out unevenly for ~a minute after a build — retry
+  # once before calling it a real failure.
+  body="$(curl -sf "$SITE/$1")" || { sleep 6; body="$(curl -sf "$SITE/$1")"; } \
+    || { echo "  FAIL /$1 — fetch failed"; fail=1; return; }
+  if grep -q "$2" <<< "$body" \
+     || { sleep 6; body="$(curl -sf "$SITE/$1")"; grep -q "$2" <<< "$body"; }; then
+    echo "  ok   /$1 — $3"
+  else
+    echo "  FAIL /$1 — expected $3"
+    fail=1
+  fi
+}
+canary ""                '<html'                  'full document'
+canary ""                'name="description"'     'meta description'
+canary ""                'og:image'               'OG image'
+canary ""                'application/atom+xml'   'feed discovery link'
+canary "full-notes/"     'id="classes-changes"'   'Classes section'
+canary "full-notes/"     'id="items-changes"'     'Items section'
+canary "full-notes/"     'id="systems-changes"'   'Systems section'
+canary "blog/"           'href="/patchnotes/blog/'   'post list'
+canary "builds/"         'href="/patchnotes/builds/' 'build list'
+canary "classes/"        'url=.*full-notes'       'redirect stub'
+canary "robots.txt"      'Sitemap:'               'sitemap line'
+canary "sitemap.xml"     '<loc>'                  'sitemap entries'
+
+echo "==> 404 behaviour"
+code=$(curl -s -o /dev/null -w '%{http_code}' "$SITE/definitely-not-a-page-xyz")
+body=$(curl -s "$SITE/definitely-not-a-page-xyz" | grep -ci 'not found' || true)
+if [ "$code" = "404" ] && [ "$body" -gt 0 ]; then
+  echo "  ok   missing page → 404 + custom page"
+else
+  echo "  FAIL missing page → status $code"
+  fail=1
+fi
+
+if [ "$DO_LIGHTHOUSE" -eq 1 ]; then
+  echo "==> lighthouse (lab — local scores, not field data)"
+  for page in "" "full-notes/" "blog/s14-dev-stream-1/" "builds/guide-frost-kick/"; do
+    tmp="$(mktemp -t lh-XXXXXX.json)"
+    if npx --yes lighthouse "$SITE/$page" --quiet \
+         --chrome-flags="--headless --no-sandbox" \
+         --only-categories=seo,accessibility,performance \
+         --output=json --output-path="$tmp" >/dev/null 2>&1; then
+      scores=$(json_get "['categories']" < "$tmp" | "$PY" -c "
+import json,sys
+print(' '.join(f'{k}={round(v[\"score\"]*100)}' for k,v in json.load(sys.stdin).items()))")
+      echo "  /$page  $scores"
+    else
+      echo "  /$page  lighthouse failed to run"
+    fi
+    rm -f "$tmp"
+  done
+fi
+
+echo ""
+if [ "$fail" -eq 0 ]; then echo "site_report: all checks passed"; else echo "site_report: FAILURES above"; exit 1; fi
