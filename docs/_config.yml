@@ -56,14 +56,15 @@ kramdown:
   toc_levels: 1..2
 
 # Build settings
+encoding: UTF-8
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-titles-from-headings
   - jekyll-relative-links
   - jekyll-seo-tag
-  - jekyll-google_search_console_verification_file
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 defaults:
   - scope:
@@ -81,9 +82,6 @@ defaults:
     values:
       layout: "post"
 
-google_search_console:
-  verification_file_code: 87963778c937225b
-
 sass:
   sass_dir: _sass
   style: compressed
@@ -97,22 +95,12 @@ relative_links:
   enabled:     true
   collections: false
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
+# Items listed here are added to Jekyll's internal default exclude list
+# (Gemfile, node_modules/, vendor/, ... stay excluded).
 #
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Why AGENTS.md is listed: GitHub Pages force-enables
+# jekyll-optional-front-matter and jekyll-default-layout, so ANY Markdown file
+# without front matter in this folder gets published twice — raw at /NAME.md
+# and rendered at /NAME/. Exclude agent-facing docs here, or they leak.
+exclude:
+  - AGENTS.md

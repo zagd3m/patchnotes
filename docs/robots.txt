@@ -1,0 +1,26 @@
+# Explicit crawler policy for this site.
+# NOTE: a source robots.txt overrides the one jekyll-sitemap generates, so
+# the Sitemap line below must be maintained by hand.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://zagd3m.github.io/patchnotes/sitemap.xml
+
+# AI crawlers: default policy is ALLOW — the site wants citations and
+# referral traffic from answer engines.
+#
+# If that ever changes, distinguish retrieval bots from training bots:
+# - Retrieval/citation (keep allowing): OAI-SearchBot, ChatGPT-User,
+#   Claude-User, Claude-SearchBot, PerplexityBot, Bingbot.
+# - Training-only (candidates to disallow): GPTBot, ClaudeBot,
+#   anthropic-ai, CCBot, Amazonbot, Applebot-Extended, Google-Extended
+#   (Google-Extended covers Gemini training only — not Search/AI Overviews).
+#
+# Example — block training-only crawlers:
+# User-agent: GPTBot
+# Disallow: /
+# User-agent: ClaudeBot
+# Disallow: /
+# User-agent: CCBot
+# Disallow: /

@@ -1,5 +1,7 @@
 # Folder-based AGENTS.md: patchnotes/docs
 
+This file is excluded from the site build via `exclude:` in `_config.yml` — keep it that way. Without the exclusion, GitHub Pages force-enabled plugins would publish it twice (raw + rendered).
+
 ## Purpose
 
 This is the root directory for the Jekyll-based website. It contains the site configuration, assets, and main documentation pages that form the public-facing "patch notes".
