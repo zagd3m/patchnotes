@@ -1,6 +1,8 @@
 ---
 title: Censored
 description: Patch ideas too bold to ship — removed for your own protection.
+redirect_from:
+  - /censored.html
 ---
 
 # Censored

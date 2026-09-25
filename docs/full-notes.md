@@ -6,6 +6,7 @@ redirect_from:
   - /classes/
   - /items/
   - /systems/
+  - /full-notes.html
 ---
 
 <!-- # Complete Patch Notes
