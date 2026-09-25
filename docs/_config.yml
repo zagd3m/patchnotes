@@ -95,12 +95,26 @@ relative_links:
   enabled:     true
   collections: false
 
-# Items listed here are added to Jekyll's internal default exclude list
-# (Gemfile, node_modules/, vendor/, ... stay excluded).
+# WARNING: `exclude:` REPLACES Jekyll's default exclude list, it does not
+# merge. The defaults below must be re-listed or CI builds with vendored
+# gems (vendor/bundle) will try to parse gem files as posts and fail.
 #
 # Why AGENTS.md is listed: GitHub Pages force-enables
 # jekyll-optional-front-matter and jekyll-default-layout, so ANY Markdown file
 # without front matter in this folder gets published twice — raw at /NAME.md
 # and rendered at /NAME/. Exclude agent-facing docs here, or they leak.
 exclude:
+  # Jekyll defaults — required, do not remove
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # Project additions
   - AGENTS.md
