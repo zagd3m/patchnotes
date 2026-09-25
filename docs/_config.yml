@@ -44,7 +44,10 @@ gist:
 # Collections
 collections:
   patchnotes:
-    output: true
+    # source sections for full-notes.md only — do NOT emit standalone pages
+    # (they render without a layout and duplicate the composite page).
+    # Old /classes/ /items/ /systems/ URLs redirect via full-notes' redirect_from.
+    output: false
     permalink: /:name/
   builds:
     output: true

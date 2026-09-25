@@ -2,6 +2,10 @@
 layout: default
 title: Full Patch Notes
 description: The complete unofficial patch notes — every proposed class, item, and system change for Project Diablo 2.
+redirect_from:
+  - /classes/
+  - /items/
+  - /systems/
 ---
 
 <!-- # Complete Patch Notes
