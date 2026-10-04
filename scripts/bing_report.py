@@ -10,7 +10,7 @@ Requires a Bing WMT API key (one-time, ~2 min):
 
   1. bing.com/webmasters -> sign in -> select the site property.
   2. Settings (gear) -> API Access -> API Key -> Generate -> copy.
-  3. Save at  personnal/secrets/bing-api-key.txt  or set BING_API_KEY.
+  3. Save at  patchnotes-personnal/secrets/bing-api-key.txt  or set BING_API_KEY.
 
 The WMT JSON API is older and quirkier than GSC: stats endpoints return
 whatever range Bing holds (~3 months typically); "QueryStats" counts
@@ -48,7 +48,7 @@ No usable Bing API key. Setup (~2 min):
 
   1. bing.com/webmasters -> select property -> Settings -> API Access
      -> API Key -> Generate.
-  2. Save at personnal/secrets/bing-api-key.txt
+  2. Save at patchnotes-personnal/secrets/bing-api-key.txt
      or set BING_API_KEY=<key> and re-run.
 """
 
@@ -58,7 +58,7 @@ def find_key() -> str | None:
     if env:
         return env.strip()
     here = os.path.dirname(os.path.abspath(__file__))
-    candidate = os.path.join(here, "..", "..", "personnal", "secrets", "bing-api-key.txt")
+    candidate = os.path.join(here, "..", "..", "patchnotes-personnal", "secrets", "bing-api-key.txt")
     candidate = os.path.normpath(candidate)
     if os.path.isfile(candidate):
         with open(candidate, encoding="utf-8") as f:

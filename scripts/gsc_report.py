@@ -14,7 +14,7 @@ Requires a service-account key (one-time setup, ~15 min):
   2. Credentials -> Service account -> create -> Keys -> JSON -> download.
   3. Search Console -> property -> Settings -> Users & permissions -> add the
      service-account email (Restricted access is enough).
-  4. Save the key as  personnal/secrets/gsc-sa.json  (workspace-level,
+  4. Save the key as  patchnotes-personnal/secrets/gsc-sa.json  (workspace-level,
      not committed anywhere) or point GSC_SA_KEY at it.
 
 Data lags ~24-72h. On a niche site, read weekly trends, not daily deltas.
@@ -61,7 +61,7 @@ account that owns the Search Console property):
      -> Keys -> Add key -> JSON -> download.
   3. Search Console -> this property -> Settings -> Users & permissions ->
      Add user -> paste the service-account's email (Restricted is fine).
-  4. Save the key at personnal/secrets/gsc-sa.json
+  4. Save the key at patchnotes-personnal/secrets/gsc-sa.json
      or set GSC_SA_KEY=/path/to/key.json and re-run.
 """
 
@@ -71,7 +71,7 @@ def find_key() -> str | None:
     if env and os.path.isfile(env):
         return env
     here = os.path.dirname(os.path.abspath(__file__))
-    candidate = os.path.join(here, "..", "..", "personnal", "secrets", "gsc-sa.json")
+    candidate = os.path.join(here, "..", "..", "patchnotes-personnal", "secrets", "gsc-sa.json")
     candidate = os.path.normpath(candidate)
     return candidate if os.path.isfile(candidate) else None
 

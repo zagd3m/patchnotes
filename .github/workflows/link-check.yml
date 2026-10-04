@@ -23,7 +23,7 @@ jobs:
 
       # The site uses the /patchnotes baseurl: stage _site under a matching
       # directory so root-relative links resolve offline (same as
-      # personnal/check_links does locally).
+      # patchnotes/scripts/check_links does locally).
       - name: Stage link-check root
         run: |
           mkdir -p docs/.checkroot/patchnotes

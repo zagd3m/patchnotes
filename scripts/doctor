@@ -4,7 +4,7 @@
 # This is the repo layer: everything here must hold for ANYONE who clones the
 # repo, on any machine, with any GitHub account. Machine/account/workspace
 # checks (credential pins, token scope, gh wrapper, .agents/ freshness) live in
-# personnal/doctor at the workspace root — not here.
+# patchnotes-personnal/doctor at the workspace root — not here.
 #
 # Usage:
 #   scripts/doctor            # all checks

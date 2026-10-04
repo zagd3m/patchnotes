@@ -7,7 +7,7 @@
 # makes /patchnotes/* resolve to the staged copy.
 #
 # Usage (from anywhere in the workspace):
-#   personnal/check_links
+#   patchnotes/scripts/check_links
 #
 # .checkroot/ is gitignored and safe to delete — it is regenerated each run.
 
