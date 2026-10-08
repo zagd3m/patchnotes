@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "Reacting to the S14 Dev Streams #2 & #3"
+date:   2026-10-08 10:00:00 +0200
+description: My take on the S14 guild system, why Smite's problem was never leech, sorc armor synergies, corruption cleanup, and four new runewords — plus what the streams still haven't touched.
+---
+
+TLDR: Two more streams, and S14 keeps piling up *content* — guilds, runewords, maps, shiny item art, and a lot of good QoL. I'm really glad the team keeps shipping. But adding stuff is the easy part of a patch, and imo the things in my [Top 10]({{ site.baseurl }}/blog/top-10-changes/) still haven't been touched three streams in.
+
+## QoL keeps delivering
+
+First, thank you. A game this old still getting this much time and new ideas is great to see, and the QoL is where I feel it the most: a **Deposit Materials** button that sends everything to the right stash tabs, a clearer charm inventory, `/toggle` to mute the chats you don't want without muting server messages, plus a global chat for those who want it. Controller got some love too — per-skill aim assist toggles, and movement that actually stops when you let go of the stick.
+
+None of this is flashy, but you feel it every single session. More of this please.
+
+## Guilds: not convinced, but I want to be wrong
+
+Stream #2's big reveal was the restored Blizzard North guild system: 100 members, a guild hall that goes from cabin to castle, shared stash, trophy case, gold sinks for all of it. Stream #3 added rank-locked tabs so you can invite strangers without watching the vault walk away — someone on that team has been in a guild before.
+
+PD2 keeps betting on group play, and it did work before — allocated loot made party play actually function. But it was done halfway. If you've mapped in a party you know people still dash for the small drops, worldstone shards and the like. I'd rather they finish that first: a real allocated loot, all the way, before building more social stuff on top.
+
+As for guilds themselves, the features sound smart, but a guild hall doesnt change what I play. I'm not convinced yet. I'd love to be wrong though, so let's see what they do with it.
+
+## Smite's problem was never leech
+
+This is the part I care about the most.
+
+**Smite** now gets life and mana steal, and the desync got fixed. My [Top 10]({{ site.baseurl }}/blog/top-10-changes/#1-balance-changes) asked for a Smite buff, so partial victory. Partial, because I don't think this is the buff that matters.
+
+I think the reason almost nobody maps with Smite is the AoE: there's barely any. It hits one thing at a time, so it's a boss skill. Great on a single target, bad in a map full of demons. I don't understand why they keep pushing Smite further in the direction where it's already good.
+
+And I don't think it's only a Smite problem, it's a melee one. [Dragon Talon]({{ site.baseurl }}/full-notes#dragon-talon) has the same shape: a single-target grinder, the poor man's Dragon Tail — DTail comes with AoE built in. I wrote a whole post about [kicksin itemization]({{ site.baseurl }}/blog/kicksin-item-guide/) and even that wasn't the real issue: the skill can't hit a pack.
+
+If you zoom out, PD2 clearly knows it has a physical splash problem: base splash exists, and every patch adds more splash to individual skills. Concentrate going magic splash this stream is the same pattern. But then I wonder: is the base splash just too small? Does it make sense to patch every skill one by one? AoE is something you can tune up or down, to get whatever balance you want between mapping and bossing. I don't have the answer, honestly. I'd just love for the devs to ask themselves the question.
+
+The desync fixes for double swing, frenzy, berserk, kicks and bear summon are real work, and melee players will feel it. It changes how melee *feels*, not what melee builds *are*, but I'll take it.
+
+**Concentrate** deserves a second word: magic splash ignores physical resist, a straight buff for concentrate barbs — and for oskill folks, [Passion]({{ site.baseurl }}/full-notes#passion) gives +10 Concentrate, so zeal-oskill builds using it as a sidearm gain too. Quiet itemization shift. I like it. I simply do. Let's see how it goes.
+
+**Fist of Heavens** bolts now damage everything they pierce. Real buff — whether it makes FoH a mapper is another question, but the direction's right.
+
+## Sorc armors: they found the problem, picked a different fix
+
+Chilling Armor's Cold Enchant synergy moved to Blizzard, Shiver Armor's went to Frost Nova, and Chilling's retaliatory spikes now deal AoE on impact.
+
+It's aimed at the same thing I wanted: Cold Enchant shouldn't be a tax on armor synergies. But I proposed [removing the Chilling synergy entirely and adding Warmth]({{ site.baseurl }}/full-notes#cold-enchant-only). Their version still keeps an armor tied to Blizzard, which pushes points where an enchant sorc doesn't want them. I think mine was better, but maybe I'm biased :)
+
+The AoE spikes are the interesting part though. At least they're looking at the synergy web I keep complaining about.
+
+And while we're on sorc: the class is pushed *really* hard toward one element. Masteries reward going all-in, skillers are single-element, and synergies make a real build cost 80+ points, so a second element was never affordable anyway. Multi-element sorcs exist on paper and are just worse. I don't get why the game keeps pushing mono builds that are way stronger than multi, when it could give multi some air. I've seen people in the Discord feedback asking for 60-point builds instead of 80, and yes, please. I think that opinion is becoming the majority. Fewer forced synergies means more different skills in a build, which is the whole point of [nerfing synergies]({{ site.baseurl }}/blog/top-10-changes/#6-nerf-synergies-buff-proc-based-builds).
+
+## Corruptions: good cleanup
+
+Indestructible becomes repair durability. Replenish life becomes half freeze duration on boots, gloves, belt. Curse resistance reshuffled and buffed on chest, helm, shield. Chest FCR up to +20%.
+
+Not exciting, and that's fine, it's removing dead rolls. Indestructible was a "your slam did nothing" roll, and replenish was about the same. A slam should be a gamble on power, not a coin flip between good and nothing. Good cleanup.
+
+## More runewords: why not, but why?
+
+Four new ones: **Madness** (4os weapons), **Finesse** (3os armor), **Deception** (3os helms), **Jealousy** (3os zon javelins) — plus matriarchal javelins going to 3 sockets and a pile of armor bases going 2 to 3.
+
+I don't mind new runewords. But they're a cheap addition that doesn't fix the core issues, same point as in [expensive runewords are not end game]({{ site.baseurl }}/blog/runewords-are-not-end-game/): more mid-tier gear doesn't create build diversity by itself. So why not, but why?
+
+They can also create balance problems on top of the ones we already have. **Madness** brings three curses, apparently, and I'm not sure "your merc throws 12 curses at everything" is a mechanic we want to feed. I already argued that [mercs shouldn't stack auras]({{ site.baseurl }}/blog/top-10-changes/#9-slightly-nerf-aurabot-mercs) ([full proposal]({{ site.baseurl }}/full-notes#merc-auras)): it turns gear into merc fodder instead of player choices. I think we should ask the same question for curse bots, and fix the [structural stuff]({{ site.baseurl }}/blog/top-10-changes/#6-nerf-synergies-buff-proc-based-builds) around proc builds first.
+
+**Jealousy** is the one I like. A runeword for throwing zons, with a base change made to socket it: that one has a job. If the stats are good it could open a build instead of crowding one.
+
+## The fun stuff is genuinely fun
+
+Cow Form oskill on the full Cow King's Leathers set. Delirium Form on Delirium. A Diablo 1-flavored Poisoned Well map. A map event full of super chests and a loot piñata boss. Twelve more alt-arts, another community map.
+
+This is great, and just thank you. Making Delirium and the Cow set *optional* transforms creates exactly the diversity we need: a new way to play it's own thing, that nobody is forced into. Love it. The alt-arts are pure cosmetics, and the chest event sounds like a fun jackpot for mapping.
+
+## Three streams in
+
+QoL, social features, more content: all welcome, none surprising. And again, thanks to the team for trying new things, it matters.
+
+But three streams in, I still haven't seen [real balance changes]({{ site.baseurl }}/blog/top-10-changes/#1-balance-changes), [fewer synergies]({{ site.baseurl }}/blog/top-10-changes/#6-nerf-synergies-buff-proc-based-builds) or [a fix for snapshotting]({{ site.baseurl }}/blog/top-10-changes/#2-fix-snapshotting). Maybe that's for the next stream.
+
+S14 looks like a comfortable patch so far, and that's fine. I just want something that makes me want to try a different build.
