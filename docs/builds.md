@@ -2,6 +2,7 @@
 layout: default
 title: PD2 Builds & Guides — Project Diablo 2
 description: Unofficial Project Diablo 2 build guides and seasonal tips — tested builds for Assassin, Paladin, Sorceress and more.
+last_modified_at: 2026-10-17
 permalink: /builds/
 ---
 

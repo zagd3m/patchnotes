@@ -2,6 +2,7 @@
 layout: build
 title: Najova Necromancer - Naj's Ancient Vestige Build
 description: Necromancer build around the full Naj's Ancient Vestige set — Poison Nova for AoE, Fire Golems for immunes.
+last_modified_at: 2026-10-17
 order: 5
 ---
 

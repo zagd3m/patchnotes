@@ -2,6 +2,7 @@
 layout: build
 title: Frost Kick Assassin — PD2 Dragon Talon Build Guide
 description: Project Diablo 2 Dragon Talon build that adds AoE through Nord's Tenderizer Blizzard procs — fun physical/cold hybrid with real boss-killing.
+last_modified_at: 2026-10-17
 order: 3
 ---
 

@@ -2,6 +2,7 @@
 layout: build
 title: Chill Team Reset Runs — PD2 Ladder-Start Guide
 description: A Project Diablo 2 team reset guide that trades ~an hour of speedrun pace for a stress-free, beginner-friendly run.
+last_modified_at: 2026-10-17
 order: 1
 ---
 

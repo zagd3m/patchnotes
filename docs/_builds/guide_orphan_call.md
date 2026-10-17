@@ -2,6 +2,7 @@
 layout: build
 title: Orphan's Call Dragon Talon Assassin — PD2 Build Guide
 description: Project Diablo 2 build guide — a Dragon Talon kicksin wearing the full Orphan's Call set. Old-school kicks, honest gear notes.
+last_modified_at: 2026-10-17
 order: 6
 ---
 

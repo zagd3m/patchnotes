@@ -2,6 +2,7 @@
 layout: build
 title: Teleport Thunderstorm Sorceress — PD2 Build Guide
 description: Project Diablo 2 passive sorceress build — kill with Thunderstorm while teleporting through content. No Nova, just lightning from the sky.
+last_modified_at: 2026-10-17
 order: 9
 ---
 
