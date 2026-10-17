@@ -1,6 +1,6 @@
 ---
-title: Death Sentry Assassin Guide (S7)
-description: A death sentry build focused on using Death Sentry exclusively, with detailed gear, stats, and playstyle advice for Project Diablo 2.
+title: Death Sentry Assassin — PD2 Build Guide (S7)
+description: Project Diablo 2 build played in Season 7 — Death Sentry as the whole build, with detailed gear, stats and playstyle notes.
 order: 2
 ---
 

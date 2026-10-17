@@ -1,7 +1,7 @@
 ---
 layout: build
-title: A Chill Guide to Team Reset "Speed" Runs
-description: A guide for team reset speed runs, balancing speed with a chill atmosphere and no pressure.
+title: Chill Team Reset Runs — PD2 Ladder-Start Guide
+description: A Project Diablo 2 team reset guide that trades ~an hour of speedrun pace for a stress-free, beginner-friendly run.
 order: 1
 ---
 

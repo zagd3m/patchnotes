@@ -1,7 +1,7 @@
 ---
 layout: build
-title: Should you skip that synergy ?
-description: The cost of saving 20 points.
+title: Should You Skip That Synergy? — PD2 Build Theory
+description: Project Diablo 2 build math — what skipping a 20-point synergy actually costs your damage, and when it's worth it.
 order: 8
 ---
 

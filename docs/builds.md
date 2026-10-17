@@ -7,9 +7,9 @@ permalink: /builds/
 
 # Builds & Guides
 
-Welcome to the builds/guides section!
+Real Project Diablo 2 builds I've actually played — skills, gear, and honest notes on what each one is good (and bad) at. You'll find a Travincal zealer for early ladder, a Naj's-set poison necro, several kicksin flavors, and a guide to chill team reset runs.
 
-I decided to move the builds I wrote for Project Diablo 2 here, to keep stuff up to date within my IDE. Lazy man.
+These are personal builds, not meta gospel — for the official wiki's build list, see the links at the bottom.
 
 {% assign sorted_builds = site.builds | sort: 'order' %}
 <ul>

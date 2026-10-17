@@ -1,7 +1,7 @@
 ---
 layout: build
-title: Travincal Zealer paladin
-description: Early ladder guide to farming travincal as a zealer
+title: Travincal Zeal Paladin — PD2 Early-Ladder Build Guide
+description: Project Diablo 2 early-season paladin built to farm Travincal — Zeal for damage, Holy Freeze for safety, and how to tank the hydras.
 order: 7
 ---
 

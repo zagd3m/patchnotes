@@ -1,7 +1,7 @@
 ---
 layout: build
-title: Teleport Thunderstorm Sorc — A Journey
-description: A passive sorc build that kills with Thunderstorm while teleporting through content. No Nova, just lightning from the sky.
+title: Teleport Thunderstorm Sorceress — PD2 Build Guide
+description: Project Diablo 2 passive sorceress build — kill with Thunderstorm while teleporting through content. No Nova, just lightning from the sky.
 order: 9
 ---
 

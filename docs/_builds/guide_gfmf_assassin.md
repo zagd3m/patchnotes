@@ -1,6 +1,6 @@
 ---
-title: GF/MF Tiger Strike Assassin Guide
-description: A gold find and magic find Tiger Strike assassin build, focused on Travincal farming.
+title: GF/MF Tiger Strike Assassin — PD2 Travincal Build Guide
+description: Project Diablo 2 gold-find/magic-find Tiger Strike assassin for Travincal farming — for when a Barb is too obvious.
 order: 4
 ---
 
